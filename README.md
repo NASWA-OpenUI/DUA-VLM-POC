@@ -11,7 +11,13 @@
 
 # Changelog
 
-## 0.1 
+## 0.02 
+Moved test/prompt/image/expected result into tests.csv. Here's the columns:
+"test_description","prompt","image","expected_result"
+
+Not actually using the eval string yet.
+
+## 0.01 
 Prompt is hardcoded in prompts.txt
 Models are hardcoded in models.txt
 No evals yet.
@@ -21,15 +27,10 @@ No support for multiple prompts.
 
 Barely works tbh.
 
-## 0.2 
 
-Moved test/prompt/image/expected result into tests.csv. Here's the columns:
-"test_description","prompt","image","expected_result"
-
-Not actually using the eval string yet.
 
 # todo
-
-* the csv should include the test image too, duh
-* tests should be a tuple: prompt, test data, expected result
+* test against the expected result, duh
+~~* the csv should include the test image too, duh~~
+~~* tests should be a tuple: prompt, test data, expected result~~
 
