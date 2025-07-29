@@ -21,6 +21,13 @@ No support for multiple prompts.
 
 Barely works tbh.
 
+## 0.2 
+
+Moved test/prompt/image/expected result into tests.csv. Here's the columns:
+"test_description","prompt","image","expected_result"
+
+Not actually using the eval string yet.
+
 # todo
 
 * the csv should include the test image too, duh

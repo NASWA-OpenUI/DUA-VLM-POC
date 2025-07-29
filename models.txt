@@ -1,1 +1,2 @@
 mlx-community/SmolVLM-Instruct-bf16
+mlx-community/llava-interleave-qwen-7b-4bit

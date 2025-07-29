@@ -1,0 +1,4 @@
+"test_description","prompt","image","expected_result"
+"1040 Farming schedule, return structured json","Provide the form number, year,  proprietor name,  principal crop or activity, and net profit or loss as json","images/test-002.jpg", "1040"
+"Self-employment evidence","Does this show evidence of self-employment? Answer yes or no","images/test-002.jpg", "yes"
+"Proprietor name","What is the name of the proprietor?","images/test-002.jpg","name goes here"
