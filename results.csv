@@ -1,0 +1,3 @@
+timestamp,model,prompt,output
+2025-07-29T12:15:34,mlx-community/SmolVLM-Instruct-bf16,"Provide the form number, year,  proprietor name,  principal crop or activity, and net profit or loss as json"," {'form_number': '1040', 'year': '2020', 'proprietor_name': 'Ricky Nelson', 'principal_crop_or_activity': 'CROPS-WHEAT', 'net_profit_or_loss': '18,993'}"
+2025-07-29T12:18:06,mlx-community/SmolVLM-Instruct-bf16,"Provide the form number, year,  proprietor name,  principal crop or activity, and net profit or loss as json"," {'form_number': '1040', 'year': '2020', 'proprietor_name': 'Ricky Nelson', 'principal_crop_or_activity': 'CROPS-WHEAT', 'net_profit_or_loss': '18,993'}"

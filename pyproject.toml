@@ -1,0 +1,17 @@
+[project]
+name = "dua-vlm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mlx>=0.26.5",
+    "mlx-vlm>=0.3.2",
+    "torch>=2.7.1",
+    "torchvision>=0.22.1",
+    "numpy>=2.2.6",
+    "transformers>=4.53.3",
+    "huggingface-hub>=0.33.5",
+    "pillow>=11.3.0",
+    "llm-structured-output>=0.0.20",
+]
