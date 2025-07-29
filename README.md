@@ -11,6 +11,10 @@
 
 # Changelog
 
+## 0.03
+* Only load  model once
+* Actually do the test
+
 ## 0.02 
 Moved test/prompt/image/expected result into tests.csv. Here's the columns:
 "test_description","prompt","image","expected_result"

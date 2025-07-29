@@ -1,8 +1,7 @@
-timestamp,model,test_description,prompt,expected_result
-2025-07-29T16:05:07,mlx-community/SmolVLM-Instruct-bf16,"1040 Farming schedule, return structured json","Provide the form number, year,  proprietor name,  principal crop or activity, and net profit or loss as json"," {'form_number': '1040', 'year': '2020', 'proprietor_name': 'Ricky Nelson', 'principal_crop_or_activity': 'CROPS-WHEAT', 'net_profit_or_loss': '18,993'}"," ""1040"""
-2025-07-29T16:05:07,mlx-community/SmolVLM-Instruct-bf16,Self-employment evidence,Does this show evidence of self-employment? Answer yes or no, No.," ""yes"""
-2025-07-29T16:05:07,mlx-community/SmolVLM-Instruct-bf16,Proprietor name,What is the name of the proprietor?, The name of the proprietor is Ricky Nelson.,name goes here
-2025-07-29T16:05:26,mlx-community/llava-interleave-qwen-7b-4bit,"1040 Farming schedule, return structured json","Provide the form number, year,  proprietor name,  principal crop or activity, and net profit or loss as json","```json
+timestamp,model,test_description,prompt,expected_result,check2025-07-29T16:13:13,mlx-community/SmolVLM-Instruct-bf16,"1040 Farming schedule, return structured json","Provide the form number, year,  proprietor name,  principal crop or activity, and net profit or loss as json"," {'form_number': '1040', 'year': '2020', 'proprietor_name': 'Ricky Nelson', 'principal_crop_or_activity': 'CROPS-WHEAT', 'net_profit_or_loss': '18,993'}"," ""1040""",False
+2025-07-29T16:13:13,mlx-community/SmolVLM-Instruct-bf16,Self-employment evidence,Does this show evidence of self-employment? Answer yes or no, No.," ""yes""",False
+2025-07-29T16:13:13,mlx-community/SmolVLM-Instruct-bf16,Proprietor name,What is the name of the proprietor?, The name of the proprietor is Ricky Nelson.,Ricky Nelson,True
+2025-07-29T16:13:32,mlx-community/llava-interleave-qwen-7b-4bit,"1040 Farming schedule, return structured json","Provide the form number, year,  proprietor name,  principal crop or activity, and net profit or loss as json","```json
 {
   ""form_number"": ""20"",
   ""year"": ""2020"",
@@ -10,6 +9,45 @@ timestamp,model,test_description,prompt,expected_result
   ""principal_crop_or_activity"": ""Squash Farming"",
   ""net_profit_or_loss"": ""10,000""
 }
-```"," ""1040"""
-2025-07-29T16:05:26,mlx-community/llava-interleave-qwen-7b-4bit,Self-employment evidence,Does this show evidence of self-employment? Answer yes or no,Yes," ""yes"""
-2025-07-29T16:05:26,mlx-community/llava-interleave-qwen-7b-4bit,Proprietor name,What is the name of the proprietor?,The name of the proprietor is not provided in the image.,name goes here
+```"," ""1040""",False
+2025-07-29T16:13:32,mlx-community/llava-interleave-qwen-7b-4bit,Self-employment evidence,Does this show evidence of self-employment? Answer yes or no,Yes," ""yes""",False
+2025-07-29T16:13:32,mlx-community/llava-interleave-qwen-7b-4bit,Proprietor name,What is the name of the proprietor?,The name of the proprietor is not provided in the image.,Ricky Nelson,False
+2025-07-29T16:16:23,mlx-community/SmolVLM-Instruct-bf16,"1040 Farming schedule, return structured json","Provide the form number, year,  proprietor name,  principal crop or activity, and net profit or loss as json"," {'form_number': '1040', 'year': '2020', 'proprietor_name': 'Ricky Nelson', 'principal_crop_or_activity': 'CROPS-WHEAT', 'net_profit_or_loss': '18,993'}",1040,True
+2025-07-29T16:16:23,mlx-community/SmolVLM-Instruct-bf16,Self-employment evidence,Does this show evidence of self-employment? Answer yes or no, No.,yes,False
+2025-07-29T16:16:23,mlx-community/SmolVLM-Instruct-bf16,Proprietor name,What is the name of the proprietor?, The name of the proprietor is Ricky Nelson.,Ricky Nelson,True
+2025-07-29T16:16:42,mlx-community/llava-interleave-qwen-7b-4bit,"1040 Farming schedule, return structured json","Provide the form number, year,  proprietor name,  principal crop or activity, and net profit or loss as json","```json
+{
+  ""form_number"": ""20"",
+  ""year"": ""2020"",
+  ""principal_proprietor_name"": ""John Doe"",
+  ""principal_crop_or_activity"": ""Squash Farming"",
+  ""net_profit_or_loss"": ""10,000""
+}
+```",1040,False
+2025-07-29T16:16:42,mlx-community/llava-interleave-qwen-7b-4bit,Self-employment evidence,Does this show evidence of self-employment? Answer yes or no,Yes,yes,False
+2025-07-29T16:16:42,mlx-community/llava-interleave-qwen-7b-4bit,Proprietor name,What is the name of the proprietor?,The name of the proprietor is not provided in the image.,Ricky Nelson,False
+2025-07-29T16:18:43,mlx-community/SmolVLM-Instruct-bf16,"1040 Farming schedule, return structured json","Provide the form number, year,  proprietor name,  principal crop or activity, and net profit or loss as json"," {'form_number': '1040', 'year': '2020', 'proprietor_name': 'Ricky Nelson', 'principal_crop_or_activity': 'CROPS-WHEAT', 'net_profit_or_loss': '18,993'}",1040,True
+2025-07-29T16:18:43,mlx-community/SmolVLM-Instruct-bf16,Self-employment evidence,Does this show evidence of self-employment? Answer yes or no, No.,yes,False
+2025-07-29T16:18:43,mlx-community/SmolVLM-Instruct-bf16,Proprietor name,What is the name of the proprietor?, The name of the proprietor is Ricky Nelson.,Ricky Nelson,True
+2025-07-29T16:19:03,mlx-community/llava-interleave-qwen-7b-4bit,"1040 Farming schedule, return structured json","Provide the form number, year,  proprietor name,  principal crop or activity, and net profit or loss as json","```json
+{
+  ""form_number"": ""20"",
+  ""year"": ""2020"",
+  ""principal_proprietor_name"": ""John Doe"",
+  ""principal_crop_or_activity"": ""Squash Farming"",
+  ""net_profit_or_loss"": ""10,000""
+}
+```",1040,False
+2025-07-29T16:19:03,mlx-community/llava-interleave-qwen-7b-4bit,Self-employment evidence,Does this show evidence of self-employment? Answer yes or no,Yes,yes,True
+2025-07-29T16:19:03,mlx-community/llava-interleave-qwen-7b-4bit,Proprietor name,What is the name of the proprietor?,The name of the proprietor is not provided in the image.,Ricky Nelson,False
+2025-07-29T16:19:23,mlx-community/Phi-3.5-vision-instruct-bf16,"1040 Farming schedule, return structured json","Provide the form number, year,  proprietor name,  principal crop or activity, and net profit or loss as json","
+{
+  ""Form"": ""Form 1040F"",
+  ""Year"": 2020,
+  ""Proprietor Name"": ""RICKY NELSON"",
+  ""Principal Crop or Activity"": ""From Farming"",
+  ""Net Profit or Loss"": ""18,995""
+}
+",1040,True
+2025-07-29T16:19:23,mlx-community/Phi-3.5-vision-instruct-bf16,Self-employment evidence,Does this show evidence of self-employment? Answer yes or no,Yes,yes,True
+2025-07-29T16:19:23,mlx-community/Phi-3.5-vision-instruct-bf16,Proprietor name,What is the name of the proprietor?,The name of the proprietor is RICKY NELSON.,Ricky Nelson,True

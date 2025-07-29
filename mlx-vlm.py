@@ -48,10 +48,8 @@ def run_prompt_on_model(model_path, prompt, image):
     response = generate(model, processor, formatted_prompt, image, verbose=False)
     return response
 
-
-# for each model
-    # run the tests
-        # append to results
+def check_result(prompt_output, test):
+    return test.lower() in prompt_output.lower()
 
 
 def main():
@@ -74,14 +72,15 @@ def main():
             try:
                 # output = run_prompt_on_model(model_path, prompt, image)
                 output = run_prompt(model, processor, config, prompt, image)
-                results.append({"timestamp": timestamp, "model": model_path, "test_description": test['test_description'], "prompt": prompt, "output": output.text, "expected_result": test['expected_result']})
+                results.append({"timestamp": timestamp, "model": model_path, "test_description": test['test_description'], "prompt": prompt, "output": output.text, "expected_result": test['expected_result'], "check": check_result(output.text, test['expected_result'])})
+                print(output)
             except Exception as e:
                 results.append({"model": model_path, "output": f"Error {e}"})
 
 
     # write to CSV
     with open(OUTPUT_FILE, "a", newline="", encoding="utf-8") as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=["timestamp", "model", "test_description", "prompt", "output", "expected_result"])
+        writer = csv.DictWriter(csvfile, fieldnames=["timestamp", "model", "test_description", "prompt", "output", "expected_result", "check"])
         # writer.writeheader()
         writer.writerows(results)
 
