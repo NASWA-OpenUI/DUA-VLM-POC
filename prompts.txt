@@ -34,8 +34,12 @@ Assistant:
 }
 
 
+uv run --with mlx-vlm --with torch python -m mlx_vlm.generate --model mlx-community/SmolVLM-Instruct-bf16 --max-tokens 1000 --temp 0.5 --prompt "Provide the form number, year,  proprietor name,  principal crop or activity, and net profit or loss as json" --image test-002.jpg
+
+
+
 ---
-uv run --with mlx-vlm --with torch python -m mlx_vlm.generate --model mlx-community/gemma-3-12b-it-qat-4bit --max-tokens 1000 --temp 0.5 --prompt "Provide the form number, year,  proprietor name,  principal crop or activity, and net profit or loss as json" --image test-002.jpg
+uv run --with mlx-vlm --with torch python -m mlx_vlm.generate --model mlx-community/gemma-3n-E2B-it-4bit --max-tokens 1000 --temp 0.5 --prompt "Provide the form number, year,  proprietor name,  principal crop or activity, and net profit or loss as json" --image test-002.jpg
 
 
 
@@ -109,3 +113,16 @@ test 2
 
 uv run --with mlx-vlm --with torch python -m mlx_vlm.generate --model mlx-community/SmolVLM-Instruct-bf16 --max-tokens 500 --temp 0.5 --prompt "Can this document provide evidence of self employment income? What is the net profit or loss on this document?"
 
+
+
+uv run --with mlx-vlm --with torch python -m mlx_vlm.generate --model mlx-community/Qwen2.5-VL-7B-Instruct-bf16 --max-tokens 1000 --temp 0.5 --prompt "Provide the form number, year,  proprietor name,  principal crop or activity, and net profit or loss as json" --image images/test-002.jpg
+
+
+mlx-community/Qwen2.5-VL-7B-Instruct-bf16
+
+mlx-community/SmolVLM-Instruct-bf16
+
+
+mlx-community/Phi-3.5-vision-instruct-bf16
+
+uv run --with mlx-vlm --with torch python -m mlx_vlm.generate --model mlx-community/Phi-3.5-vision-instruct-bf16 --max-tokens 1000 --temp 0.5 --prompt "Provide the form number, year,  proprietor name,  principal crop or activity, and net profit or loss as json" --image images/test-002.jpg
