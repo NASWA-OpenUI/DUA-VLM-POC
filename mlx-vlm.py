@@ -6,7 +6,7 @@ from PIL import Image
 from pathlib import Path
 from datetime import datetime
 
-
+ 
 import csv
 
 MODELS_FILE = "models.txt"
@@ -30,6 +30,16 @@ def load_models_list(models_file):
     """Load the models from the models file"""
     with open(models_file, "r") as f:
         return [line.strip() for line in f if line.strip()]
+    
+def load_model(model_path):
+    model, processor = load(model_path)
+    config = load_config(model_path)
+    return model, processor, config
+
+def run_prompt(model, processor, config, prompt, image):
+    formatted_prompt = apply_chat_template(processor, config, prompt, num_images=len(image))
+    response = generate(model, processor, formatted_prompt, image, verbose=False)
+    return response
 
 def run_prompt_on_model(model_path, prompt, image):
     model, processor = load(model_path)
@@ -53,6 +63,7 @@ def main():
     for model_path in models:
         timestamp = datetime.now().isoformat(timespec="seconds")
 
+        model, processor, config = load_model(model_path)
 
         for test in tests:
             print(f"Running test {test['test_description']} on {model_path}")
@@ -61,15 +72,16 @@ def main():
             image = [Image.open(test['image'])]
 
             try:
-                output = run_prompt_on_model(model_path, prompt, image)
-                results.append({"timestamp": timestamp, "model": model_path, "test_description": test['test_description'], "prompt": prompt, "output": output.text, "expected_output": test['expected_output']})
+                # output = run_prompt_on_model(model_path, prompt, image)
+                output = run_prompt(model, processor, config, prompt, image)
+                results.append({"timestamp": timestamp, "model": model_path, "test_description": test['test_description'], "prompt": prompt, "output": output.text, "expected_result": test['expected_result']})
             except Exception as e:
                 results.append({"model": model_path, "output": f"Error {e}"})
 
 
     # write to CSV
     with open(OUTPUT_FILE, "a", newline="", encoding="utf-8") as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=["timestamp", "model", "test_description", "prompt", "output", "expected_output"])
+        writer = csv.DictWriter(csvfile, fieldnames=["timestamp", "model", "test_description", "prompt", "output", "expected_result"])
         # writer.writeheader()
         writer.writerows(results)
 
