@@ -17,6 +17,7 @@ OUTPUT_FILE = "results.csv"
 TEST_FILE = "tests.csv"
 
 def load_tests(test_file):
+    """Takes a path to a tests.txt file and returns a list of dicts of tests"""
     tests = []
 
     with open(test_file, newline='', encoding='utf-8') as test_file:
@@ -27,24 +28,25 @@ def load_tests(test_file):
 
 
 def load_models_list(models_file):
-    """Load the models from the models file"""
+    """Takes a path to a models.txt file and returns a list of huggingface models """
     with open(models_file, "r") as f:
         return [line.strip() for line in f if line.strip()]
     
 def load_model(model_path):
+    """Takes a huggingface model path and returns an mlx-vlm model, processor, and prompt configuration to use"""
     model, processor = load(model_path)
     config = load_config(model_path)
     return model, processor, config
 
 def run_prompt(model, processor, config, prompt, image):
+    """Runs a provided prompt and returns the mlx-vlm generator response"""
     formatted_prompt = apply_chat_template(processor, config, prompt, num_images=len(image))
     response = generate(model, processor, formatted_prompt, image, verbose=False)
     return response
 
 def check_result(prompt_output, test):
+    """Provide the prompt output and a test string. Normalizes / lowercases the strings and returns whether the test string is present in the prompt output."""
     return test.lower() in prompt_output.lower()
-
-
 
 
 def main():
