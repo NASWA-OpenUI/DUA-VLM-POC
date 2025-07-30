@@ -11,9 +11,9 @@ import csv
 
 MODELS_FILE = "models.txt"
 OUTPUT_FILE = "results.csv"
-TEST_PROMPT = "Provide the form number, year,  proprietor name,  principal crop or activity, and net profit or loss as json"
-TEST_IMAGE = "images/test-002.jpg"
-IMG_PATH = Path(TEST_IMAGE)
+# TEST_PROMPT = "Provide the form number, year,  proprietor name,  principal crop or activity, and net profit or loss as json"
+# TEST_IMAGE = "images/test-002.jpg"
+# IMG_PATH = Path(TEST_IMAGE)
 TEST_FILE = "tests.csv"
 
 def load_tests(test_file):
@@ -41,15 +41,10 @@ def run_prompt(model, processor, config, prompt, image):
     response = generate(model, processor, formatted_prompt, image, verbose=False)
     return response
 
-def run_prompt_on_model(model_path, prompt, image):
-    model, processor = load(model_path)
-    config = load_config(model_path)
-    formatted_prompt = apply_chat_template(processor, config, prompt, num_images=len(image))
-    response = generate(model, processor, formatted_prompt, image, verbose=False)
-    return response
-
 def check_result(prompt_output, test):
     return test.lower() in prompt_output.lower()
+
+
 
 
 def main():
