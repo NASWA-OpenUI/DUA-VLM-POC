@@ -1,7 +1,7 @@
 [project]
-name = "dua-vlm"
+name = "DUA-VLM-POC"
 version = "0.1.0"
-description = "Add your description here"
+description = "DUA Visual Language Model proof-of-concept"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
@@ -14,4 +14,5 @@ dependencies = [
     "huggingface-hub>=0.33.5",
     "pillow>=11.3.0",
     "llm-structured-output>=0.0.20",
+    "pillow-heif>=1.0.0",
 ]
