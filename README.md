@@ -5,8 +5,9 @@ This proof-of-concept relies on [MLX-VLM](https://github.com/Blaizzy/mlx-vlm) fo
 
 This proof-of-concept has been tested with the following models:
 
-* 
-
+* mlx-community/SmolVLM-Instruct-bf16
+* mlx-community/llava-interleave-qwen-7b-4bit
+* mlx-community/Phi-3.5-vision-instruct-bf16
 ---
 
 ## Table of Contents
