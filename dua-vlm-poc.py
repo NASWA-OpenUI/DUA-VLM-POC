@@ -86,6 +86,9 @@ def main():
     results = []
     tests = load_tests(tests_file)
 
+    print(f"Using models file: {models_file}")
+    print(f"Using tests file: {tests_file}")
+    print(f"Using output file: {output_file}")
 
     for model_path in models:
         timestamp = datetime.now().isoformat(timespec="seconds")

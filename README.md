@@ -130,6 +130,7 @@ check|"True" if the test `expected_result` string is present in the output strin
 ----
 
 ## To-do
+* 
 * Do logging properly
 * Tidy up the console output
 * Stalls on requiring passing the argument `trust_remote_code=True` for some huggingface models requiring y/n from user
@@ -144,6 +145,7 @@ check|"True" if the test `expected_result` string is present in the output strin
 # Changelog
 
 ## 0.04 
+
 * lines in models.txt will be ignored if they start with a comment (e.g. "# dont-use-this-model/modelname")
 * lines in tests.csv will be ignored if they start with a comment (#)
 * a models file, output file, and tests file can be specified as arguments, otherwise the defaults are models.txt, results.csv, and tests.csv in the working directory
