@@ -1,8 +1,0 @@
-"test_description","prompt","image","expected_result"
-"#1040 Farming schedule, return structured json","Provide the form number, year,  proprietor name,  principal crop or activity, and net profit or loss as json","images/test-002.jpg","1040"
-"#Self-employment evidence","Does this show evidence of self-employment? Answer yes or no","images/test-002.jpg","yes"
-"#Extract the proprietor name from a provided form","What is the name of the proprietor?","images/test-002.jpg","Ricky Nelson"
-"#Self-employment contractor test","Is this an offer of work for someone who is self-employed, like a contractor or freelancer?","images/test-offer-001.HEIC","yes"
-"#Self-employment contractor test","Is this an offer of work for someone who is self-employed, like a contractor or freelancer?","images/test-offer-002.HEIC","yes"
-"#Self-employment contractor test","Is this an offer of work for someone who is self-employed, like a contractor or freelancer?","images/test-offer-003.HEIC","yes"
-"Self-employment contractor test: type","What kind of self-employed work is this an offer for?","images/test-offer-003.HEIC"

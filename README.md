@@ -78,20 +78,27 @@ mlx-community/Phi-3.5-vision-instruct-bf16
 
 ### Tests
 
-Tests are provided in tests.csv in this format:
+A test is composed of:
+* A description
+* The prompt for the test
+* The path to a directory containing images for the test; the prompt will be run against each image
+* An array of expected results; the prompt output will be evaluated against each of the strings in the array
 
-|Column name|Description|Example
+Tests are provided in json with the following keys:
+
+|Key|Description|Example value
 ---|---|---
-test_description|Quoted string describing the test|"Extract the proprietor name from a provided form"
-prompt|Quoted string with the prompt text|"What is the name of the proprietor?"|
-image|Quoted string containing the relative path to the image file for the test|"images/test-002.jpg"
-expected_result|Quoted string containing an expected result|"Ricky Nelson"
+test_description|String describing the test|"Self-employment contractor test: type"
+prompt|Prompt as a string|"What kind of self-employed work is this an offer for?"
+image_directory|Path to directory containing test images|"tests/images/self-employment/offers"
+expected_result|Array of expected results|["freelance", "contractor"]
+
 
 DUA-VLM-POC implements a naive test:
 
 * the prompt output is transformed to lowercase
-* the test string is transformed to lowercase
-* if the test string is in the prompt response, return `True`
+* the strings in the list expected_results is converted to lower case
+* if any of the strings in the list expected_results are in the prompt output, return `True`
 
 ### Acceptable image formats
 DUA-VLM-POC uses [Pillow](https://python-pillow.github.io) to process images and has been tested with png and jpeg formats.
@@ -130,7 +137,7 @@ check|"True" if the test `expected_result` string is present in the output strin
 ----
 
 ## To-do
-* 
+* run a single test against multiple images
 * Do logging properly
 * Tidy up the console output
 * Stalls on requiring passing the argument `trust_remote_code=True` for some huggingface models requiring y/n from user
@@ -143,6 +150,10 @@ check|"True" if the test `expected_result` string is present in the output strin
 ---
 
 # Changelog
+
+## 0.05
+* Tests are specified in json now
+* Tests specify a prompt that can be run against multiple images, against multiple criteria
 
 ## 0.04 
 

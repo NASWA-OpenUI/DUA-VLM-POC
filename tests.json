@@ -1,0 +1,14 @@
+[
+    {
+        "test_description": "Self-employment contractor test",
+        "prompt": "Is this an offer of work for someone who is self-employed, like a contractor or freelancer?",
+        "image_directory": "tests/images/self-employment/offers",
+        "expected_result": ["yes"]
+    },
+    {
+        "test_description": "Self-employment contractor test: type",
+        "prompt": "What kind of self-employed work is this an offer for?",
+        "image_directory": "tests/images/self-employment/offers",
+        "expected_result": ["freelance", "contractor"]
+    }
+]
