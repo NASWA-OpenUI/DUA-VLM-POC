@@ -1,0 +1,89 @@
+DEBUG:__main__:This message should go to the log file
+INFO:__main__:So should this
+WARNING:__main__:And this, too
+ERROR:__main__:And non-ASCII stuff, too, like Øresund and Malmö
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+DEBUG:__main__:This message should go to the log file
+INFO:__main__:So should this
+WARNING:__main__:And this, too
+ERROR:__main__:And non-ASCII stuff, too, like Øresund and Malmö
+INFO:__main__:Using model file: models.txt
+INFO:__main__:Using output_file file: results.csv
+INFO:__main__:Using tests_file file: tests.json
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 08:24:43 PM This message should go to the log file
+08/02/2025 08:24:43 PM So should this
+08/02/2025 08:24:43 PM And this, too
+08/02/2025 08:24:43 PM And non-ASCII stuff, too, like Øresund and Malmö
+08/02/2025 08:24:43 PM Using model file: models.txt
+08/02/2025 08:24:43 PM Using output_file file: results.csv
+08/02/2025 08:24:43 PM Using tests_file file: tests.json
+08/02/2025 08:24:43 PM Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 08:24:44 PM https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 08:24:44 PM https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 20:26:29 :  Using model file: models.txt
+08/02/2025 20:26:29 :  Using output_file file: results.csv
+08/02/2025 20:26:29 :  Using tests_file file: tests.json
+08/02/2025 20:26:29 :  Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 20:26:29 :  https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 20:26:30 :  https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 20:29:11 INFO: Using model file: models.txt
+08/02/2025 20:29:11 INFO: Using output_file file: results.csv
+08/02/2025 20:29:11 INFO: Using tests_file file: tests.json
+08/02/2025 20:29:11 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 20:29:11 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 20:29:12 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 20:33:51 INFO: Found 2 tests
+08/02/2025 20:33:51 INFO: Test: Self-employment contractor test
+08/02/2025 20:33:51 INFO: Test: Self-employment contractor test: type
+08/02/2025 20:33:51 INFO: Using model file: models.txt
+08/02/2025 20:33:51 INFO: Using output_file file: results.csv
+08/02/2025 20:33:51 INFO: Using tests_file file: tests.json
+08/02/2025 20:33:51 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 20:33:52 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 20:33:53 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 20:35:26 INFO: Starting run
+08/02/2025 20:35:26 INFO: Found 2 tests
+08/02/2025 20:35:26 INFO: Test: Self-employment contractor test
+08/02/2025 20:35:26 INFO: Test: Self-employment contractor test: type
+08/02/2025 20:35:26 INFO: Using model file: models.txt
+08/02/2025 20:35:26 INFO: Using output_file file: results.csv
+08/02/2025 20:35:26 INFO: Using tests_file file: tests.json
+08/02/2025 20:35:26 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 20:35:26 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 20:35:27 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 20:36:13 INFO: Starting run
+08/02/2025 20:36:13 INFO: Found 2 tests
+08/02/2025 20:36:13 INFO: Test: Self-employment contractor test
+08/02/2025 20:36:13 INFO: Test: Self-employment contractor test: type
+08/02/2025 20:36:13 INFO: Using model file: models.txt
+08/02/2025 20:36:13 INFO: Using output_file file: results.csv
+08/02/2025 20:36:13 INFO: Using tests_file file: tests.json
+08/02/2025 20:36:13 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 20:36:13 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 20:36:14 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 20:36:29 INFO: Starting run
+08/02/2025 20:36:29 INFO: Found 2 tests
+08/02/2025 20:36:29 INFO: Test: Self-employment contractor test
+08/02/2025 20:36:29 INFO: Test: Self-employment contractor test: type
+08/02/2025 20:36:29 INFO: Using model file: models.txt
+08/02/2025 20:36:29 INFO: Using output_file file: results.csv
+08/02/2025 20:36:29 INFO: Using tests_file file: tests.json
+08/02/2025 20:36:29 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 20:36:29 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 20:36:30 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 20:40:13 INFO: Starting run.
+08/02/2025 20:40:13 INFO: Using model file: models.txt
+08/02/2025 20:40:13 INFO: Using output_file file: results.csv
+08/02/2025 20:40:13 INFO: Using tests_file file: tests.json
+08/02/2025 20:40:13 INFO: Found 2 tests
+08/02/2025 20:40:13 INFO: Test: Self-employment contractor test
+08/02/2025 20:40:13 INFO: Test: Self-employment contractor test: type
+08/02/2025 20:40:13 INFO: Found 1 models.
+08/02/2025 20:40:13 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 20:40:13 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 20:40:14 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973

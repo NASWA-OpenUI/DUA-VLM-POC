@@ -16,11 +16,18 @@ from os.path import isfile, join
 DEFAULT_MODELS_FILE = "models.txt"
 DEFAULT_OUTPUT_FILE = "results.csv"
 DEFAULT_TEST_FILE = "tests.json"
+DEFAULT_LOGFILE = "logs/DUA-VLM-POC.log"
 
 def load_tests_json(tests_file):
-    print(f"Trying to load json tests file {tests_file}")
+    # print(f"Trying to load json tests file {tests_file}")
     with open(tests_file, encoding='utf-8') as test_file:
         tests_json = json.load(test_file)
+    
+    logger.info('Found %s tests', len(tests_json))
+
+    for test in tests_json: 
+        logger.info('Test: %s', test['test_description'])    
+        
     return tests_json
 
 def load_test_images(test_image_path):
@@ -31,75 +38,6 @@ def load_test_images(test_image_path):
         print(f"Oops: {e}")
     return test_images
 
-def run_tests_json(models_file, tests_file, output_file):
-
-    models = load_models_list(models_file)
-    tests = load_tests_json(tests_file)
-
-    # print(tests)
-
-    # Initialize where we're going to be storing the results of all tests
-    results = []
-
-    # iterate over the models we're going to test
-    for model_path in models:
-        timestamp = datetime.now().isoformat(timespec="seconds")
-        model, processor, config = load_model(model_path)
-
-        # iterate over the tests we're going to test
-        # each test is one test, prompt, image_directory, expected result
-        # iterate over the tests by running the prompt against each image in the image directory
-        for test in tests:
-            # next, iterate over the prompts we're going to test
-
-            # we will need to run each prompt over each image
-            # next, iterate over the images we need to test against
-
-            # get all the images
-            test_images = load_test_images(test['image_directory'])
-
-            print(f"Running test {test['test_description']} on {model_path} using {test['image_directory']} and {test_images}")
-            print(f"found results to check against: {test['expected_result']}")
-            for image in test_images:
-
-                image_path = join(test['image_directory'], image)
-                
-                prompt = test['prompt']
-                print(f"running prompt {test['prompt']} on image {image_path}")
-                register_heif_opener()
-                image = [Image.open(image_path)]
-                this_result = []
-
-                try:
-                    # run the prompt against the image
-                    output = run_prompt(model, processor, config, prompt, image)
-
-                    # this_result = [{"timestamp": timestamp, "model": model_path, "test_description": test['test_description'], "prompt": prompt, "output": output.text, "expected_result": test['expected_result'], "check": check_result(output.text, test['expected_result'])}]
-                    
-                    
-                    results.append(this_result)
-                    # print(output)
-
-                except Exception as e:
-                    this_result = [{"model": model_path, "output": f"Error {e}"}]
-                    results.append(this_result)
-
-                # in this approach, we want one row per test, and we return True if any of the expected results are in the prompt output
-                # so we just take output.text and the list of expected_results
-
-                check_strings = test['expected_result']
-
-                test_satisfied = False
-
-                for check in check_strings:
-                    if str(check).lower() in output.text.lower():
-                        test_satisfied = True
-                        break
-                
-                this_result = [{"timestamp": timestamp, "model": model_path, "test_description": test['test_description'], "prompt": prompt, "output": output.text, "expected_result": test['expected_result'], "check": test_satisfied}]
-                results.append(this_result)                
-                write_results(output_file, this_result)
-
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Run MLX-VLM tests on specified models.")
@@ -108,21 +46,6 @@ def parse_args():
     parser.add_argument("--output", default=DEFAULT_OUTPUT_FILE, help = "Provide the path to the output csv file (default: results.csv")
     return parser.parse_args()
     
-
-def load_tests(test_file):
-    """Takes a path to a tests.txt file and returns a list of dicts of tests"""
-    tests = []
-
-    with open(test_file, newline='', encoding='utf-8') as test_file:
-        csv_reader = csv.DictReader(test_file)
-        for row in csv_reader:
-            # Skip a row if the text_description column or first row is commented out, e.g. starts with "#""
-            if row["test_description"].strip().startswith("#"):
-                    continue
-            tests.append(dict(row))
-    return tests
-
-
 def load_models_list(models_file):
     """Takes a path to a models.txt file and returns a list of huggingface models """
     with open(models_file, "r") as f:
@@ -166,22 +89,32 @@ def write_results(file_path, results):
 
 def main():
 
+    logger.info('Starting run.')
+
     args = parse_args()
 
     models_file = args.models
     output_file = args.output
     tests_file = args.tests
 
+
+    logger.info('Using model file: %s', models_file)
+    logger.info('Using output_file file: %s', output_file)
+    logger.info('Using tests_file file: %s', tests_file)
+    
     models = load_models_list(models_file)
     tests = load_tests_json(tests_file)
 
-    # print(tests)
+    logger.info('Found %s models.', len(models))
+
+
 
     # Initialize where we're going to be storing the results of all tests
     results = []
 
     # iterate over the models we're going to test
     for model_path in models:
+
         timestamp = datetime.now().isoformat(timespec="seconds")
         model, processor, config = load_model(model_path)
 
@@ -239,52 +172,20 @@ def main():
                 results.append(this_result)                
                 write_results(output_file, this_result)
 
-def old_main():
+    print(f"Results saved to: {output_file}")
 
-    args = parse_args()
+    logging.shutdown()
 
-    models_file = args.models
-    output_file = args.output
-    tests_file = args.tests
+logger = logging.getLogger(__name__)
+logging.basicConfig(
+        format='%(asctime)s %(levelname)s: %(message)s',
+        datefmt='%m/%d/%Y %H:%M:%S',
+        filename=DEFAULT_LOGFILE, 
+        encoding='utf-8', 
+        level=logging.DEBUG)
     
-    models = load_models_list(models_file)
-    results = []
-
-    # this is the csv version of tests
-    tests = load_tests(tests_file)
-
-    # print(f"Using models file: {models_file}")
-    # print(f"Using tests file: {tests_file}")
-    # print(f"Using output file: {output_file}")
-
-    for model_path in models:
-        timestamp = datetime.now().isoformat(timespec="seconds")
-
-        model, processor, config = load_model(model_path)
-
-        for test in tests:
-            print(f"Running test {test['test_description']} on {model_path}")
-
-            prompt = test['prompt']
-            register_heif_opener()
-            image = [Image.open(test['image'])]
-            this_result = []
-
-            try:
-                output = run_prompt(model, processor, config, prompt, image)
-                this_result = [{"timestamp": timestamp, "model": model_path, "test_description": test['test_description'], "prompt": prompt, "output": output.text, "expected_result": test['expected_result'], "check": check_result(output.text, test['expected_result'])}]
-                results.append(this_result)
-
-                print(output)
-            except Exception as e:
-                this_result = [{"model": model_path, "output": f"Error {e}"}]
-                results.append(this_result)
-
-            write_results(output_file, this_result)
-
-    print(f"Results saved to {output_file}")
-
 if __name__ == "__main__":
+
     main()
 
     # testing json version
