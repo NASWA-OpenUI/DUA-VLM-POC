@@ -23,10 +23,8 @@ def load_tests_json(tests_file):
     with open(tests_file, encoding='utf-8') as test_file:
         tests_json = json.load(test_file)
     
-    logger.info('Found %s tests', len(tests_json))
-
-    for test in tests_json: 
-        logger.info('Test: %s', test['test_description'])    
+    for idx, test in enumerate(tests_json, start=1): 
+        logger.debug('Test %s of %s: %s', idx, len(tests_json), test['test_description'])    
         
     return tests_json
 
@@ -67,13 +65,13 @@ def run_prompt(model, processor, config, prompt, image):
     response = generate(model, processor, formatted_prompt, image, verbose=False)
     return response
 
-def check_result(prompt_output, test):
-    # actually what we want to do here is get the prompt output, and the list of strings to check against.
-    # if *any* of the strings to check against are in the prompt output, then we returnt true
+# def check_result(prompt_output, test):
+#     # actually what we want to do here is get the prompt output, and the list of strings to check against.
+#     # if *any* of the strings to check against are in the prompt output, then we returnt true
 
-    """Provide the prompt output and a test string. Normalizes / lowercases the strings and returns whether the test string is present in the prompt output."""
-    if test:
-        return test.lower() in prompt_output.lower()
+#     """Provide the prompt output and a test string. Normalizes / lowercases the strings and returns whether the test string is present in the prompt output."""
+#     if test:
+#         return test.lower() in prompt_output.lower()
 
 
 def write_results(file_path, results):
@@ -105,15 +103,15 @@ def main():
     models = load_models_list(models_file)
     tests = load_tests_json(tests_file)
 
-    logger.info('Found %s models.', len(models))
-
-
+    logger.info('Running %s tests against %s models.', len(tests), len(models))
 
     # Initialize where we're going to be storing the results of all tests
     results = []
 
     # iterate over the models we're going to test
-    for model_path in models:
+    for model_idx, model_path in enumerate(models, start=1):
+
+        logger.info('Starting run with model %s of %s: %s', model_idx, len(models), model_path)
 
         timestamp = datetime.now().isoformat(timespec="seconds")
         model, processor, config = load_model(model_path)
@@ -121,7 +119,12 @@ def main():
         # iterate over the tests we're going to test
         # each test is one test, prompt, image_directory, expected result
         # iterate over the tests by running the prompt against each image in the image directory
-        for test in tests:
+        for test_idx, test in enumerate(tests, start=1):
+
+            logger.info('Starting test %s/%s: %s', test_idx, len(tests), test['test_description'])
+            logger.info('Test %s/%s: prompt: %s', test_idx, len(tests), test['prompt'])
+            logger.info('Test %s/%s: total eval strings: %s', test_idx, len(tests), len(test['expected_result']))
+
             # next, iterate over the prompts we're going to test
 
             # we will need to run each prompt over each image
@@ -130,36 +133,34 @@ def main():
             # get all the images
             test_images = load_test_images(test['image_directory'])
 
-            print(f"Running test {test['test_description']} on {model_path} using {test['image_directory']} and {test_images}")
-            print(f"found results to check against: {test['expected_result']}")
-            for image in test_images:
+            # get all the check strings
+            check_strings = test['expected_result']
+
+
+            for image_idx, image in enumerate(test_images, start=1):
 
                 image_path = join(test['image_directory'], image)
-                
+
+                logger.info('Test %s/%s: Running prompt on image %s/%s: %s', test_idx, len(tests), image_idx, len(test_images), image_path)
+
                 prompt = test['prompt']
-                print(f"running prompt {test['prompt']} on image {image_path}")
                 register_heif_opener()
                 image = [Image.open(image_path)]
                 this_result = []
 
                 try:
                     # run the prompt against the image
-                    output = run_prompt(model, processor, config, prompt, image)
-
-                    # this_result = [{"timestamp": timestamp, "model": model_path, "test_description": test['test_description'], "prompt": prompt, "output": output.text, "expected_result": test['expected_result'], "check": check_result(output.text, test['expected_result'])}]
-                    
-                    
+                    output = run_prompt(model, processor, config, prompt, image)                                        
                     results.append(this_result)
-                    # print(output)
+                    
+                    logger.info('Test %s/%s: image %s/%s: %s', test_idx, len(tests), image_idx, len(test_images), output.text)
 
                 except Exception as e:
                     this_result = [{"model": model_path, "output": f"Error {e}"}]
                     results.append(this_result)
 
-                # in this approach, we want one row per test, and we return True if any of the expected results are in the prompt output
+                # in this approach, we want one row per test, and to return True if any of the expected results are in the prompt output
                 # so we just take output.text and the list of expected_results
-
-                check_strings = test['expected_result']
 
                 test_satisfied = False
 
@@ -172,32 +173,30 @@ def main():
                 results.append(this_result)                
                 write_results(output_file, this_result)
 
+    logger.info('Run ended.')
+
     print(f"Results saved to: {output_file}")
 
     logging.shutdown()
 
 logger = logging.getLogger(__name__)
+
+
+stream_handler = logging.StreamHandler()
+
 logging.basicConfig(
-        format='%(asctime)s %(levelname)s: %(message)s',
+        format = ('%(asctime)s %(levelname)s: %(message)s'),
         datefmt='%m/%d/%Y %H:%M:%S',
-        filename=DEFAULT_LOGFILE, 
+        handlers = [
+            logging.FileHandler(DEFAULT_LOGFILE),
+            stream_handler],
         encoding='utf-8', 
         level=logging.DEBUG)
     
+
+
+
 if __name__ == "__main__":
 
     main()
 
-    # testing json version
-
-    # args = parse_args()
-
-    # models_file = args.models
-    # output_file = args.output
-    # tests_file = args.tests
-    
-    # print(f"Using models file: {models_file}")
-    # print(f"Using tests file: {tests_file}")
-    # print(f"Using output file: {output_file}")
-
-    # run_tests_json(models_file, tests_file, output_file)

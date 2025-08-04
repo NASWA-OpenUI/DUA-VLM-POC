@@ -87,3 +87,859 @@ DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/mlx-com
 08/02/2025 20:40:13 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
 08/02/2025 20:40:13 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
 08/02/2025 20:40:14 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:09:20 INFO: Starting run.
+08/02/2025 21:09:20 INFO: Using model file: models.txt
+08/02/2025 21:09:20 INFO: Using output_file file: results.csv
+08/02/2025 21:09:20 INFO: Using tests_file file: tests.json
+08/02/2025 21:09:20 INFO: Found 2 tests
+08/02/2025 21:09:20 INFO: Test: Self-employment contractor test
+08/02/2025 21:09:20 INFO: Test: Self-employment contractor test: type
+08/02/2025 21:09:20 INFO: Found 1 models: ['mlx-community/SmolVLM-Instruct-bf16']
+08/02/2025 21:09:20 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 21:09:20 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:09:22 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:11:19 INFO: Starting run.
+08/02/2025 21:11:19 INFO: Using model file: models.txt
+08/02/2025 21:11:19 INFO: Using output_file file: results.csv
+08/02/2025 21:11:19 INFO: Using tests_file file: tests.json
+08/02/2025 21:11:44 INFO: Starting run.
+08/02/2025 21:11:44 INFO: Using model file: models.txt
+08/02/2025 21:11:44 INFO: Using output_file file: results.csv
+08/02/2025 21:11:44 INFO: Using tests_file file: tests.json
+08/02/2025 21:16:01 INFO: Starting run.
+08/02/2025 21:16:01 INFO: Using model file: models.txt
+08/02/2025 21:16:01 INFO: Using output_file file: results.csv
+08/02/2025 21:16:01 INFO: Using tests_file file: tests.json
+08/02/2025 21:16:01 INFO: Test: Self-employment contractor test
+08/02/2025 21:16:01 INFO: Test: Self-employment contractor test: type
+08/02/2025 21:16:01 INFO: Found 1 models: ['mlx-community/SmolVLM-Instruct-bf16']
+08/02/2025 21:16:19 INFO: Starting run.
+08/02/2025 21:16:19 INFO: Using model file: models.txt
+08/02/2025 21:16:19 INFO: Using output_file file: results.csv
+08/02/2025 21:16:19 INFO: Using tests_file file: tests.json
+08/02/2025 21:16:19 INFO: Test: Self-employment contractor test
+08/02/2025 21:16:19 INFO: Test: Self-employment contractor test: type
+08/02/2025 21:16:19 INFO: Found 1 models: ['mlx-community/SmolVLM-Instruct-bf16']
+08/02/2025 21:16:19 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/02/2025 21:16:19 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 21:16:19 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:16:20 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:17:06 INFO: Starting run.
+08/02/2025 21:17:06 INFO: Using model file: models.txt
+08/02/2025 21:17:06 INFO: Using output_file file: results.csv
+08/02/2025 21:17:06 INFO: Using tests_file file: tests.json
+08/02/2025 21:17:06 INFO: Found 2 tests: 
+08/02/2025 21:17:06 INFO: Test: Self-employment contractor test
+08/02/2025 21:17:06 INFO: Test: Self-employment contractor test: type
+08/02/2025 21:17:06 INFO: Found 1 models: ['mlx-community/SmolVLM-Instruct-bf16']
+08/02/2025 21:17:06 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/02/2025 21:17:06 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 21:17:06 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:17:07 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:18:02 INFO: Starting run.
+08/02/2025 21:18:02 INFO: Using model file: models.txt
+08/02/2025 21:18:02 INFO: Using output_file file: results.csv
+08/02/2025 21:18:02 INFO: Using tests_file file: tests.json
+08/02/2025 21:18:02 INFO: Found 2 tests: 
+08/02/2025 21:18:02 INFO: Test: Self-employment contractor test
+08/02/2025 21:18:02 INFO: Test: Self-employment contractor test: type
+08/02/2025 21:18:02 INFO: Found 1 models: ['mlx-community/SmolVLM-Instruct-bf16']
+08/02/2025 21:18:02 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/02/2025 21:18:02 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 21:18:02 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:18:03 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:26:06 INFO: Starting run.
+08/02/2025 21:26:06 INFO: Using model file: models.txt
+08/02/2025 21:26:06 INFO: Using output_file file: results.csv
+08/02/2025 21:26:06 INFO: Using tests_file file: tests.json
+08/02/2025 21:26:06 INFO: Found 2 tests: 
+08/02/2025 21:26:06 INFO: Test 1 of 2: Self-employment contractor test
+08/02/2025 21:26:06 INFO: Test 2 of 2: Self-employment contractor test: type
+08/02/2025 21:26:06 INFO: Found 1 models: ['mlx-community/SmolVLM-Instruct-bf16']
+08/02/2025 21:26:06 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/02/2025 21:26:06 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 21:26:06 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:26:07 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:26:28 INFO: Starting run.
+08/02/2025 21:26:28 INFO: Using model file: models.txt
+08/02/2025 21:26:28 INFO: Using output_file file: results.csv
+08/02/2025 21:26:28 INFO: Using tests_file file: tests.json
+08/02/2025 21:26:28 INFO: Found 2 tests: 
+08/02/2025 21:26:28 INFO: Test 1 of 2: Self-employment contractor test
+08/02/2025 21:26:28 INFO: Test 2 of 2: Self-employment contractor test: type
+08/02/2025 21:26:28 INFO: Found 1 models: ['mlx-community/SmolVLM-Instruct-bf16']
+08/02/2025 21:26:28 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/02/2025 21:26:28 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 21:26:28 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:26:28 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:26:28 INFO: Starting test 1 of 2: Self-employment contractor test
+08/02/2025 21:26:28 INFO: Test 1 prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/02/2025 21:26:28 INFO: Test 1 image path: tests/images/self-employment/offers
+08/02/2025 21:26:28 INFO: Using: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 21:26:34 INFO: Using: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 21:26:39 INFO: Using: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 21:26:44 INFO: Starting test 2 of 2: Self-employment contractor test: type
+08/02/2025 21:26:44 INFO: Test 2 prompt: What kind of self-employed work is this an offer for?
+08/02/2025 21:26:44 INFO: Test 2 image path: tests/images/self-employment/offers
+08/02/2025 21:26:44 INFO: Using: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 21:26:48 INFO: Using: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 21:26:54 INFO: Using: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 21:27:13 INFO: Starting run.
+08/02/2025 21:27:13 INFO: Using model file: models.txt
+08/02/2025 21:27:13 INFO: Using output_file file: results.csv
+08/02/2025 21:27:13 INFO: Using tests_file file: tests.json
+08/02/2025 21:27:13 INFO: Found 2 tests: 
+08/02/2025 21:27:13 INFO: Test 1 of 2: Self-employment contractor test
+08/02/2025 21:27:13 INFO: Test 2 of 2: Self-employment contractor test: type
+08/02/2025 21:27:13 INFO: Found 1 models: ['mlx-community/SmolVLM-Instruct-bf16']
+08/02/2025 21:27:13 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/02/2025 21:27:13 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 21:27:13 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:27:14 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:27:14 INFO: Starting test 1 of 2: Self-employment contractor test
+08/02/2025 21:27:14 INFO: Test 1 prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/02/2025 21:27:14 INFO: Test 1 image path: tests/images/self-employment/offers
+08/02/2025 21:27:14 INFO: Test 1 total images: 3
+08/02/2025 21:27:14 INFO: Using: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 21:27:19 INFO: Using: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 21:27:24 INFO: Using: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 21:27:29 INFO: Starting test 2 of 2: Self-employment contractor test: type
+08/02/2025 21:27:29 INFO: Test 2 prompt: What kind of self-employed work is this an offer for?
+08/02/2025 21:27:29 INFO: Test 2 image path: tests/images/self-employment/offers
+08/02/2025 21:27:29 INFO: Test 2 total images: 3
+08/02/2025 21:27:29 INFO: Using: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 21:27:34 INFO: Using: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 21:27:39 INFO: Using: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 21:31:38 INFO: Starting run.
+08/02/2025 21:31:38 INFO: Using model file: models.txt
+08/02/2025 21:31:38 INFO: Using output_file file: results.csv
+08/02/2025 21:31:38 INFO: Using tests_file file: tests.json
+08/02/2025 21:31:38 INFO: Found 2 tests: 
+08/02/2025 21:31:38 INFO: Test 1 of 2: Self-employment contractor test
+08/02/2025 21:31:38 INFO: Test 2 of 2: Self-employment contractor test: type
+08/02/2025 21:31:38 INFO: Found 1 models: ['mlx-community/SmolVLM-Instruct-bf16']
+08/02/2025 21:31:38 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/02/2025 21:31:38 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 21:31:38 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:31:39 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:31:39 INFO: Starting test 1 of 2: Self-employment contractor test
+08/02/2025 21:31:39 INFO: Test 1 prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/02/2025 21:34:21 INFO: Starting run.
+08/02/2025 21:34:21 INFO: Using model file: models.txt
+08/02/2025 21:34:21 INFO: Using output_file file: results.csv
+08/02/2025 21:34:21 INFO: Using tests_file file: tests.json
+08/02/2025 21:34:21 INFO: Found 2 tests: 
+08/02/2025 21:34:21 INFO: Test 1 of 2: Self-employment contractor test
+08/02/2025 21:34:21 INFO: Test 2 of 2: Self-employment contractor test: type
+08/02/2025 21:34:21 INFO: Found 1 models: ['mlx-community/SmolVLM-Instruct-bf16']
+08/02/2025 21:34:21 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/02/2025 21:34:21 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 21:34:21 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:34:22 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:34:22 INFO: Starting test 1/2: Self-employment contractor test
+08/02/2025 21:34:22 INFO: Test 1/2:  prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/02/2025 21:34:54 INFO: Starting run.
+08/02/2025 21:34:54 INFO: Using model file: models.txt
+08/02/2025 21:34:54 INFO: Using output_file file: results.csv
+08/02/2025 21:34:54 INFO: Using tests_file file: tests.json
+08/02/2025 21:34:54 INFO: Found 2 tests: 
+08/02/2025 21:34:54 INFO: Test 1 of 2: Self-employment contractor test
+08/02/2025 21:34:54 INFO: Test 2 of 2: Self-employment contractor test: type
+08/02/2025 21:34:54 INFO: Found 1 models: ['mlx-community/SmolVLM-Instruct-bf16']
+08/02/2025 21:34:54 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/02/2025 21:34:55 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 21:34:55 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:34:55 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:34:55 INFO: Starting test 1/2: Self-employment contractor test
+08/02/2025 21:34:55 INFO: Test 1/2:  prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/02/2025 21:34:55 INFO: Test 1/2 on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 21:35:01 INFO: Test 1/2 on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 21:35:06 INFO: Test 1/2 on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 21:35:11 INFO: Starting test 2/2: Self-employment contractor test: type
+08/02/2025 21:35:11 INFO: Test 2/2:  prompt: What kind of self-employed work is this an offer for?
+08/02/2025 21:35:11 INFO: Test 2/2 on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 21:35:16 INFO: Test 2/2 on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 21:35:21 INFO: Test 2/2 on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 21:36:33 INFO: Starting run.
+08/02/2025 21:36:33 INFO: Using model file: models.txt
+08/02/2025 21:36:33 INFO: Using output_file file: results.csv
+08/02/2025 21:36:33 INFO: Using tests_file file: tests.json
+08/02/2025 21:36:33 INFO: Found 2 tests: 
+08/02/2025 21:36:33 INFO: Test 1 of 2: Self-employment contractor test
+08/02/2025 21:36:33 INFO: Test 2 of 2: Self-employment contractor test: type
+08/02/2025 21:36:33 INFO: Found 1 models: ['mlx-community/SmolVLM-Instruct-bf16']
+08/02/2025 21:36:33 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/02/2025 21:36:33 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 21:36:33 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:36:34 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:36:34 INFO: Starting test 1/2: Self-employment contractor test
+08/02/2025 21:36:34 INFO: Test 1/2:  prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/02/2025 21:36:34 INFO: Test 1/2 on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 21:36:39 DEBUG: Output text:  Yes, this is an offer of work for someone who is self-employed, specifically a contractor or freelancer.
+08/02/2025 21:36:39 INFO: Test 1/2 on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 21:36:44 DEBUG: Output text:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 21:36:44 INFO: Test 1/2 on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 21:36:49 DEBUG: Output text:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 21:36:49 INFO: Starting test 2/2: Self-employment contractor test: type
+08/02/2025 21:36:49 INFO: Test 2/2:  prompt: What kind of self-employed work is this an offer for?
+08/02/2025 21:36:49 INFO: Test 2/2 on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 21:36:54 DEBUG: Output text:  This is an offer for freelance writing work.
+08/02/2025 21:36:54 INFO: Test 2/2 on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 21:36:59 DEBUG: Output text:  This is an offer for freelance writing and delivering articles as assigned by the editorial team.
+08/02/2025 21:36:59 INFO: Test 2/2 on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 21:37:03 DEBUG: Output text:  This is an offer for freelance work.
+08/02/2025 21:37:03 INFO: Run ended.
+08/02/2025 21:38:32 INFO: Starting run.
+08/02/2025 21:38:32 INFO: Using model file: models.txt
+08/02/2025 21:38:32 INFO: Using output_file file: results.csv
+08/02/2025 21:38:32 INFO: Using tests_file file: tests.json
+08/02/2025 21:38:32 INFO: Found 2 tests: 
+08/02/2025 21:38:32 INFO: Test 1 of 2: Self-employment contractor test
+08/02/2025 21:38:32 INFO: Test 2 of 2: Self-employment contractor test: type
+08/02/2025 21:38:32 INFO: Found 1 models: ['mlx-community/SmolVLM-Instruct-bf16']
+08/02/2025 21:38:32 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/02/2025 21:38:32 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 21:38:32 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:38:33 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:38:33 INFO: Starting test 1/2: Self-employment contractor test
+08/02/2025 21:38:33 INFO: Test 1/2:  prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/02/2025 21:38:33 INFO: Test 1/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 21:38:39 DEBUG: Output text:  Yes, this is an offer of work for someone who is self-employed, specifically a contractor or freelancer.
+08/02/2025 21:38:39 INFO: Test 1/2: total eval strings: 1
+08/02/2025 21:38:39 INFO: Test 1/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 21:38:44 DEBUG: Output text:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 21:38:44 INFO: Test 1/2: total eval strings: 1
+08/02/2025 21:38:44 INFO: Test 1/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 21:38:49 DEBUG: Output text:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 21:38:49 INFO: Test 1/2: total eval strings: 1
+08/02/2025 21:38:49 INFO: Starting test 2/2: Self-employment contractor test: type
+08/02/2025 21:38:49 INFO: Test 2/2:  prompt: What kind of self-employed work is this an offer for?
+08/02/2025 21:38:49 INFO: Test 2/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 21:38:53 DEBUG: Output text:  This is an offer for freelance writing work.
+08/02/2025 21:38:53 INFO: Test 2/2: total eval strings: 2
+08/02/2025 21:38:53 INFO: Test 2/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 21:38:58 DEBUG: Output text:  This is an offer for freelance writing and delivering articles as assigned by the editorial team.
+08/02/2025 21:38:58 INFO: Test 2/2: total eval strings: 2
+08/02/2025 21:38:58 INFO: Test 2/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 21:39:03 DEBUG: Output text:  This is an offer for freelance work.
+08/02/2025 21:39:03 INFO: Test 2/2: total eval strings: 2
+08/02/2025 21:39:03 INFO: Run ended.
+08/02/2025 21:41:10 INFO: Starting run.
+08/02/2025 21:41:10 INFO: Using model file: models.txt
+08/02/2025 21:41:10 INFO: Using output_file file: results.csv
+08/02/2025 21:41:10 INFO: Using tests_file file: tests.json
+08/02/2025 21:41:10 INFO: Found 2 tests: 
+08/02/2025 21:41:10 INFO: Test 1 of 2: Self-employment contractor test
+08/02/2025 21:41:10 INFO: Test 2 of 2: Self-employment contractor test: type
+08/02/2025 21:41:10 INFO: Found 1 models: ['mlx-community/SmolVLM-Instruct-bf16']
+08/02/2025 21:41:10 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/02/2025 21:41:10 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 21:41:10 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:41:11 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:41:11 INFO: Starting test 1/2: Self-employment contractor test
+08/02/2025 21:41:11 INFO: Test 1/2:  prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/02/2025 21:41:11 INFO: Test 1/2: total eval strings: 1
+08/02/2025 21:41:11 INFO: Test 1/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 21:41:17 DEBUG: Output text:  Yes, this is an offer of work for someone who is self-employed, specifically a contractor or freelancer.
+08/02/2025 21:41:17 INFO: Test 1/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 21:41:22 DEBUG: Output text:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 21:41:22 INFO: Test 1/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 21:41:27 DEBUG: Output text:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 21:41:27 INFO: Starting test 2/2: Self-employment contractor test: type
+08/02/2025 21:41:27 INFO: Test 2/2:  prompt: What kind of self-employed work is this an offer for?
+08/02/2025 21:41:27 INFO: Test 2/2: total eval strings: 2
+08/02/2025 21:41:27 INFO: Test 2/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 21:41:31 DEBUG: Output text:  This is an offer for freelance writing work.
+08/02/2025 21:41:31 INFO: Test 2/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 21:41:36 DEBUG: Output text:  This is an offer for freelance writing and delivering articles as assigned by the editorial team.
+08/02/2025 21:41:36 INFO: Test 2/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 21:41:41 DEBUG: Output text:  This is an offer for freelance work.
+08/02/2025 21:41:41 INFO: Run ended.
+08/02/2025 21:46:10 INFO: Starting run.
+08/02/2025 21:46:10 INFO: Using model file: models.txt
+08/02/2025 21:46:10 INFO: Using output_file file: results.csv
+08/02/2025 21:46:10 INFO: Using tests_file file: tests.json
+08/02/2025 21:46:10 INFO: Found 2 tests: 
+08/02/2025 21:46:10 INFO: Test 1 of 2: Self-employment contractor test
+08/02/2025 21:46:10 INFO: Test 2 of 2: Self-employment contractor test: type
+08/02/2025 21:46:10 INFO: Found 1 models: ['mlx-community/SmolVLM-Instruct-bf16']
+08/02/2025 21:46:10 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/02/2025 21:46:10 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 21:46:10 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:46:11 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:46:11 INFO: Starting test 1/2: Self-employment contractor test
+08/02/2025 21:46:11 INFO: Test 1/2:  prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/02/2025 21:46:11 INFO: Test 1/2: total eval strings: 1
+08/02/2025 21:46:11 INFO: Test 1/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 21:46:17 INFO: Test 1/2: image 1/3:  Yes, this is an offer of work for someone who is self-employed, specifically a contractor or freelancer.
+08/02/2025 21:46:17 INFO: Test 1/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 21:46:22 INFO: Test 1/2: image 2/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 21:46:22 INFO: Test 1/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 21:46:27 INFO: Test 1/2: image 3/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 21:46:27 INFO: Starting test 2/2: Self-employment contractor test: type
+08/02/2025 21:46:27 INFO: Test 2/2:  prompt: What kind of self-employed work is this an offer for?
+08/02/2025 21:46:27 INFO: Test 2/2: total eval strings: 2
+08/02/2025 21:46:27 INFO: Test 2/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 21:46:31 INFO: Test 2/2: image 1/3:  This is an offer for freelance writing work.
+08/02/2025 21:46:31 INFO: Test 2/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 21:46:36 INFO: Test 2/2: image 2/3:  This is an offer for freelance writing and delivering articles as assigned by the editorial team.
+08/02/2025 21:46:36 INFO: Test 2/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 21:46:41 INFO: Test 2/2: image 3/3:  This is an offer for freelance work.
+08/02/2025 21:46:41 INFO: Run ended.
+08/02/2025 21:47:42 INFO: Starting run.
+08/02/2025 21:47:42 INFO: Using model file: models.txt
+08/02/2025 21:47:42 INFO: Using output_file file: results.csv
+08/02/2025 21:47:42 INFO: Using tests_file file: tests.json
+08/02/2025 21:47:42 INFO: Found 2 tests: 
+08/02/2025 21:47:42 INFO: Test 1 of 2: Self-employment contractor test
+08/02/2025 21:47:42 INFO: Test 2 of 2: Self-employment contractor test: type
+08/02/2025 21:47:42 INFO: Found 2 models: ['mlx-community/SmolVLM-Instruct-bf16', 'mlx-community/llava-interleave-qwen-7b-4bit']
+08/02/2025 21:47:42 INFO: Starting run with model 1 of 2: mlx-community/SmolVLM-Instruct-bf16
+08/02/2025 21:47:42 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 21:47:42 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:47:43 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 21:47:43 INFO: Starting test 1/2: Self-employment contractor test
+08/02/2025 21:47:43 INFO: Test 1/2:  prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/02/2025 21:47:43 INFO: Test 1/2: total eval strings: 1
+08/02/2025 21:47:43 INFO: Test 1/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 21:47:49 INFO: Test 1/2: image 1/3:  Yes, this is an offer of work for someone who is self-employed, specifically a contractor or freelancer.
+08/02/2025 21:47:49 INFO: Test 1/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 21:47:54 INFO: Test 1/2: image 2/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 21:47:54 INFO: Test 1/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 21:47:58 INFO: Test 1/2: image 3/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 21:47:58 INFO: Starting test 2/2: Self-employment contractor test: type
+08/02/2025 21:47:58 INFO: Test 2/2:  prompt: What kind of self-employed work is this an offer for?
+08/02/2025 21:47:58 INFO: Test 2/2: total eval strings: 2
+08/02/2025 21:47:58 INFO: Test 2/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 21:48:03 INFO: Test 2/2: image 1/3:  This is an offer for freelance writing work.
+08/02/2025 21:48:03 INFO: Test 2/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 21:48:08 INFO: Test 2/2: image 2/3:  This is an offer for freelance writing and delivering articles as assigned by the editorial team.
+08/02/2025 21:48:08 INFO: Test 2/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 21:48:13 INFO: Test 2/2: image 3/3:  This is an offer for freelance work.
+08/02/2025 21:48:13 INFO: Starting run with model 2 of 2: mlx-community/llava-interleave-qwen-7b-4bit
+08/02/2025 21:48:13 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/02/2025 21:48:16 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/02/2025 21:48:16 INFO: Starting test 1/2: Self-employment contractor test
+08/02/2025 21:48:16 INFO: Test 1/2:  prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/02/2025 21:48:16 INFO: Test 1/2: total eval strings: 1
+08/02/2025 21:48:16 INFO: Test 1/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 21:48:23 INFO: Test 1/2: image 1/3: Yes, the document is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 21:48:23 INFO: Test 1/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 21:48:29 INFO: Test 1/2: image 2/3: Yes, this appears to be an offer of work for someone who is self-employed, like a contractor or freelancer. The document is from the "Pacific Horizons Magazine" and is offering the opportunity to contribute articles to the magazine.
+08/02/2025 21:48:29 INFO: Test 1/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 21:48:33 INFO: Test 1/2: image 3/3: Yes, the document appears to be an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 21:48:33 INFO: Starting test 2/2: Self-employment contractor test: type
+08/02/2025 21:48:33 INFO: Test 2/2:  prompt: What kind of self-employed work is this an offer for?
+08/02/2025 21:48:33 INFO: Test 2/2: total eval strings: 2
+08/02/2025 21:48:33 INFO: Test 2/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 21:48:38 INFO: Test 2/2: image 1/3: The offer is for freelance writing work, specifically for a publication called GreenFuture Weekly.
+08/02/2025 21:48:38 INFO: Test 2/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 21:48:43 INFO: Test 2/2: image 2/3: This is an offer for self-employed work in the publishing industry, specifically for the "Pacific Horizons Magazine."
+08/02/2025 21:48:43 INFO: Test 2/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 21:48:48 INFO: Test 2/2: image 3/3: The offer is for self-employed work in the publishing industry, specifically for a magazine called "Wanderlight Journal."
+08/02/2025 21:48:48 INFO: Run ended.
+08/02/2025 22:01:18 INFO: Starting run.
+08/02/2025 22:01:18 INFO: Using model file: models.txt
+08/02/2025 22:01:18 INFO: Using output_file file: results.csv
+08/02/2025 22:01:18 INFO: Using tests_file file: tests.json
+08/02/2025 22:01:18 INFO: Found 2 tests: 
+08/02/2025 22:01:18 INFO: Test 1 of 2: Self-employment contractor test
+08/02/2025 22:01:18 INFO: Test 2 of 2: Self-employment contractor test: type
+08/02/2025 22:01:18 INFO: Found 2 models: ['mlx-community/SmolVLM-Instruct-bf16', 'mlx-community/llava-interleave-qwen-7b-4bit']
+08/02/2025 22:01:18 INFO: Starting run with model 1 of 2: mlx-community/SmolVLM-Instruct-bf16
+08/02/2025 22:01:18 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 22:01:18 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 22:01:20 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 22:01:20 INFO: Starting test 1/2: Self-employment contractor test
+08/02/2025 22:01:20 INFO: Test 1/2: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/02/2025 22:01:20 INFO: Test 1/2: total eval strings: 1
+08/02/2025 22:01:20 INFO: Test 1/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 22:01:26 INFO: Test 1/2: image 1/3:  Yes, this is an offer of work for someone who is self-employed, specifically a contractor or freelancer.
+08/02/2025 22:01:26 INFO: Test 1/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 22:01:31 INFO: Test 1/2: image 2/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 22:01:31 INFO: Test 1/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 22:01:36 INFO: Test 1/2: image 3/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 22:01:36 INFO: Starting test 2/2: Self-employment contractor test: type
+08/02/2025 22:01:36 INFO: Test 2/2: prompt: What kind of self-employed work is this an offer for?
+08/02/2025 22:01:36 INFO: Test 2/2: total eval strings: 2
+08/02/2025 22:01:36 INFO: Test 2/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 22:01:40 INFO: Test 2/2: image 1/3:  This is an offer for freelance writing work.
+08/02/2025 22:01:40 INFO: Test 2/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 22:01:45 INFO: Test 2/2: image 2/3:  This is an offer for freelance writing and delivering articles as assigned by the editorial team.
+08/02/2025 22:01:46 INFO: Test 2/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 22:01:50 INFO: Test 2/2: image 3/3:  This is an offer for freelance work.
+08/02/2025 22:01:50 INFO: Starting run with model 2 of 2: mlx-community/llava-interleave-qwen-7b-4bit
+08/02/2025 22:01:50 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/02/2025 22:01:53 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/02/2025 22:01:53 INFO: Starting test 1/2: Self-employment contractor test
+08/02/2025 22:01:53 INFO: Test 1/2: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/02/2025 22:01:53 INFO: Test 1/2: total eval strings: 1
+08/02/2025 22:01:53 INFO: Test 1/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 22:02:00 INFO: Test 1/2: image 1/3: Yes, the document is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 22:02:00 INFO: Test 1/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 22:02:06 INFO: Test 1/2: image 2/3: Yes, this appears to be an offer of work for someone who is self-employed, like a contractor or freelancer. The document is from the "Pacific Horizons Magazine" and is offering the opportunity to contribute articles to the magazine.
+08/02/2025 22:02:06 INFO: Test 1/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 22:02:11 INFO: Test 1/2: image 3/3: Yes, the document appears to be an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 22:02:11 INFO: Starting test 2/2: Self-employment contractor test: type
+08/02/2025 22:02:11 INFO: Test 2/2: prompt: What kind of self-employed work is this an offer for?
+08/02/2025 22:02:11 INFO: Test 2/2: total eval strings: 2
+08/02/2025 22:02:11 INFO: Test 2/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 22:02:16 INFO: Test 2/2: image 1/3: The offer is for freelance writing work, specifically for a publication called GreenFuture Weekly.
+08/02/2025 22:02:16 INFO: Test 2/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 22:02:21 INFO: Test 2/2: image 2/3: This is an offer for self-employed work in the publishing industry, specifically for the "Pacific Horizons Magazine."
+08/02/2025 22:02:21 INFO: Test 2/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 22:02:25 INFO: Test 2/2: image 3/3: The offer is for self-employed work in the publishing industry, specifically for a magazine called "Wanderlight Journal."
+08/02/2025 22:02:25 INFO: Run ended.
+08/02/2025 22:02:58 INFO: Starting run.
+08/02/2025 22:02:58 INFO: Using model file: models.txt
+08/02/2025 22:02:58 INFO: Using output_file file: results.csv
+08/02/2025 22:02:58 INFO: Using tests_file file: tests.json
+08/02/2025 22:02:58 INFO: Found 2 tests: 
+08/02/2025 22:02:58 INFO: Test 1 of 2: Self-employment contractor test
+08/02/2025 22:02:58 INFO: Test 2 of 2: Self-employment contractor test: type
+08/02/2025 22:02:58 INFO: Running 2 tests against 2 models.
+08/02/2025 22:02:58 INFO: Starting run with model 1 of 2: mlx-community/SmolVLM-Instruct-bf16
+08/02/2025 22:02:58 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 22:02:59 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 22:03:00 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 22:03:00 INFO: Starting test 1/2: Self-employment contractor test
+08/02/2025 22:03:00 INFO: Test 1/2: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/02/2025 22:03:00 INFO: Test 1/2: total eval strings: 1
+08/02/2025 22:03:00 INFO: Test 1/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 22:03:05 INFO: Test 1/2: image 1/3:  Yes, this is an offer of work for someone who is self-employed, specifically a contractor or freelancer.
+08/02/2025 22:03:05 INFO: Test 1/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 22:03:10 INFO: Test 1/2: image 2/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 22:03:10 INFO: Test 1/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 22:03:15 INFO: Test 1/2: image 3/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 22:03:15 INFO: Starting test 2/2: Self-employment contractor test: type
+08/02/2025 22:03:15 INFO: Test 2/2: prompt: What kind of self-employed work is this an offer for?
+08/02/2025 22:03:15 INFO: Test 2/2: total eval strings: 2
+08/02/2025 22:03:15 INFO: Test 2/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 22:03:20 INFO: Test 2/2: image 1/3:  This is an offer for freelance writing work.
+08/02/2025 22:03:20 INFO: Test 2/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 22:03:25 INFO: Test 2/2: image 2/3:  This is an offer for freelance writing and delivering articles as assigned by the editorial team.
+08/02/2025 22:03:25 INFO: Test 2/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 22:03:30 INFO: Test 2/2: image 3/3:  This is an offer for freelance work.
+08/02/2025 22:03:30 INFO: Starting run with model 2 of 2: mlx-community/llava-interleave-qwen-7b-4bit
+08/02/2025 22:03:30 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/02/2025 22:03:33 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/02/2025 22:03:33 INFO: Starting test 1/2: Self-employment contractor test
+08/02/2025 22:03:33 INFO: Test 1/2: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/02/2025 22:03:33 INFO: Test 1/2: total eval strings: 1
+08/02/2025 22:03:33 INFO: Test 1/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 22:03:40 INFO: Test 1/2: image 1/3: Yes, the document is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 22:03:40 INFO: Test 1/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 22:03:45 INFO: Test 1/2: image 2/3: Yes, this appears to be an offer of work for someone who is self-employed, like a contractor or freelancer. The document is from the "Pacific Horizons Magazine" and is offering the opportunity to contribute articles to the magazine.
+08/02/2025 22:03:45 INFO: Test 1/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 22:03:50 INFO: Test 1/2: image 3/3: Yes, the document appears to be an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 22:03:50 INFO: Starting test 2/2: Self-employment contractor test: type
+08/02/2025 22:03:50 INFO: Test 2/2: prompt: What kind of self-employed work is this an offer for?
+08/02/2025 22:03:50 INFO: Test 2/2: total eval strings: 2
+08/02/2025 22:03:50 INFO: Test 2/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 22:03:55 INFO: Test 2/2: image 1/3: The offer is for freelance writing work, specifically for a publication called GreenFuture Weekly.
+08/02/2025 22:03:55 INFO: Test 2/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 22:03:59 INFO: Test 2/2: image 2/3: This is an offer for self-employed work in the publishing industry, specifically for the "Pacific Horizons Magazine."
+08/02/2025 22:03:59 INFO: Test 2/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 22:04:04 INFO: Test 2/2: image 3/3: The offer is for self-employed work in the publishing industry, specifically for a magazine called "Wanderlight Journal."
+08/02/2025 22:04:04 INFO: Run ended.
+08/02/2025 22:06:14 INFO: Starting run.
+08/02/2025 22:06:14 INFO: Using model file: models.txt
+08/02/2025 22:06:14 INFO: Using output_file file: results.csv
+08/02/2025 22:06:14 INFO: Using tests_file file: tests.json
+08/02/2025 22:06:14 DEBUG: Test 1 of 2: Self-employment contractor test
+08/02/2025 22:06:14 DEBUG: Test 2 of 2: Self-employment contractor test: type
+08/02/2025 22:06:14 INFO: Running 2 tests against 2 models.
+08/02/2025 22:06:14 INFO: Starting run with model 1 of 2: mlx-community/SmolVLM-Instruct-bf16
+08/02/2025 22:06:14 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 22:06:14 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 22:06:15 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 22:06:15 INFO: Starting test 1/2: Self-employment contractor test
+08/02/2025 22:06:15 INFO: Test 1/2: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/02/2025 22:06:15 INFO: Test 1/2: total eval strings: 1
+08/02/2025 22:06:15 INFO: Test 1/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 22:06:21 INFO: Test 1/2: image 1/3:  Yes, this is an offer of work for someone who is self-employed, specifically a contractor or freelancer.
+08/02/2025 22:06:21 INFO: Test 1/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 22:06:26 INFO: Test 1/2: image 2/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 22:06:26 INFO: Test 1/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 22:06:31 INFO: Test 1/2: image 3/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 22:06:31 INFO: Starting test 2/2: Self-employment contractor test: type
+08/02/2025 22:06:31 INFO: Test 2/2: prompt: What kind of self-employed work is this an offer for?
+08/02/2025 22:06:31 INFO: Test 2/2: total eval strings: 2
+08/02/2025 22:06:31 INFO: Test 2/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 22:06:35 INFO: Test 2/2: image 1/3:  This is an offer for freelance writing work.
+08/02/2025 22:06:35 INFO: Test 2/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 22:06:41 INFO: Test 2/2: image 2/3:  This is an offer for freelance writing and delivering articles as assigned by the editorial team.
+08/02/2025 22:06:41 INFO: Test 2/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 22:06:45 INFO: Test 2/2: image 3/3:  This is an offer for freelance work.
+08/02/2025 22:06:45 INFO: Starting run with model 2 of 2: mlx-community/llava-interleave-qwen-7b-4bit
+08/02/2025 22:06:45 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/02/2025 22:06:48 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/02/2025 22:06:48 INFO: Starting test 1/2: Self-employment contractor test
+08/02/2025 22:06:48 INFO: Test 1/2: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/02/2025 22:06:48 INFO: Test 1/2: total eval strings: 1
+08/02/2025 22:06:48 INFO: Test 1/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 22:06:56 INFO: Test 1/2: image 1/3: Yes, the document is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 22:06:56 INFO: Test 1/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 22:07:01 INFO: Test 1/2: image 2/3: Yes, this appears to be an offer of work for someone who is self-employed, like a contractor or freelancer. The document is from the "Pacific Horizons Magazine" and is offering the opportunity to contribute articles to the magazine.
+08/02/2025 22:07:01 INFO: Test 1/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 22:07:06 INFO: Test 1/2: image 3/3: Yes, the document appears to be an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 22:07:06 INFO: Starting test 2/2: Self-employment contractor test: type
+08/02/2025 22:07:06 INFO: Test 2/2: prompt: What kind of self-employed work is this an offer for?
+08/02/2025 22:07:06 INFO: Test 2/2: total eval strings: 2
+08/02/2025 22:07:06 INFO: Test 2/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 22:07:11 INFO: Test 2/2: image 1/3: The offer is for freelance writing work, specifically for a publication called GreenFuture Weekly.
+08/02/2025 22:07:11 INFO: Test 2/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 22:07:16 INFO: Test 2/2: image 2/3: This is an offer for self-employed work in the publishing industry, specifically for the "Pacific Horizons Magazine."
+08/02/2025 22:07:16 INFO: Test 2/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 22:07:21 INFO: Test 2/2: image 3/3: The offer is for self-employed work in the publishing industry, specifically for a magazine called "Wanderlight Journal."
+08/02/2025 22:07:21 INFO: Run ended.
+2025-08-02 22:20:09,234 INFO: Starting run.
+2025-08-02 22:20:09,235 INFO: Using model file: models.txt
+2025-08-02 22:20:09,235 INFO: Using output_file file: results.csv
+2025-08-02 22:20:09,235 INFO: Using tests_file file: tests.json
+2025-08-02 22:20:09,236 DEBUG: Test 1 of 2: Self-employment contractor test
+2025-08-02 22:20:09,236 DEBUG: Test 2 of 2: Self-employment contractor test: type
+2025-08-02 22:20:09,236 INFO: Running 2 tests against 2 models.
+2025-08-02 22:20:09,236 INFO: Starting run with model 1 of 2: mlx-community/SmolVLM-Instruct-bf16
+2025-08-02 22:20:10,467 INFO: Starting test 1/2: Self-employment contractor test
+2025-08-02 22:20:10,468 INFO: Test 1/2: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+2025-08-02 22:20:10,468 INFO: Test 1/2: total eval strings: 1
+2025-08-02 22:20:10,468 INFO: Test 1/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+2025-08-02 22:20:15,786 INFO: Test 1/2: image 1/3:  Yes, this is an offer of work for someone who is self-employed, specifically a contractor or freelancer.
+2025-08-02 22:20:15,789 INFO: Test 1/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+2025-08-02 22:20:20,958 INFO: Test 1/2: image 2/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+2025-08-02 22:20:20,960 INFO: Test 1/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+2025-08-02 22:20:25,828 INFO: Test 1/2: image 3/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+2025-08-02 22:20:25,828 INFO: Starting test 2/2: Self-employment contractor test: type
+2025-08-02 22:20:25,828 INFO: Test 2/2: prompt: What kind of self-employed work is this an offer for?
+2025-08-02 22:20:25,828 INFO: Test 2/2: total eval strings: 2
+2025-08-02 22:20:25,829 INFO: Test 2/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+2025-08-02 22:20:30,688 INFO: Test 2/2: image 1/3:  This is an offer for freelance writing work.
+2025-08-02 22:20:30,690 INFO: Test 2/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+2025-08-02 22:20:35,713 INFO: Test 2/2: image 2/3:  This is an offer for freelance writing and delivering articles as assigned by the editorial team.
+2025-08-02 22:20:35,718 INFO: Test 2/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+2025-08-02 22:20:40,226 INFO: Test 2/2: image 3/3:  This is an offer for freelance work.
+2025-08-02 22:20:40,227 INFO: Starting run with model 2 of 2: mlx-community/llava-interleave-qwen-7b-4bit
+2025-08-02 22:20:43,379 INFO: Starting test 1/2: Self-employment contractor test
+2025-08-02 22:20:43,379 INFO: Test 1/2: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+2025-08-02 22:20:43,379 INFO: Test 1/2: total eval strings: 1
+2025-08-02 22:20:43,380 INFO: Test 1/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+2025-08-02 22:20:50,509 INFO: Test 1/2: image 1/3: Yes, the document is an offer of work for someone who is self-employed, like a contractor or freelancer.
+2025-08-02 22:20:50,511 INFO: Test 1/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+2025-08-02 22:20:56,194 INFO: Test 1/2: image 2/3: Yes, this appears to be an offer of work for someone who is self-employed, like a contractor or freelancer. The document is from the "Pacific Horizons Magazine" and is offering the opportunity to contribute articles to the magazine.
+2025-08-02 22:20:56,196 INFO: Test 1/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+2025-08-02 22:21:00,951 INFO: Test 1/2: image 3/3: Yes, the document appears to be an offer of work for someone who is self-employed, like a contractor or freelancer.
+2025-08-02 22:21:00,952 INFO: Starting test 2/2: Self-employment contractor test: type
+2025-08-02 22:21:00,952 INFO: Test 2/2: prompt: What kind of self-employed work is this an offer for?
+2025-08-02 22:21:00,952 INFO: Test 2/2: total eval strings: 2
+2025-08-02 22:21:00,953 INFO: Test 2/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+2025-08-02 22:21:05,685 INFO: Test 2/2: image 1/3: The offer is for freelance writing work, specifically for a publication called GreenFuture Weekly.
+2025-08-02 22:21:05,690 INFO: Test 2/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+2025-08-02 22:21:10,678 INFO: Test 2/2: image 2/3: This is an offer for self-employed work in the publishing industry, specifically for the "Pacific Horizons Magazine."
+2025-08-02 22:21:10,680 INFO: Test 2/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+2025-08-02 22:21:15,374 INFO: Test 2/2: image 3/3: The offer is for self-employed work in the publishing industry, specifically for a magazine called "Wanderlight Journal."
+2025-08-02 22:21:15,375 INFO: Run ended.
+08/02/2025 22:21:57 INFO: Starting run.
+08/02/2025 22:21:57 INFO: Using model file: models.txt
+08/02/2025 22:21:57 INFO: Using output_file file: results.csv
+08/02/2025 22:21:57 INFO: Using tests_file file: tests.json
+08/02/2025 22:21:57 DEBUG: Test 1 of 2: Self-employment contractor test
+08/02/2025 22:21:57 DEBUG: Test 2 of 2: Self-employment contractor test: type
+08/02/2025 22:21:57 INFO: Running 2 tests against 2 models.
+08/02/2025 22:21:57 INFO: Starting run with model 1 of 2: mlx-community/SmolVLM-Instruct-bf16
+08/02/2025 22:21:57 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/02/2025 22:21:57 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 22:21:58 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/02/2025 22:21:58 INFO: Starting test 1/2: Self-employment contractor test
+08/02/2025 22:21:58 INFO: Test 1/2: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/02/2025 22:21:58 INFO: Test 1/2: total eval strings: 1
+08/02/2025 22:21:58 INFO: Test 1/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 22:22:03 INFO: Test 1/2: image 1/3:  Yes, this is an offer of work for someone who is self-employed, specifically a contractor or freelancer.
+08/02/2025 22:22:03 INFO: Test 1/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 22:22:08 INFO: Test 1/2: image 2/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 22:22:08 INFO: Test 1/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 22:22:21 INFO: Test 1/2: image 3/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 22:22:21 INFO: Starting test 2/2: Self-employment contractor test: type
+08/02/2025 22:22:21 INFO: Test 2/2: prompt: What kind of self-employed work is this an offer for?
+08/02/2025 22:22:21 INFO: Test 2/2: total eval strings: 2
+08/02/2025 22:22:21 INFO: Test 2/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 22:22:34 INFO: Test 2/2: image 1/3:  This is an offer for freelance writing work.
+08/02/2025 22:22:34 INFO: Test 2/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 22:22:52 INFO: Test 2/2: image 2/3:  This is an offer for freelance writing and delivering articles as assigned by the editorial team.
+08/02/2025 22:22:52 INFO: Test 2/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 22:23:07 INFO: Test 2/2: image 3/3:  This is an offer for freelance work.
+08/02/2025 22:23:07 INFO: Starting run with model 2 of 2: mlx-community/llava-interleave-qwen-7b-4bit
+08/02/2025 22:23:07 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/02/2025 22:23:12 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/02/2025 22:23:12 INFO: Starting test 1/2: Self-employment contractor test
+08/02/2025 22:23:12 INFO: Test 1/2: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/02/2025 22:23:12 INFO: Test 1/2: total eval strings: 1
+08/02/2025 22:23:12 INFO: Test 1/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 22:23:29 INFO: Test 1/2: image 1/3: Yes, the document is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 22:23:29 INFO: Test 1/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 22:23:52 INFO: Test 1/2: image 2/3: Yes, this appears to be an offer of work for someone who is self-employed, like a contractor or freelancer. The document is from the "Pacific Horizons Magazine" and is offering the opportunity to contribute articles to the magazine.
+08/02/2025 22:23:52 INFO: Test 1/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 22:24:12 INFO: Test 1/2: image 3/3: Yes, the document appears to be an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/02/2025 22:24:12 INFO: Starting test 2/2: Self-employment contractor test: type
+08/02/2025 22:24:12 INFO: Test 2/2: prompt: What kind of self-employed work is this an offer for?
+08/02/2025 22:24:12 INFO: Test 2/2: total eval strings: 2
+08/02/2025 22:24:12 INFO: Test 2/2: image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/02/2025 22:24:17 INFO: Test 2/2: image 1/3: The offer is for freelance writing work, specifically for a publication called GreenFuture Weekly.
+08/02/2025 22:24:17 INFO: Test 2/2: image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/02/2025 22:24:22 INFO: Test 2/2: image 2/3: This is an offer for self-employed work in the publishing industry, specifically for the "Pacific Horizons Magazine."
+08/02/2025 22:24:22 INFO: Test 2/2: image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/02/2025 22:24:27 INFO: Test 2/2: image 3/3: The offer is for self-employed work in the publishing industry, specifically for a magazine called "Wanderlight Journal."
+08/02/2025 22:24:27 INFO: Run ended.
+08/03/2025 18:04:28 INFO: Starting run.
+08/03/2025 18:04:28 INFO: Using model file: models.txt
+08/03/2025 18:04:28 INFO: Using output_file file: results.csv
+08/03/2025 18:04:28 INFO: Using tests_file file: tests.json
+08/03/2025 18:04:28 DEBUG: Test 1 of 2: Self-employment contractor test
+08/03/2025 18:04:28 DEBUG: Test 2 of 2: Self-employment contractor test: type
+08/03/2025 18:04:28 INFO: Running 2 tests against 2 models.
+08/03/2025 18:04:28 INFO: Starting run with model 1 of 2: mlx-community/SmolVLM-Instruct-bf16
+08/03/2025 18:04:28 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/03/2025 18:04:28 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/03/2025 18:04:30 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/03/2025 18:04:30 INFO: Starting test 1/2: Self-employment contractor test
+08/03/2025 18:04:30 INFO: Test 1/2: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/03/2025 18:04:30 INFO: Test 1/2: total eval strings: 1
+08/03/2025 18:04:30 INFO: Test 1/2: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/03/2025 18:04:35 INFO: Test 1/2: image 1/3:  Yes, this is an offer of work for someone who is self-employed, specifically a contractor or freelancer.
+08/03/2025 18:04:35 INFO: Test 1/2: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/03/2025 18:04:41 INFO: Test 1/2: image 2/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/03/2025 18:04:41 INFO: Test 1/2: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/03/2025 18:04:45 INFO: Test 1/2: image 3/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/03/2025 18:04:45 INFO: Starting test 2/2: Self-employment contractor test: type
+08/03/2025 18:04:45 INFO: Test 2/2: prompt: What kind of self-employed work is this an offer for?
+08/03/2025 18:04:45 INFO: Test 2/2: total eval strings: 2
+08/03/2025 18:04:45 INFO: Test 2/2: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/03/2025 18:04:50 INFO: Test 2/2: image 1/3:  This is an offer for freelance writing work.
+08/03/2025 18:04:50 INFO: Test 2/2: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/03/2025 18:04:55 INFO: Test 2/2: image 2/3:  This is an offer for freelance writing and delivering articles as assigned by the editorial team.
+08/03/2025 18:04:55 INFO: Test 2/2: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/03/2025 18:05:00 INFO: Test 2/2: image 3/3:  This is an offer for freelance work.
+08/03/2025 18:05:00 INFO: Starting run with model 2 of 2: mlx-community/llava-interleave-qwen-7b-4bit
+08/03/2025 18:05:00 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/03/2025 18:05:03 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/03/2025 18:05:03 INFO: Starting test 1/2: Self-employment contractor test
+08/03/2025 18:05:03 INFO: Test 1/2: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/03/2025 18:05:03 INFO: Test 1/2: total eval strings: 1
+08/03/2025 18:05:03 INFO: Test 1/2: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/03/2025 18:05:10 INFO: Test 1/2: image 1/3: Yes, the document is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/03/2025 18:05:10 INFO: Test 1/2: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/03/2025 18:05:16 INFO: Test 1/2: image 2/3: Yes, this appears to be an offer of work for someone who is self-employed, like a contractor or freelancer. The document is from the "Pacific Horizons Magazine" and is offering the opportunity to contribute articles to the magazine.
+08/03/2025 18:05:16 INFO: Test 1/2: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/03/2025 18:05:21 INFO: Test 1/2: image 3/3: Yes, the document appears to be an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/03/2025 18:05:21 INFO: Starting test 2/2: Self-employment contractor test: type
+08/03/2025 18:05:21 INFO: Test 2/2: prompt: What kind of self-employed work is this an offer for?
+08/03/2025 18:05:21 INFO: Test 2/2: total eval strings: 2
+08/03/2025 18:05:21 INFO: Test 2/2: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/03/2025 18:05:25 INFO: Test 2/2: image 1/3: The offer is for freelance writing work, specifically for a publication called GreenFuture Weekly.
+08/03/2025 18:05:25 INFO: Test 2/2: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/03/2025 18:05:30 INFO: Test 2/2: image 2/3: This is an offer for self-employed work in the publishing industry, specifically for the "Pacific Horizons Magazine."
+08/03/2025 18:05:30 INFO: Test 2/2: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/03/2025 18:05:35 INFO: Test 2/2: image 3/3: The offer is for self-employed work in the publishing industry, specifically for a magazine called "Wanderlight Journal."
+08/03/2025 18:05:35 INFO: Run ended.
+08/03/2025 18:10:40 INFO: Starting run.
+08/03/2025 18:10:40 INFO: Using model file: models.txt
+08/03/2025 18:10:40 INFO: Using output_file file: results.csv
+08/03/2025 18:10:40 INFO: Using tests_file file: tests.json
+08/03/2025 18:10:40 DEBUG: Test 1 of 4: Self-employment contractor test
+08/03/2025 18:10:40 DEBUG: Test 2 of 4: Self-employment contractor test: type
+08/03/2025 18:10:40 DEBUG: Test 3 of 4: 1040 form check
+08/03/2025 18:10:40 DEBUG: Test 4 of 4: Is this a form 1040 schedule? If so, what 1040 schedule form is it? Answer in the form "Schedule" and then the name of the Schedule, .e.g. "Schedule F"
+08/03/2025 18:10:40 INFO: Running 4 tests against 2 models.
+08/03/2025 18:10:40 INFO: Starting run with model 1 of 2: mlx-community/SmolVLM-Instruct-bf16
+08/03/2025 18:10:40 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/03/2025 18:10:40 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/03/2025 18:10:41 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/03/2025 18:10:41 INFO: Starting test 1/4: Self-employment contractor test
+08/03/2025 18:10:41 INFO: Test 1/4: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/03/2025 18:10:41 INFO: Test 1/4: total eval strings: 1
+08/03/2025 18:10:41 INFO: Test 1/4: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/03/2025 18:10:50 INFO: Starting run.
+08/03/2025 18:10:50 INFO: Using model file: models.txt
+08/03/2025 18:10:50 INFO: Using output_file file: results.csv
+08/03/2025 18:10:50 INFO: Using tests_file file: tests.json
+08/03/2025 18:10:50 DEBUG: Test 1 of 4: Self-employment contractor test
+08/03/2025 18:10:50 DEBUG: Test 2 of 4: Self-employment contractor test: type
+08/03/2025 18:10:50 DEBUG: Test 3 of 4: 1040 form check
+08/03/2025 18:10:50 DEBUG: Test 4 of 4: Is this a form 1040 schedule? If so, what 1040 schedule form is it? Answer in the form "Schedule" and then the name of the Schedule, .e.g. "Schedule F"
+08/03/2025 18:10:50 INFO: Running 4 tests against 2 models.
+08/03/2025 18:10:50 INFO: Starting run with model 1 of 2: mlx-community/SmolVLM-Instruct-bf16
+08/03/2025 18:10:50 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/03/2025 18:10:51 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/03/2025 18:10:51 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/03/2025 18:10:51 INFO: Starting test 1/4: Self-employment contractor test
+08/03/2025 18:10:51 INFO: Test 1/4: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/03/2025 18:10:51 INFO: Test 1/4: total eval strings: 1
+08/03/2025 18:10:51 INFO: Test 1/4: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/03/2025 18:10:57 INFO: Test 1/4: image 1/3:  Yes, this is an offer of work for someone who is self-employed, specifically a contractor or freelancer.
+08/03/2025 18:10:57 INFO: Test 1/4: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/03/2025 18:11:02 INFO: Test 1/4: image 2/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/03/2025 18:11:02 INFO: Test 1/4: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/03/2025 18:11:07 INFO: Test 1/4: image 3/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/03/2025 18:11:07 INFO: Starting test 2/4: Self-employment contractor test: type
+08/03/2025 18:11:07 INFO: Test 2/4: prompt: What kind of self-employed work is this an offer for?
+08/03/2025 18:11:07 INFO: Test 2/4: total eval strings: 2
+08/03/2025 18:11:07 INFO: Test 2/4: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/03/2025 18:11:11 INFO: Test 2/4: image 1/3:  This is an offer for freelance writing work.
+08/03/2025 18:11:11 INFO: Test 2/4: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/03/2025 18:11:16 INFO: Test 2/4: image 2/3:  This is an offer for freelance writing and delivering articles as assigned by the editorial team.
+08/03/2025 18:11:16 INFO: Test 2/4: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/03/2025 18:11:21 INFO: Test 2/4: image 3/3:  This is an offer for freelance work.
+08/03/2025 18:11:21 INFO: Starting test 3/4: 1040 form check
+08/03/2025 18:11:21 INFO: Test 3/4: prompt: Is this a tax form? If so, what tax form is it?
+08/03/2025 18:11:21 INFO: Test 3/4: total eval strings: 4
+08/03/2025 18:11:21 INFO: Test 3/4: Running prompt on image 1/1: tests/images/1040/schedule-f/001.jpg
+08/03/2025 18:11:21 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/03/2025 18:11:21 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/03/2025 18:11:21 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/03/2025 18:11:21 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/03/2025 18:11:21 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+08/03/2025 18:11:21 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'f\x00\x00\x00'
+08/03/2025 18:11:27 INFO: Test 3/4: image 1/1:  Yes, this is a tax form. It is Schedule F, which is used for reporting profit or loss from farming.
+08/03/2025 18:11:27 INFO: Starting test 4/4: Is this a form 1040 schedule? If so, what 1040 schedule form is it? Answer in the form "Schedule" and then the name of the Schedule, .e.g. "Schedule F"
+08/03/2025 18:11:56 INFO: Starting run.
+08/03/2025 18:11:56 INFO: Using model file: models.txt
+08/03/2025 18:11:56 INFO: Using output_file file: results.csv
+08/03/2025 18:11:56 INFO: Using tests_file file: tests.json
+08/03/2025 18:11:56 DEBUG: Test 1 of 4: Self-employment contractor test
+08/03/2025 18:11:56 DEBUG: Test 2 of 4: Self-employment contractor test: type
+08/03/2025 18:11:56 DEBUG: Test 3 of 4: 1040 form check
+08/03/2025 18:11:56 DEBUG: Test 4 of 4: 1040 form schedule check
+08/03/2025 18:11:56 INFO: Running 4 tests against 2 models.
+08/03/2025 18:11:56 INFO: Starting run with model 1 of 2: mlx-community/SmolVLM-Instruct-bf16
+08/03/2025 18:11:56 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/03/2025 18:11:56 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/03/2025 18:11:57 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/03/2025 18:11:57 INFO: Starting test 1/4: Self-employment contractor test
+08/03/2025 18:11:57 INFO: Test 1/4: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/03/2025 18:11:57 INFO: Test 1/4: total eval strings: 1
+08/03/2025 18:11:57 INFO: Test 1/4: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/03/2025 18:12:03 INFO: Test 1/4: image 1/3:  Yes, this is an offer of work for someone who is self-employed, specifically a contractor or freelancer.
+08/03/2025 18:12:03 INFO: Test 1/4: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/03/2025 18:12:08 INFO: Test 1/4: image 2/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/03/2025 18:12:08 INFO: Test 1/4: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/03/2025 18:12:13 INFO: Test 1/4: image 3/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/03/2025 18:12:13 INFO: Starting test 2/4: Self-employment contractor test: type
+08/03/2025 18:12:13 INFO: Test 2/4: prompt: What kind of self-employed work is this an offer for?
+08/03/2025 18:12:13 INFO: Test 2/4: total eval strings: 2
+08/03/2025 18:12:13 INFO: Test 2/4: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/03/2025 18:12:18 INFO: Test 2/4: image 1/3:  This is an offer for freelance writing work.
+08/03/2025 18:12:18 INFO: Test 2/4: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/03/2025 18:12:23 INFO: Test 2/4: image 2/3:  This is an offer for freelance writing and delivering articles as assigned by the editorial team.
+08/03/2025 18:12:23 INFO: Test 2/4: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/03/2025 18:12:27 INFO: Test 2/4: image 3/3:  This is an offer for freelance work.
+08/03/2025 18:12:27 INFO: Starting test 3/4: 1040 form check
+08/03/2025 18:12:27 INFO: Test 3/4: prompt: Is this a tax form? If so, what tax form is it?
+08/03/2025 18:12:27 INFO: Test 3/4: total eval strings: 4
+08/03/2025 18:12:27 INFO: Test 3/4: Running prompt on image 1/1: tests/images/1040/schedule-f/001.jpg
+08/03/2025 18:12:27 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/03/2025 18:12:27 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/03/2025 18:12:27 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/03/2025 18:12:27 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/03/2025 18:12:27 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+08/03/2025 18:12:27 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'f\x00\x00\x00'
+08/03/2025 18:12:33 INFO: Test 3/4: image 1/1:  Yes, this is a tax form. It is Schedule F, which is used for reporting profit or loss from farming.
+08/03/2025 18:12:33 INFO: Starting test 4/4: 1040 form schedule check
+08/03/2025 18:12:33 INFO: Test 4/4: prompt: Is this a form 1040 schedule? If so, what 1040 schedule form is it? Answer in the form "Schedule" and then the name of the Schedule, .e.g. "Schedule F"
+08/03/2025 18:12:33 INFO: Test 4/4: total eval strings: 10
+08/03/2025 18:13:40 INFO: Starting run.
+08/03/2025 18:13:40 INFO: Using model file: models.txt
+08/03/2025 18:13:40 INFO: Using output_file file: results.csv
+08/03/2025 18:13:40 INFO: Using tests_file file: tests.json
+08/03/2025 18:13:40 DEBUG: Test 1 of 4: Self-employment contractor test
+08/03/2025 18:13:40 DEBUG: Test 2 of 4: Self-employment contractor test: type
+08/03/2025 18:13:40 DEBUG: Test 3 of 4: 1040 form check
+08/03/2025 18:13:40 DEBUG: Test 4 of 4: 1040 form schedule check
+08/03/2025 18:13:40 INFO: Running 4 tests against 2 models.
+08/03/2025 18:13:40 INFO: Starting run with model 1 of 2: mlx-community/SmolVLM-Instruct-bf16
+08/03/2025 18:13:40 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/03/2025 18:13:40 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/03/2025 18:13:41 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/03/2025 18:13:41 INFO: Starting test 1/4: Self-employment contractor test
+08/03/2025 18:13:41 INFO: Test 1/4: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/03/2025 18:13:41 INFO: Test 1/4: total eval strings: 1
+08/03/2025 18:13:41 INFO: Test 1/4: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/03/2025 18:13:47 INFO: Test 1/4: image 1/3:  Yes, this is an offer of work for someone who is self-employed, specifically a contractor or freelancer.
+08/03/2025 18:13:47 INFO: Test 1/4: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/03/2025 18:13:52 INFO: Test 1/4: image 2/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/03/2025 18:13:52 INFO: Test 1/4: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/03/2025 18:13:57 INFO: Test 1/4: image 3/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/03/2025 18:13:57 INFO: Starting test 2/4: Self-employment contractor test: type
+08/03/2025 18:13:57 INFO: Test 2/4: prompt: What kind of self-employed work is this an offer for?
+08/03/2025 18:13:57 INFO: Test 2/4: total eval strings: 2
+08/03/2025 18:13:57 INFO: Test 2/4: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/03/2025 18:14:02 INFO: Test 2/4: image 1/3:  This is an offer for freelance writing work.
+08/03/2025 18:14:02 INFO: Test 2/4: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/03/2025 18:14:07 INFO: Test 2/4: image 2/3:  This is an offer for freelance writing and delivering articles as assigned by the editorial team.
+08/03/2025 18:14:07 INFO: Test 2/4: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/03/2025 18:14:11 INFO: Test 2/4: image 3/3:  This is an offer for freelance work.
+08/03/2025 18:14:11 INFO: Starting test 3/4: 1040 form check
+08/03/2025 18:14:11 INFO: Test 3/4: prompt: Is this a tax form? If so, what tax form is it?
+08/03/2025 18:14:11 INFO: Test 3/4: total eval strings: 4
+08/03/2025 18:14:11 INFO: Test 3/4: Running prompt on image 1/1: tests/images/1040/schedule-f/001.jpg
+08/03/2025 18:14:11 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/03/2025 18:14:11 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/03/2025 18:14:11 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/03/2025 18:14:11 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/03/2025 18:14:11 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+08/03/2025 18:14:11 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'f\x00\x00\x00'
+08/03/2025 18:14:17 INFO: Test 3/4: image 1/1:  Yes, this is a tax form. It is Schedule F, which is used for reporting profit or loss from farming.
+08/03/2025 18:14:17 INFO: Starting test 4/4: 1040 form schedule check
+08/03/2025 18:14:17 INFO: Test 4/4: prompt: Is this a form 1040 schedule? If so, what 1040 schedule form is it? Answer in the form "Schedule" and then the name of the Schedule, .e.g. "Schedule F"
+08/03/2025 18:14:17 INFO: Test 4/4: total eval strings: 10
+08/03/2025 18:14:17 INFO: Test 4/4: Running prompt on image 1/1: tests/images/1040/schedule-f/001.jpg
+08/03/2025 18:14:17 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/03/2025 18:14:17 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/03/2025 18:14:17 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/03/2025 18:14:17 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/03/2025 18:14:17 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+08/03/2025 18:14:17 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'f\x00\x00\x00'
+08/03/2025 18:14:22 INFO: Test 4/4: image 1/1:  Schedule F
+08/03/2025 18:14:22 INFO: Starting run with model 2 of 2: mlx-community/llava-interleave-qwen-7b-4bit
+08/03/2025 18:14:22 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/03/2025 18:14:26 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/03/2025 18:14:26 INFO: Starting test 1/4: Self-employment contractor test
+08/03/2025 18:14:26 INFO: Test 1/4: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/03/2025 18:14:26 INFO: Test 1/4: total eval strings: 1
+08/03/2025 18:14:26 INFO: Test 1/4: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/03/2025 18:14:33 INFO: Test 1/4: image 1/3: Yes, the document is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/03/2025 18:14:33 INFO: Test 1/4: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/03/2025 18:14:38 INFO: Test 1/4: image 2/3: Yes, this appears to be an offer of work for someone who is self-employed, like a contractor or freelancer. The document is from the "Pacific Horizons Magazine" and is offering the opportunity to contribute articles to the magazine.
+08/03/2025 18:14:38 INFO: Test 1/4: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/03/2025 18:14:43 INFO: Test 1/4: image 3/3: Yes, the document appears to be an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/03/2025 18:14:43 INFO: Starting test 2/4: Self-employment contractor test: type
+08/03/2025 18:14:43 INFO: Test 2/4: prompt: What kind of self-employed work is this an offer for?
+08/03/2025 18:14:43 INFO: Test 2/4: total eval strings: 2
+08/03/2025 18:14:43 INFO: Test 2/4: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/03/2025 18:14:47 INFO: Test 2/4: image 1/3: The offer is for freelance writing work, specifically for a publication called GreenFuture Weekly.
+08/03/2025 18:14:47 INFO: Test 2/4: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/03/2025 18:14:52 INFO: Test 2/4: image 2/3: This is an offer for self-employed work in the publishing industry, specifically for the "Pacific Horizons Magazine."
+08/03/2025 18:14:52 INFO: Test 2/4: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/03/2025 18:14:57 INFO: Test 2/4: image 3/3: The offer is for self-employed work in the publishing industry, specifically for a magazine called "Wanderlight Journal."
+08/03/2025 18:14:57 INFO: Starting test 3/4: 1040 form check
+08/03/2025 18:14:57 INFO: Test 3/4: prompt: Is this a tax form? If so, what tax form is it?
+08/03/2025 18:14:57 INFO: Test 3/4: total eval strings: 4
+08/03/2025 18:14:57 INFO: Test 3/4: Running prompt on image 1/1: tests/images/1040/schedule-f/001.jpg
+08/03/2025 18:14:57 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/03/2025 18:14:57 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/03/2025 18:14:57 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/03/2025 18:14:57 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/03/2025 18:14:57 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+08/03/2025 18:14:57 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'f\x00\x00\x00'
+08/03/2025 18:15:01 INFO: Test 3/4: image 1/1: Yes, this is a tax form. It is a Schedule F for Profit or Loss from Farming, which is used to calculate income and deductions related to farming activities.
+08/03/2025 18:15:01 INFO: Starting test 4/4: 1040 form schedule check
+08/03/2025 18:15:01 INFO: Test 4/4: prompt: Is this a form 1040 schedule? If so, what 1040 schedule form is it? Answer in the form "Schedule" and then the name of the Schedule, .e.g. "Schedule F"
+08/03/2025 18:15:01 INFO: Test 4/4: total eval strings: 10
+08/03/2025 18:15:01 INFO: Test 4/4: Running prompt on image 1/1: tests/images/1040/schedule-f/001.jpg
+08/03/2025 18:15:01 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/03/2025 18:15:01 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/03/2025 18:15:01 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/03/2025 18:15:01 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/03/2025 18:15:01 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+08/03/2025 18:15:01 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'f\x00\x00\x00'
+08/03/2025 18:15:06 INFO: Test 4/4: image 1/1: Yes, this is a form 1040 schedule. It is Schedule F.
+08/03/2025 18:15:06 INFO: Run ended.

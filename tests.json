@@ -10,5 +10,17 @@
         "prompt": "What kind of self-employed work is this an offer for?",
         "image_directory": "tests/images/self-employment/offers",
         "expected_result": ["freelance", "contractor"]
+    },
+    {
+        "test_description": "1040 form check",
+        "prompt": "Is this a 1040 tax form?",
+        "image_directory": "tests/images/1040/schedule-f",
+        "expected_result": "1040"
+    },
+    {
+        "test_description": "1040 form schedule check",
+        "prompt": "Is this a form 1040 schedule? If so, what 1040 schedule form is it? Answer in the form \"Schedule\" and then the name of the Schedule, .e.g. \"Schedule F\"",
+        "image_directory": "tests/images/1040/schedule-f",
+        "expected_result": "schedule F"
     }
 ]

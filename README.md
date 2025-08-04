@@ -50,7 +50,7 @@ This will download and install any required Python packages and models.
 By default, running dua-vlm-poc.py will:
 
 * use the models specified in models.txt
-* run the tests specified in tests.csv
+* run the tests specified in tests.json
 * output the results in results.csv
 
 You can override these defaults by specifing arguments:
@@ -68,7 +68,7 @@ models.txt is expected to be in the current working directory of the script.
 
 You must use MLX model weights that run on Apple Silicon. As of writing, Hugging Face hosts over 2,700 [MLX models](https://huggingface.co/mlx-community/models).
 
-Example models.txt
+Example models.txt:
 
 ```
 mlx-community/SmolVLM-Instruct-bf16
@@ -137,9 +137,11 @@ check|"True" if the test `expected_result` string is present in the output strin
 ----
 
 ## To-do
-* run a single test against multiple images
-* Do logging properly
-* Tidy up the console output
+* Lots and lots of test data
+* JSON validator for tests so it doesn't just fall over
+* ~~run a single test against multiple images~~
+* Do logging "properly"
+* "Tidy up the console output"
 * Stalls on requiring passing the argument `trust_remote_code=True` for some huggingface models requiring y/n from user
 * Implement args to allow alternatives to results.csv, tests.csv, and models.txt for users to specify their own results, tests, and models
 * ~~move from personal repo to VLG repo~~
@@ -149,13 +151,15 @@ check|"True" if the test `expected_result` string is present in the output strin
 
 ---
 
-# Changelog
+## Latest Version
 
 ## 0.05
 * Tests are specified in json now
 * Tests specify a prompt that can be run against multiple images, against multiple criteria
 
-## 0.04 
+## Changelog
+
+### 0.04 
 
 * lines in models.txt will be ignored if they start with a comment (e.g. "# dont-use-this-model/modelname")
 * lines in tests.csv will be ignored if they start with a comment (#)
@@ -169,17 +173,17 @@ check|"True" if the test `expected_result` string is present in the output strin
     * Added output examples
 
 
-## 0.03
+### 0.03
 * Only load model once
 * Actually do the test
 
-## 0.02 
+### 0.02 
 Moved test/prompt/image/expected result into tests.csv. Here's the columns:
 "test_description","prompt","image","expected_result"
 
 Not actually using the eval string yet.
 
-## 0.01 
+### 0.01 
 Prompt is hardcoded in prompts.txt
 Models are hardcoded in models.txt
 No evals yet.
