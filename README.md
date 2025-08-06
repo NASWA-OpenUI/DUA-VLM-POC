@@ -116,6 +116,7 @@ Output is appended to results.csv in the following format:
 timestamp|Timezone timestamp of when the prompt was run|2025-07-29T16:25:51
 model|The Hugging Face model path used for the test|mlx-community/SmolVLM-Instruct-bf16
 test_description|The provided test description from the test file|Extract the proprietor name from a provided form
+image_path|The provided path to the test image
 prompt|The provided prompt from the test file|What is the name of the proprietor?
 output|The output response from the model|The name of the proprietor is Ricky Nelson.
 expected_result|The expected result string from the test file|Ricky Nelson
@@ -137,8 +138,17 @@ check|"True" if the test `expected_result` string is present in the output strin
 ----
 
 ## To-do
-* Lots and lots of test data
-* JSON validator for tests so it doesn't just fall over
+* Model/prompt testing
+    * JSON validator for tests so it doesn't just fall over
+    * run tests against both a pass/ and a fail/ directory (but only if they exist)
+    * record whether the images are pass or fail images in the results
+    * test image directories could be an array?
+
+* Safety
+    * The function returning images from a path doesn't actually return images from a path. It just returns all files. We need to check that they're actually images.
+
+## To-done
+* ~~Add more test data~~
 * ~~run a single test against multiple images~~
 * Do logging "properly"
 * "Tidy up the console output"

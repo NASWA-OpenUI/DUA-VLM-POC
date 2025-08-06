@@ -29,7 +29,7 @@ def load_tests_json(tests_file):
     return tests_json
 
 def load_test_images(test_image_path):
-    '''Returns an array of the images in a provided image path'''
+    '''Returns an array of the files in a path'''
     try:
         test_images = [f for f in listdir(test_image_path) if isfile(join(test_image_path, f))]
     except Exception as e:
@@ -78,7 +78,7 @@ def write_results(file_path, results):
     file_exists = Path(file_path).exists()
 
     with open(file_path, "a", newline="", encoding="utf-8") as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=["timestamp", "model", "test_description", "prompt", "output", "expected_result", "check"])
+        writer = csv.DictWriter(csvfile, fieldnames=["timestamp", "model", "test_description", "image_path", "prompt", "output", "expected_result", "check"])
         
         if not file_exists:
             writer.writeheader()
@@ -169,7 +169,7 @@ def main():
                         test_satisfied = True
                         break
                 
-                this_result = [{"timestamp": timestamp, "model": model_path, "test_description": test['test_description'], "prompt": prompt, "output": output.text, "expected_result": test['expected_result'], "check": test_satisfied}]
+                this_result = [{"timestamp": timestamp, "model": model_path, "test_description": test['test_description'], "image_path": image_path, "prompt": prompt, "output": output.text, "expected_result": test['expected_result'], "check": test_satisfied}]
                 results.append(this_result)                
                 write_results(output_file, this_result)
 

@@ -943,3 +943,736 @@ DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/mlx-com
 08/03/2025 18:15:01 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'f\x00\x00\x00'
 08/03/2025 18:15:06 INFO: Test 4/4: image 1/1: Yes, this is a form 1040 schedule. It is Schedule F.
 08/03/2025 18:15:06 INFO: Run ended.
+08/06/2025 13:04:18 INFO: Starting run.
+08/06/2025 13:04:18 INFO: Using model file: models.txt
+08/06/2025 13:04:18 INFO: Using output_file file: results.csv
+08/06/2025 13:04:18 INFO: Using tests_file file: tests.json
+08/06/2025 13:04:18 DEBUG: Test 1 of 5: Self-employment contractor test
+08/06/2025 13:04:18 DEBUG: Test 2 of 5: Self-employment contractor test: type
+08/06/2025 13:04:18 DEBUG: Test 3 of 5: 1040 form check
+08/06/2025 13:04:18 DEBUG: Test 4 of 5: 1040 form schedule check
+08/06/2025 13:04:18 DEBUG: Test 5 of 5: Evidence of disaster
+08/06/2025 13:04:18 INFO: Running 5 tests against 2 models.
+08/06/2025 13:04:18 INFO: Starting run with model 1 of 2: mlx-community/SmolVLM-Instruct-bf16
+08/06/2025 13:04:18 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/06/2025 13:04:18 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/06/2025 13:04:21 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/06/2025 13:04:21 INFO: Starting test 1/5: Self-employment contractor test
+08/06/2025 13:04:21 INFO: Test 1/5: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/06/2025 13:04:21 INFO: Test 1/5: total eval strings: 1
+08/06/2025 13:04:21 INFO: Test 1/5: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/06/2025 13:04:27 INFO: Test 1/5: image 1/3:  Yes, this is an offer of work for someone who is self-employed, specifically a contractor or freelancer.
+08/06/2025 13:04:27 INFO: Test 1/5: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/06/2025 13:04:32 INFO: Test 1/5: image 2/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/06/2025 13:04:32 INFO: Test 1/5: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/06/2025 13:04:37 INFO: Test 1/5: image 3/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/06/2025 13:04:37 INFO: Starting test 2/5: Self-employment contractor test: type
+08/06/2025 13:04:37 INFO: Test 2/5: prompt: What kind of self-employed work is this an offer for?
+08/06/2025 13:04:37 INFO: Test 2/5: total eval strings: 2
+08/06/2025 13:04:37 INFO: Test 2/5: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/06/2025 13:04:42 INFO: Test 2/5: image 1/3:  This is an offer for freelance writing work.
+08/06/2025 13:04:42 INFO: Test 2/5: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/06/2025 13:04:47 INFO: Test 2/5: image 2/3:  This is an offer for freelance writing and delivering articles as assigned by the editorial team.
+08/06/2025 13:04:47 INFO: Test 2/5: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/06/2025 13:04:52 INFO: Test 2/5: image 3/3:  This is an offer for freelance work.
+08/06/2025 13:04:52 INFO: Starting test 3/5: 1040 form check
+08/06/2025 13:04:52 INFO: Test 3/5: prompt: Is this a 1040 tax form?
+08/06/2025 13:04:52 INFO: Test 3/5: total eval strings: 4
+08/06/2025 13:04:52 INFO: Test 3/5: Running prompt on image 1/1: tests/images/1040/schedule-f/001.jpg
+08/06/2025 13:04:52 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:04:52 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:04:52 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:04:52 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/06/2025 13:04:52 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:04:52 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'f\x00\x00\x00'
+08/06/2025 13:04:57 INFO: Test 3/5: image 1/1:  Yes, this is a 1040 tax form.
+08/06/2025 13:04:57 INFO: Starting test 4/5: 1040 form schedule check
+08/06/2025 13:04:57 INFO: Test 4/5: prompt: Is this a form 1040 schedule? If so, what 1040 schedule form is it? Answer in the form "Schedule" and then the name of the Schedule, .e.g. "Schedule F"
+08/06/2025 13:04:57 INFO: Test 4/5: total eval strings: 10
+08/06/2025 13:04:57 INFO: Test 4/5: Running prompt on image 1/1: tests/images/1040/schedule-f/001.jpg
+08/06/2025 13:04:57 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:04:57 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:04:57 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:04:57 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/06/2025 13:04:57 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:04:57 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'f\x00\x00\x00'
+08/06/2025 13:05:03 INFO: Test 4/5: image 1/1:  Schedule F
+08/06/2025 13:05:03 INFO: Starting test 5/5: Evidence of disaster
+08/06/2025 13:05:03 INFO: Test 5/5: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.
+08/06/2025 13:05:03 INFO: Test 5/5: total eval strings: 4
+08/06/2025 13:05:03 INFO: Test 5/5: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/06/2025 13:05:03 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/06/2025 13:05:07 INFO: Test 5/5: image 1/2:  Yes.
+08/06/2025 13:05:07 INFO: Test 5/5: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/06/2025 13:05:11 INFO: Test 5/5: image 2/2:  Yes.
+08/06/2025 13:05:11 INFO: Starting run with model 2 of 2: mlx-community/llava-interleave-qwen-7b-4bit
+08/06/2025 13:05:11 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/06/2025 13:05:14 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/06/2025 13:05:14 INFO: Starting test 1/5: Self-employment contractor test
+08/06/2025 13:05:14 INFO: Test 1/5: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/06/2025 13:05:14 INFO: Test 1/5: total eval strings: 1
+08/06/2025 13:05:14 INFO: Test 1/5: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/06/2025 13:05:21 INFO: Test 1/5: image 1/3: Yes, the document is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/06/2025 13:05:21 INFO: Test 1/5: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/06/2025 13:05:26 INFO: Test 1/5: image 2/3: Yes, this appears to be an offer of work for someone who is self-employed, like a contractor or freelancer. The document is from the "Pacific Horizons Magazine" and is offering the opportunity to contribute articles to the magazine.
+08/06/2025 13:05:26 INFO: Test 1/5: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/06/2025 13:05:31 INFO: Test 1/5: image 3/3: Yes, the document appears to be an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/06/2025 13:05:31 INFO: Starting test 2/5: Self-employment contractor test: type
+08/06/2025 13:05:31 INFO: Test 2/5: prompt: What kind of self-employed work is this an offer for?
+08/06/2025 13:05:31 INFO: Test 2/5: total eval strings: 2
+08/06/2025 13:05:31 INFO: Test 2/5: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/06/2025 13:05:36 INFO: Test 2/5: image 1/3: The offer is for freelance writing work, specifically for a publication called GreenFuture Weekly.
+08/06/2025 13:05:36 INFO: Test 2/5: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/06/2025 13:05:41 INFO: Test 2/5: image 2/3: This is an offer for self-employed work in the publishing industry, specifically for the "Pacific Horizons Magazine."
+08/06/2025 13:05:41 INFO: Test 2/5: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/06/2025 13:05:45 INFO: Test 2/5: image 3/3: The offer is for self-employed work in the publishing industry, specifically for a magazine called "Wanderlight Journal."
+08/06/2025 13:05:45 INFO: Starting test 3/5: 1040 form check
+08/06/2025 13:05:45 INFO: Test 3/5: prompt: Is this a 1040 tax form?
+08/06/2025 13:05:45 INFO: Test 3/5: total eval strings: 4
+08/06/2025 13:05:45 INFO: Test 3/5: Running prompt on image 1/1: tests/images/1040/schedule-f/001.jpg
+08/06/2025 13:05:45 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:05:45 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:05:45 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:05:45 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/06/2025 13:05:45 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:05:45 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'f\x00\x00\x00'
+08/06/2025 13:05:52 INFO: Test 3/5: image 1/1: Yes, this is a 1040 tax form. The document is titled "Profit or Loss from Farming" and includes various sections and fields that are typical of a 1040 form. These sections include personal information, income and deductions, and other relevant details. The form is numbered "20" and is dated "2020," indicating it is for the tax year 2020.
+08/06/2025 13:05:52 INFO: Starting test 4/5: 1040 form schedule check
+08/06/2025 13:05:52 INFO: Test 4/5: prompt: Is this a form 1040 schedule? If so, what 1040 schedule form is it? Answer in the form "Schedule" and then the name of the Schedule, .e.g. "Schedule F"
+08/06/2025 13:05:52 INFO: Test 4/5: total eval strings: 10
+08/06/2025 13:05:52 INFO: Test 4/5: Running prompt on image 1/1: tests/images/1040/schedule-f/001.jpg
+08/06/2025 13:05:52 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:05:52 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:05:52 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:05:52 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/06/2025 13:05:52 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:05:52 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'f\x00\x00\x00'
+08/06/2025 13:05:56 INFO: Test 4/5: image 1/1: Yes, this is a form 1040 schedule. It is Schedule F.
+08/06/2025 13:05:56 INFO: Starting test 5/5: Evidence of disaster
+08/06/2025 13:05:56 INFO: Test 5/5: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.
+08/06/2025 13:05:56 INFO: Test 5/5: total eval strings: 4
+08/06/2025 13:05:56 INFO: Test 5/5: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/06/2025 13:05:56 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/06/2025 13:06:00 INFO: Test 5/5: image 1/2: Yes
+08/06/2025 13:06:00 INFO: Test 5/5: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/06/2025 13:06:04 INFO: Test 5/5: image 2/2: Yes
+08/06/2025 13:06:04 INFO: Run ended.
+08/06/2025 13:08:34 INFO: Starting run.
+08/06/2025 13:08:34 INFO: Using model file: models.txt
+08/06/2025 13:08:34 INFO: Using output_file file: results.csv
+08/06/2025 13:08:34 INFO: Using tests_file file: tests.json
+08/06/2025 13:08:34 DEBUG: Test 1 of 5: Self-employment contractor test
+08/06/2025 13:08:34 DEBUG: Test 2 of 5: Self-employment contractor test: type
+08/06/2025 13:08:34 DEBUG: Test 3 of 5: 1040 form check
+08/06/2025 13:08:34 DEBUG: Test 4 of 5: 1040 form schedule check
+08/06/2025 13:08:34 DEBUG: Test 5 of 5: Evidence of disaster
+08/06/2025 13:08:34 INFO: Running 5 tests against 2 models.
+08/06/2025 13:08:34 INFO: Starting run with model 1 of 2: mlx-community/SmolVLM-Instruct-bf16
+08/06/2025 13:08:34 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/06/2025 13:08:34 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/06/2025 13:08:35 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/06/2025 13:08:35 INFO: Starting test 1/5: Self-employment contractor test
+08/06/2025 13:08:35 INFO: Test 1/5: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/06/2025 13:08:35 INFO: Test 1/5: total eval strings: 1
+08/06/2025 13:08:35 INFO: Test 1/5: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/06/2025 13:08:40 INFO: Test 1/5: image 1/3:  Yes, this is an offer of work for someone who is self-employed, specifically a contractor or freelancer.
+08/06/2025 13:08:40 INFO: Test 1/5: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/06/2025 13:08:45 INFO: Test 1/5: image 2/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/06/2025 13:08:45 INFO: Test 1/5: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/06/2025 13:08:50 INFO: Test 1/5: image 3/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/06/2025 13:08:50 INFO: Starting test 2/5: Self-employment contractor test: type
+08/06/2025 13:08:50 INFO: Test 2/5: prompt: What kind of self-employed work is this an offer for?
+08/06/2025 13:08:50 INFO: Test 2/5: total eval strings: 2
+08/06/2025 13:08:50 INFO: Test 2/5: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/06/2025 13:08:55 INFO: Test 2/5: image 1/3:  This is an offer for freelance writing work.
+08/06/2025 13:08:55 INFO: Test 2/5: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/06/2025 13:09:00 INFO: Test 2/5: image 2/3:  This is an offer for freelance writing and delivering articles as assigned by the editorial team.
+08/06/2025 13:09:00 INFO: Test 2/5: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/06/2025 13:09:05 INFO: Test 2/5: image 3/3:  This is an offer for freelance work.
+08/06/2025 13:09:05 INFO: Starting test 3/5: 1040 form check
+08/06/2025 13:09:05 INFO: Test 3/5: prompt: Is this a 1040 tax form?
+08/06/2025 13:09:05 INFO: Test 3/5: total eval strings: 4
+08/06/2025 13:09:05 INFO: Test 3/5: Running prompt on image 1/1: tests/images/1040/schedule-f/001.jpg
+08/06/2025 13:09:05 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:09:05 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:09:05 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:09:05 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/06/2025 13:09:05 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:09:05 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'f\x00\x00\x00'
+08/06/2025 13:09:10 INFO: Test 3/5: image 1/1:  Yes, this is a 1040 tax form.
+08/06/2025 13:09:10 INFO: Starting test 4/5: 1040 form schedule check
+08/06/2025 13:09:10 INFO: Test 4/5: prompt: Is this a form 1040 schedule? If so, what 1040 schedule form is it? Answer in the form "Schedule" and then the name of the Schedule, .e.g. "Schedule F"
+08/06/2025 13:09:10 INFO: Test 4/5: total eval strings: 10
+08/06/2025 13:09:10 INFO: Test 4/5: Running prompt on image 1/1: tests/images/1040/schedule-f/001.jpg
+08/06/2025 13:09:10 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:09:10 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:09:10 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:09:10 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/06/2025 13:09:10 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:09:10 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'f\x00\x00\x00'
+08/06/2025 13:09:16 INFO: Test 4/5: image 1/1:  Schedule F
+08/06/2025 13:09:16 INFO: Starting test 5/5: Evidence of disaster
+08/06/2025 13:09:16 INFO: Test 5/5: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.
+08/06/2025 13:09:16 INFO: Test 5/5: total eval strings: 4
+08/06/2025 13:09:16 INFO: Test 5/5: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/06/2025 13:09:16 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/06/2025 13:09:20 INFO: Test 5/5: image 1/2:  Yes.
+08/06/2025 13:09:20 INFO: Test 5/5: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/06/2025 13:09:24 INFO: Test 5/5: image 2/2:  Yes.
+08/06/2025 13:09:24 INFO: Starting run with model 2 of 2: mlx-community/llava-interleave-qwen-7b-4bit
+08/06/2025 13:09:24 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/06/2025 13:09:28 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/06/2025 13:09:28 INFO: Starting test 1/5: Self-employment contractor test
+08/06/2025 13:09:28 INFO: Test 1/5: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/06/2025 13:09:28 INFO: Test 1/5: total eval strings: 1
+08/06/2025 13:09:28 INFO: Test 1/5: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/06/2025 13:09:35 INFO: Test 1/5: image 1/3: Yes, the document is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/06/2025 13:09:35 INFO: Test 1/5: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/06/2025 13:09:41 INFO: Test 1/5: image 2/3: Yes, this appears to be an offer of work for someone who is self-employed, like a contractor or freelancer. The document is from the "Pacific Horizons Magazine" and is offering the opportunity to contribute articles to the magazine.
+08/06/2025 13:09:41 INFO: Test 1/5: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/06/2025 13:09:45 INFO: Test 1/5: image 3/3: Yes, the document appears to be an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/06/2025 13:09:45 INFO: Starting test 2/5: Self-employment contractor test: type
+08/06/2025 13:09:45 INFO: Test 2/5: prompt: What kind of self-employed work is this an offer for?
+08/06/2025 13:09:45 INFO: Test 2/5: total eval strings: 2
+08/06/2025 13:09:45 INFO: Test 2/5: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/06/2025 13:10:03 INFO: Starting run.
+08/06/2025 13:10:03 INFO: Using model file: models.txt
+08/06/2025 13:10:03 INFO: Using output_file file: results.csv
+08/06/2025 13:10:03 INFO: Using tests_file file: tests.json
+08/06/2025 13:10:03 DEBUG: Test 1 of 6: Self-employment contractor test
+08/06/2025 13:10:03 DEBUG: Test 2 of 6: Self-employment contractor test: type
+08/06/2025 13:10:03 DEBUG: Test 3 of 6: 1040 form check
+08/06/2025 13:10:03 DEBUG: Test 4 of 6: 1040 form schedule check
+08/06/2025 13:10:03 DEBUG: Test 5 of 6: Evidence of disaster
+08/06/2025 13:10:03 DEBUG: Test 6 of 6: Type of disaster
+08/06/2025 13:10:03 INFO: Running 6 tests against 2 models.
+08/06/2025 13:10:03 INFO: Starting run with model 1 of 2: mlx-community/SmolVLM-Instruct-bf16
+08/06/2025 13:10:03 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/06/2025 13:10:03 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/06/2025 13:10:04 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/06/2025 13:10:04 INFO: Starting test 1/6: Self-employment contractor test
+08/06/2025 13:10:04 INFO: Test 1/6: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/06/2025 13:10:04 INFO: Test 1/6: total eval strings: 1
+08/06/2025 13:10:04 INFO: Test 1/6: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/06/2025 13:10:10 INFO: Test 1/6: image 1/3:  Yes, this is an offer of work for someone who is self-employed, specifically a contractor or freelancer.
+08/06/2025 13:10:10 INFO: Test 1/6: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/06/2025 13:10:15 INFO: Test 1/6: image 2/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/06/2025 13:10:15 INFO: Test 1/6: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/06/2025 13:10:20 INFO: Test 1/6: image 3/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/06/2025 13:10:20 INFO: Starting test 2/6: Self-employment contractor test: type
+08/06/2025 13:10:20 INFO: Test 2/6: prompt: What kind of self-employed work is this an offer for?
+08/06/2025 13:10:20 INFO: Test 2/6: total eval strings: 2
+08/06/2025 13:10:20 INFO: Test 2/6: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/06/2025 13:10:25 INFO: Test 2/6: image 1/3:  This is an offer for freelance writing work.
+08/06/2025 13:10:25 INFO: Test 2/6: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/06/2025 13:10:30 INFO: Test 2/6: image 2/3:  This is an offer for freelance writing and delivering articles as assigned by the editorial team.
+08/06/2025 13:10:30 INFO: Test 2/6: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/06/2025 13:10:34 INFO: Test 2/6: image 3/3:  This is an offer for freelance work.
+08/06/2025 13:10:34 INFO: Starting test 3/6: 1040 form check
+08/06/2025 13:10:34 INFO: Test 3/6: prompt: Is this a 1040 tax form?
+08/06/2025 13:10:34 INFO: Test 3/6: total eval strings: 4
+08/06/2025 13:10:34 INFO: Test 3/6: Running prompt on image 1/1: tests/images/1040/schedule-f/001.jpg
+08/06/2025 13:10:34 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:10:34 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:10:34 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:10:34 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/06/2025 13:10:34 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:10:34 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'f\x00\x00\x00'
+08/06/2025 13:10:40 INFO: Test 3/6: image 1/1:  Yes, this is a 1040 tax form.
+08/06/2025 13:10:40 INFO: Starting test 4/6: 1040 form schedule check
+08/06/2025 13:10:40 INFO: Test 4/6: prompt: Is this a form 1040 schedule? If so, what 1040 schedule form is it? Answer in the form "Schedule" and then the name of the Schedule, .e.g. "Schedule F"
+08/06/2025 13:10:40 INFO: Test 4/6: total eval strings: 10
+08/06/2025 13:10:40 INFO: Test 4/6: Running prompt on image 1/1: tests/images/1040/schedule-f/001.jpg
+08/06/2025 13:10:40 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:10:40 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:10:40 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:10:40 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/06/2025 13:10:40 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:10:40 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'f\x00\x00\x00'
+08/06/2025 13:10:45 INFO: Test 4/6: image 1/1:  Schedule F
+08/06/2025 13:10:45 INFO: Starting test 5/6: Evidence of disaster
+08/06/2025 13:10:45 INFO: Test 5/6: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.
+08/06/2025 13:10:45 INFO: Test 5/6: total eval strings: 4
+08/06/2025 13:10:45 INFO: Test 5/6: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/06/2025 13:10:45 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/06/2025 13:10:50 INFO: Test 5/6: image 1/2:  Yes.
+08/06/2025 13:10:50 INFO: Test 5/6: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/06/2025 13:10:54 INFO: Test 5/6: image 2/2:  Yes.
+08/06/2025 13:10:54 INFO: Starting test 6/6: Type of disaster
+08/06/2025 13:10:54 INFO: Test 6/6: prompt: What kind of disaster is shown here?
+08/06/2025 13:10:54 INFO: Test 6/6: total eval strings: 3
+08/06/2025 13:10:54 INFO: Test 6/6: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/06/2025 13:10:54 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/06/2025 13:11:04 INFO: Test 6/6: image 1/2:  The image depicts a flood situation, specifically a flood in a residential area. The water level has risen significantly, submerging the lower parts of several houses and potentially causing damage to their structures. The water is murky and brownish, suggesting that it may contain debris or pollutants.
+
+The houses are primarily blue in color, with some having white accents, and they are situated in a row. The front of the houses is visible, showing their windows and doors. The front doors are either white or blue, and the windows are either white or blue. The houses have a peaked roof, typical of residential buildings in the United States.
+
+In the foreground, there is a mailbox, which is partially submerged in the water. The mailbox is black and has a red flag attached to it. The water level is high enough to cover the mailbox, indicating that the flood has reached a significant depth.
+
+The background of the image shows a few trees, which are green, indicating that it is likely a summer or spring season. The sky is cloudy, with a mix of light and dark clouds, suggesting that the weather might be overcast or rainy.
+
+The image captures the aftermath of a flood, highlighting the devastation it can cause to homes and property
+08/06/2025 13:11:04 INFO: Test 6/6: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/06/2025 13:11:14 INFO: Test 6/6: image 2/2:  The image depicts a flooded basement. The water has caused significant damage to the floor, with large pieces of debris scattered across the wet surface. The water appears to be murky and possibly sewage-contaminated, given the presence of a yellow plastic bottle and other debris. The floor is severely damaged, with large cracks and gaps between the tiles. The walls and ceiling are also affected, with visible holes and water damage.
+
+In the background, there is a kitchen area with a refrigerator, a table, and a ladder. The refrigerator is old and appears to be in poor condition, with visible rust and water damage. The table is covered in debris, and the ladder is leaning against the wall, suggesting that it has been used to access the upper level. The kitchen area is cluttered with various items, including a potted plant, a box, and a few other objects.
+
+The ceiling is partially damaged, with exposed wiring and insulation. The light fixtures are not working, and the overall atmosphere of the basement is one of neglect and disrepair.
+
+### Analysis:
+
+The image is a photograph taken in a basement that has been flooded. The flooding has caused significant damage to the floor, walls, and ceiling, with large pieces of debris scattered across the
+08/06/2025 13:11:14 INFO: Starting run with model 2 of 2: mlx-community/llava-interleave-qwen-7b-4bit
+08/06/2025 13:11:14 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/06/2025 13:11:17 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/06/2025 13:11:17 INFO: Starting test 1/6: Self-employment contractor test
+08/06/2025 13:11:17 INFO: Test 1/6: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/06/2025 13:11:17 INFO: Test 1/6: total eval strings: 1
+08/06/2025 13:11:17 INFO: Test 1/6: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/06/2025 13:11:25 INFO: Test 1/6: image 1/3: Yes, the document is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/06/2025 13:11:25 INFO: Test 1/6: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/06/2025 13:11:30 INFO: Test 1/6: image 2/3: Yes, this appears to be an offer of work for someone who is self-employed, like a contractor or freelancer. The document is from the "Pacific Horizons Magazine" and is offering the opportunity to contribute articles to the magazine.
+08/06/2025 13:11:30 INFO: Test 1/6: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/06/2025 13:11:45 INFO: Starting run.
+08/06/2025 13:11:45 INFO: Using model file: models.txt
+08/06/2025 13:11:45 INFO: Using output_file file: results.csv
+08/06/2025 13:11:45 INFO: Using tests_file file: tests.json
+08/06/2025 13:11:45 DEBUG: Test 1 of 6: Self-employment contractor test
+08/06/2025 13:11:45 DEBUG: Test 2 of 6: Self-employment contractor test: type
+08/06/2025 13:11:45 DEBUG: Test 3 of 6: 1040 form check
+08/06/2025 13:11:45 DEBUG: Test 4 of 6: 1040 form schedule check
+08/06/2025 13:11:45 DEBUG: Test 5 of 6: Evidence of disaster
+08/06/2025 13:11:45 DEBUG: Test 6 of 6: Type of disaster
+08/06/2025 13:11:45 INFO: Running 6 tests against 2 models.
+08/06/2025 13:11:45 INFO: Starting run with model 1 of 2: mlx-community/SmolVLM-Instruct-bf16
+08/06/2025 13:11:45 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/06/2025 13:11:45 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/06/2025 13:11:46 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/06/2025 13:11:46 INFO: Starting test 1/6: Self-employment contractor test
+08/06/2025 13:11:46 INFO: Test 1/6: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/06/2025 13:11:46 INFO: Test 1/6: total eval strings: 1
+08/06/2025 13:11:46 INFO: Test 1/6: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/06/2025 13:11:51 INFO: Test 1/6: image 1/3:  Yes, this is an offer of work for someone who is self-employed, specifically a contractor or freelancer.
+08/06/2025 13:11:51 INFO: Test 1/6: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/06/2025 13:11:57 INFO: Test 1/6: image 2/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/06/2025 13:11:57 INFO: Test 1/6: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/06/2025 13:12:01 INFO: Test 1/6: image 3/3:  Yes, this is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/06/2025 13:12:01 INFO: Starting test 2/6: Self-employment contractor test: type
+08/06/2025 13:12:01 INFO: Test 2/6: prompt: What kind of self-employed work is this an offer for?
+08/06/2025 13:12:01 INFO: Test 2/6: total eval strings: 2
+08/06/2025 13:12:01 INFO: Test 2/6: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/06/2025 13:12:06 INFO: Test 2/6: image 1/3:  This is an offer for freelance writing work.
+08/06/2025 13:12:06 INFO: Test 2/6: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/06/2025 13:12:11 INFO: Test 2/6: image 2/3:  This is an offer for freelance writing and delivering articles as assigned by the editorial team.
+08/06/2025 13:12:11 INFO: Test 2/6: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/06/2025 13:12:16 INFO: Test 2/6: image 3/3:  This is an offer for freelance work.
+08/06/2025 13:12:16 INFO: Starting test 3/6: 1040 form check
+08/06/2025 13:12:16 INFO: Test 3/6: prompt: Is this a 1040 tax form?
+08/06/2025 13:12:16 INFO: Test 3/6: total eval strings: 4
+08/06/2025 13:12:16 INFO: Test 3/6: Running prompt on image 1/1: tests/images/1040/schedule-f/001.jpg
+08/06/2025 13:12:16 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:12:16 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:12:16 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:12:16 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/06/2025 13:12:16 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:12:16 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'f\x00\x00\x00'
+08/06/2025 13:12:22 INFO: Test 3/6: image 1/1:  Yes, this is a 1040 tax form.
+08/06/2025 13:12:22 INFO: Starting test 4/6: 1040 form schedule check
+08/06/2025 13:12:22 INFO: Test 4/6: prompt: Is this a form 1040 schedule? If so, what 1040 schedule form is it? Answer in the form "Schedule" and then the name of the Schedule, .e.g. "Schedule F"
+08/06/2025 13:12:22 INFO: Test 4/6: total eval strings: 10
+08/06/2025 13:12:22 INFO: Test 4/6: Running prompt on image 1/1: tests/images/1040/schedule-f/001.jpg
+08/06/2025 13:12:22 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:12:22 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:12:22 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:12:22 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/06/2025 13:12:22 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:12:22 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'f\x00\x00\x00'
+08/06/2025 13:12:27 INFO: Test 4/6: image 1/1:  Schedule F
+08/06/2025 13:12:27 INFO: Starting test 5/6: Evidence of disaster
+08/06/2025 13:12:27 INFO: Test 5/6: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.
+08/06/2025 13:12:27 INFO: Test 5/6: total eval strings: 4
+08/06/2025 13:12:27 INFO: Test 5/6: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/06/2025 13:12:27 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/06/2025 13:12:31 INFO: Test 5/6: image 1/2:  Yes.
+08/06/2025 13:12:31 INFO: Test 5/6: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/06/2025 13:12:35 INFO: Test 5/6: image 2/2:  Yes.
+08/06/2025 13:12:35 INFO: Starting test 6/6: Type of disaster
+08/06/2025 13:12:35 INFO: Test 6/6: prompt: What kind of disaster is shown here?
+08/06/2025 13:12:35 INFO: Test 6/6: total eval strings: 3
+08/06/2025 13:12:35 INFO: Test 6/6: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/06/2025 13:12:35 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/06/2025 13:12:45 INFO: Test 6/6: image 1/2:  The image depicts a flood situation, specifically a flood in a residential area. The water level has risen significantly, submerging the lower parts of several houses and potentially causing damage to their structures. The water is murky and brownish, suggesting that it may contain debris or pollutants.
+
+The houses are primarily blue in color, with some having white accents, and they are situated in a row. The front of the houses is visible, showing their windows and doors. The front doors are either white or blue, and the windows are either white or blue. The houses have a peaked roof, typical of residential buildings in the United States.
+
+In the foreground, there is a mailbox, which is partially submerged in the water. The mailbox is black and has a red flag attached to it. The water level is high enough to cover the mailbox, indicating that the flood has reached a significant depth.
+
+The background of the image shows a few trees, which are green, indicating that it is likely a summer or spring season. The sky is cloudy, with a mix of light and dark clouds, suggesting that the weather might be overcast or rainy.
+
+The image captures the aftermath of a flood, highlighting the devastation it can cause to homes and property
+08/06/2025 13:12:45 INFO: Test 6/6: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/06/2025 13:12:55 INFO: Test 6/6: image 2/2:  The image depicts a flooded basement. The water has caused significant damage to the floor, with large pieces of debris scattered across the wet surface. The water appears to be murky and possibly sewage-contaminated, given the presence of a yellow plastic bottle and other debris. The floor is severely damaged, with large cracks and gaps between the tiles. The walls and ceiling are also affected, with visible holes and water damage.
+
+In the background, there is a kitchen area with a refrigerator, a table, and a ladder. The refrigerator is old and appears to be in poor condition, with visible rust and water damage. The table is covered in debris, and the ladder is leaning against the wall, suggesting that it has been used to access the upper level. The kitchen area is cluttered with various items, including a potted plant, a box, and a few other objects.
+
+The ceiling is partially damaged, with exposed wiring and insulation. The light fixtures are not working, and the overall atmosphere of the basement is one of neglect and disrepair.
+
+### Analysis:
+
+The image is a photograph taken in a basement that has been flooded. The flooding has caused significant damage to the floor, walls, and ceiling, with large pieces of debris scattered across the
+08/06/2025 13:12:55 INFO: Starting run with model 2 of 2: mlx-community/llava-interleave-qwen-7b-4bit
+08/06/2025 13:12:55 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/06/2025 13:12:59 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/06/2025 13:12:59 INFO: Starting test 1/6: Self-employment contractor test
+08/06/2025 13:12:59 INFO: Test 1/6: prompt: Is this an offer of work for someone who is self-employed, like a contractor or freelancer?
+08/06/2025 13:12:59 INFO: Test 1/6: total eval strings: 1
+08/06/2025 13:12:59 INFO: Test 1/6: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/06/2025 13:13:05 INFO: Test 1/6: image 1/3: Yes, the document is an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/06/2025 13:13:05 INFO: Test 1/6: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/06/2025 13:13:11 INFO: Test 1/6: image 2/3: Yes, this appears to be an offer of work for someone who is self-employed, like a contractor or freelancer. The document is from the "Pacific Horizons Magazine" and is offering the opportunity to contribute articles to the magazine.
+08/06/2025 13:13:11 INFO: Test 1/6: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/06/2025 13:13:16 INFO: Test 1/6: image 3/3: Yes, the document appears to be an offer of work for someone who is self-employed, like a contractor or freelancer.
+08/06/2025 13:13:16 INFO: Starting test 2/6: Self-employment contractor test: type
+08/06/2025 13:13:16 INFO: Test 2/6: prompt: What kind of self-employed work is this an offer for?
+08/06/2025 13:13:16 INFO: Test 2/6: total eval strings: 2
+08/06/2025 13:13:16 INFO: Test 2/6: Running prompt on image 1/3: tests/images/self-employment/offers/test-offer-002.HEIC
+08/06/2025 13:13:20 INFO: Test 2/6: image 1/3: The offer is for freelance writing work, specifically for a publication called GreenFuture Weekly.
+08/06/2025 13:13:20 INFO: Test 2/6: Running prompt on image 2/3: tests/images/self-employment/offers/test-offer-003.HEIC
+08/06/2025 13:13:25 INFO: Test 2/6: image 2/3: This is an offer for self-employed work in the publishing industry, specifically for the "Pacific Horizons Magazine."
+08/06/2025 13:13:25 INFO: Test 2/6: Running prompt on image 3/3: tests/images/self-employment/offers/test-offer-001.HEIC
+08/06/2025 13:13:30 INFO: Test 2/6: image 3/3: The offer is for self-employed work in the publishing industry, specifically for a magazine called "Wanderlight Journal."
+08/06/2025 13:13:30 INFO: Starting test 3/6: 1040 form check
+08/06/2025 13:13:30 INFO: Test 3/6: prompt: Is this a 1040 tax form?
+08/06/2025 13:13:30 INFO: Test 3/6: total eval strings: 4
+08/06/2025 13:13:30 INFO: Test 3/6: Running prompt on image 1/1: tests/images/1040/schedule-f/001.jpg
+08/06/2025 13:13:30 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:13:30 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:13:30 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:13:30 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/06/2025 13:13:30 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:13:30 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'f\x00\x00\x00'
+08/06/2025 13:13:37 INFO: Test 3/6: image 1/1: Yes, this is a 1040 tax form. The document is titled "Profit or Loss from Farming" and includes various sections and fields that are typical of a 1040 form. These sections include personal information, income and deductions, and other relevant details. The form is numbered "20" and is dated "2020," indicating it is for the tax year 2020.
+08/06/2025 13:13:37 INFO: Starting test 4/6: 1040 form schedule check
+08/06/2025 13:13:37 INFO: Test 4/6: prompt: Is this a form 1040 schedule? If so, what 1040 schedule form is it? Answer in the form "Schedule" and then the name of the Schedule, .e.g. "Schedule F"
+08/06/2025 13:13:37 INFO: Test 4/6: total eval strings: 10
+08/06/2025 13:13:37 INFO: Test 4/6: Running prompt on image 1/1: tests/images/1040/schedule-f/001.jpg
+08/06/2025 13:13:37 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:13:37 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:13:37 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:13:37 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/06/2025 13:13:37 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:13:37 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'f\x00\x00\x00'
+08/06/2025 13:13:41 INFO: Test 4/6: image 1/1: Yes, this is a form 1040 schedule. It is Schedule F.
+08/06/2025 13:13:41 INFO: Starting test 5/6: Evidence of disaster
+08/06/2025 13:13:41 INFO: Test 5/6: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.
+08/06/2025 13:13:41 INFO: Test 5/6: total eval strings: 4
+08/06/2025 13:13:41 INFO: Test 5/6: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/06/2025 13:13:41 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/06/2025 13:13:46 INFO: Test 5/6: image 1/2: Yes
+08/06/2025 13:13:46 INFO: Test 5/6: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/06/2025 13:13:50 INFO: Test 5/6: image 2/2: Yes
+08/06/2025 13:13:50 INFO: Starting test 6/6: Type of disaster
+08/06/2025 13:13:50 INFO: Test 6/6: prompt: What kind of disaster is shown here?
+08/06/2025 13:13:50 INFO: Test 6/6: total eval strings: 3
+08/06/2025 13:13:50 INFO: Test 6/6: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/06/2025 13:13:50 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/06/2025 13:13:56 INFO: Test 6/6: image 1/2: The image shows a disaster that resembles a flood, with water rising to the level of the first floor of a house. The water is brown, which is often indicative of heavy rainfall or sediment in the water. The presence of a mailbox partially submerged in the water suggests that the area is a residential neighborhood. The sky is overcast, which could contribute to the flooding. The house has a blue exterior, and the water level is high enough to reach the windows and the front porch.
+08/06/2025 13:13:56 INFO: Test 6/6: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/06/2025 13:14:03 INFO: Test 6/6: image 2/2: The image shows a room that has been severely damaged, likely due to a natural disaster such as an earthquake or a heavy storm. The walls are crumpled and broken, the floor is a chaotic jumble of wood planks, debris, and possibly water, and there is a general sense of destruction and disarray. The exact cause of the disaster is not visible in the image.
+08/06/2025 13:14:03 INFO: Run ended.
+08/06/2025 13:19:54 INFO: Starting run.
+08/06/2025 13:19:54 INFO: Using model file: models.txt
+08/06/2025 13:19:54 INFO: Using output_file file: results.csv
+08/06/2025 13:19:54 INFO: Using tests_file file: tests.json
+08/06/2025 13:19:54 DEBUG: Test 1 of 4: Evidence of disaster
+08/06/2025 13:19:54 DEBUG: Test 2 of 4: Type of disaster
+08/06/2025 13:19:54 DEBUG: Test 3 of 4: Evidence of disaster
+08/06/2025 13:19:54 DEBUG: Test 4 of 4: Type of disaster
+08/06/2025 13:19:54 INFO: Running 4 tests against 2 models.
+08/06/2025 13:19:54 INFO: Starting run with model 1 of 2: mlx-community/SmolVLM-Instruct-bf16
+08/06/2025 13:19:54 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/06/2025 13:19:54 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/06/2025 13:19:56 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/06/2025 13:19:56 INFO: Starting test 1/4: Evidence of disaster
+08/06/2025 13:19:56 INFO: Test 1/4: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.
+08/06/2025 13:19:56 INFO: Test 1/4: total eval strings: 4
+08/06/2025 13:19:56 INFO: Test 1/4: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/06/2025 13:19:56 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/06/2025 13:20:01 INFO: Test 1/4: image 1/2:  Yes.
+08/06/2025 13:20:01 INFO: Test 1/4: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/06/2025 13:20:06 INFO: Test 1/4: image 2/2:  Yes.
+08/06/2025 13:20:06 INFO: Starting test 2/4: Type of disaster
+08/06/2025 13:20:06 INFO: Test 2/4: prompt: What kind of disaster is shown here?
+08/06/2025 13:20:06 INFO: Test 2/4: total eval strings: 3
+08/06/2025 13:20:06 INFO: Test 2/4: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/06/2025 13:20:06 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/06/2025 13:20:16 INFO: Test 2/4: image 1/2:  The image depicts a flood situation, specifically a flood in a residential area. The water level has risen significantly, submerging the lower parts of several houses and potentially causing damage to their structures. The water is murky and brownish, suggesting that it may contain debris or pollutants.
+
+The houses are primarily blue in color, with some having white accents, and they are situated in a row. The front of the houses is visible, showing their windows and doors. The front doors are either white or blue, and the windows are either white or blue. The houses have a peaked roof, typical of residential buildings in the United States.
+
+In the foreground, there is a mailbox, which is partially submerged in the water. The mailbox is black and has a red flag attached to it. The water level is high enough to cover the mailbox, indicating that the flood has reached a significant depth.
+
+The background of the image shows a few trees, which are green, indicating that it is likely a summer or spring season. The sky is cloudy, with a mix of light and dark clouds, suggesting that the weather might be overcast or rainy.
+
+The image captures the aftermath of a flood, highlighting the devastation it can cause to homes and property
+08/06/2025 13:20:16 INFO: Test 2/4: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/06/2025 13:20:27 INFO: Test 2/4: image 2/2:  The image depicts a flooded basement. The water has caused significant damage to the floor, with large pieces of debris scattered across the wet surface. The water appears to be murky and possibly sewage-contaminated, given the presence of a yellow plastic bottle and other debris. The floor is severely damaged, with large cracks and gaps between the tiles. The walls and ceiling are also affected, with visible holes and water damage.
+
+In the background, there is a kitchen area with a refrigerator, a table, and a ladder. The refrigerator is old and appears to be in poor condition, with visible rust and water damage. The table is covered in debris, and the ladder is leaning against the wall, suggesting that it has been used to access the upper level. The kitchen area is cluttered with various items, including a potted plant, a box, and a few other objects.
+
+The ceiling is partially damaged, with exposed wiring and insulation. The light fixtures are not working, and the overall atmosphere of the basement is one of neglect and disrepair.
+
+### Analysis:
+
+The image is a photograph taken in a basement that has been flooded. The flooding has caused significant damage to the floor, walls, and ceiling, with large pieces of debris scattered across the
+08/06/2025 13:20:27 INFO: Starting test 3/4: Evidence of disaster
+08/06/2025 13:20:27 INFO: Test 3/4: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.
+08/06/2025 13:20:27 INFO: Test 3/4: total eval strings: 3
+08/06/2025 13:20:27 INFO: Test 3/4: Running prompt on image 1/2: tests/images/disaster/fire/IMG_0506-2885709045.jpg
+08/06/2025 13:20:27 DEBUG: tag: ImageDescription (270) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'                               \x00'
+08/06/2025 13:20:27 DEBUG: tag: Make (271) - type: string (2) Tag Location: 34 - Data Location: 178 - value: b'Canon\x00'
+08/06/2025 13:20:27 DEBUG: tag: Model (272) - type: string (2) Tag Location: 46 - Data Location: 184 - value: b'Canon PowerShot SX400 IS\x00'
+08/06/2025 13:20:27 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:20:27 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 70 - Data Location: 210 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:20:27 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 82 - Data Location: 218 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:20:27 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/06/2025 13:20:27 DEBUG: tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 226 - value: b'2018:03:28 10:13:52\x00'
+08/06/2025 13:20:27 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+08/06/2025 13:20:27 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'\xf6\x00\x00\x00'
+08/06/2025 13:20:27 DEBUG: tag: GPSInfoIFD (34853) - type: long (4) - value: b'p\x19\x00\x00'
+08/06/2025 13:20:27 DEBUG: tag: MPFVersion (45056) - type: undefined (7) - value: b'0100'
+08/06/2025 13:20:27 DEBUG: tag: NumberOfImages (45057) - type: long (4) - value: b'\x02\x00\x00\x00'
+08/06/2025 13:20:27 DEBUG: tag: MPEntry (45058) - type: undefined (7) Tag Location: 46 - Data Location: 50 - value: b'\x00\x00\x03\x80A\x02A\x00\x00\x00\x00\x00\x02\x00\x00\x00\x02\x00\x01@\x00N\x07\x00X\x88@\x00\x00\x00\x00\x00'
+08/06/2025 13:20:31 INFO: Test 3/4: image 1/2:  Yes.
+08/06/2025 13:20:31 INFO: Test 3/4: Running prompt on image 2/2: tests/images/disaster/fire/fire-2-3308097013.jpg
+08/06/2025 13:20:35 INFO: Test 3/4: image 2/2:  Yes.
+08/06/2025 13:20:35 INFO: Starting test 4/4: Type of disaster
+08/06/2025 13:20:35 INFO: Test 4/4: prompt: What kind of disaster is shown here?
+08/06/2025 13:20:35 INFO: Test 4/4: total eval strings: 2
+08/06/2025 13:20:35 INFO: Test 4/4: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/06/2025 13:20:35 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/06/2025 13:20:46 INFO: Test 4/4: image 1/2:  The image depicts a flood situation, specifically a flood in a residential area. The water level has risen significantly, submerging the lower parts of several houses and potentially causing damage to their structures. The water is murky and brownish, suggesting that it may contain debris or pollutants.
+
+The houses are primarily blue in color, with some having white accents, and they are situated in a row. The front of the houses is visible, showing their windows and doors. The front doors are either white or blue, and the windows are either white or blue. The houses have a peaked roof, typical of residential buildings in the United States.
+
+In the foreground, there is a mailbox, which is partially submerged in the water. The mailbox is black and has a red flag attached to it. The water level is high enough to cover the mailbox, indicating that the flood has reached a significant depth.
+
+The background of the image shows a few trees, which are green, indicating that it is likely a summer or spring season. The sky is cloudy, with a mix of light and dark clouds, suggesting that the weather might be overcast or rainy.
+
+The image captures the aftermath of a flood, highlighting the devastation it can cause to homes and property
+08/06/2025 13:20:46 INFO: Test 4/4: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/06/2025 13:20:56 INFO: Test 4/4: image 2/2:  The image depicts a flooded basement. The water has caused significant damage to the floor, with large pieces of debris scattered across the wet surface. The water appears to be murky and possibly sewage-contaminated, given the presence of a yellow plastic bottle and other debris. The floor is severely damaged, with large cracks and gaps between the tiles. The walls and ceiling are also affected, with visible holes and water damage.
+
+In the background, there is a kitchen area with a refrigerator, a table, and a ladder. The refrigerator is old and appears to be in poor condition, with visible rust and water damage. The table is covered in debris, and the ladder is leaning against the wall, suggesting that it has been used to access the upper level. The kitchen area is cluttered with various items, including a potted plant, a box, and a few other objects.
+
+The ceiling is partially damaged, with exposed wiring and insulation. The light fixtures are not working, and the overall atmosphere of the basement is one of neglect and disrepair.
+
+### Analysis:
+
+The image is a photograph taken in a basement that has been flooded. The flooding has caused significant damage to the floor, walls, and ceiling, with large pieces of debris scattered across the
+08/06/2025 13:20:56 INFO: Starting run with model 2 of 2: mlx-community/llava-interleave-qwen-7b-4bit
+08/06/2025 13:20:56 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/06/2025 13:20:59 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/06/2025 13:21:00 INFO: Starting test 1/4: Evidence of disaster
+08/06/2025 13:21:00 INFO: Test 1/4: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.
+08/06/2025 13:21:00 INFO: Test 1/4: total eval strings: 4
+08/06/2025 13:21:00 INFO: Test 1/4: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/06/2025 13:21:00 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/06/2025 13:21:05 INFO: Test 1/4: image 1/2: Yes
+08/06/2025 13:21:05 INFO: Test 1/4: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/06/2025 13:21:09 INFO: Test 1/4: image 2/2: Yes
+08/06/2025 13:21:09 INFO: Starting test 2/4: Type of disaster
+08/06/2025 13:21:09 INFO: Test 2/4: prompt: What kind of disaster is shown here?
+08/06/2025 13:21:09 INFO: Test 2/4: total eval strings: 3
+08/06/2025 13:21:09 INFO: Test 2/4: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/06/2025 13:21:09 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/06/2025 13:21:16 INFO: Test 2/4: image 1/2: The image shows a disaster that resembles a flood, with water rising to the level of the first floor of a house. The water is brown, which is often indicative of heavy rainfall or sediment in the water. The presence of a mailbox partially submerged in the water suggests that the area is a residential neighborhood. The sky is overcast, which could contribute to the flooding. The house has a blue exterior, and the water level is high enough to reach the windows and the front porch.
+08/06/2025 13:21:16 INFO: Test 2/4: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/06/2025 13:21:22 INFO: Test 2/4: image 2/2: The image shows a room that has been severely damaged, likely due to a natural disaster such as an earthquake or a heavy storm. The walls are crumpled and broken, the floor is a chaotic jumble of wood planks, debris, and possibly water, and there is a general sense of destruction and disarray. The exact cause of the disaster is not visible in the image.
+08/06/2025 13:21:22 INFO: Starting test 3/4: Evidence of disaster
+08/06/2025 13:21:22 INFO: Test 3/4: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.
+08/06/2025 13:21:22 INFO: Test 3/4: total eval strings: 3
+08/06/2025 13:21:22 INFO: Test 3/4: Running prompt on image 1/2: tests/images/disaster/fire/IMG_0506-2885709045.jpg
+08/06/2025 13:21:22 DEBUG: tag: ImageDescription (270) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'                               \x00'
+08/06/2025 13:21:22 DEBUG: tag: Make (271) - type: string (2) Tag Location: 34 - Data Location: 178 - value: b'Canon\x00'
+08/06/2025 13:21:22 DEBUG: tag: Model (272) - type: string (2) Tag Location: 46 - Data Location: 184 - value: b'Canon PowerShot SX400 IS\x00'
+08/06/2025 13:21:22 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/06/2025 13:21:22 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 70 - Data Location: 210 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:21:22 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 82 - Data Location: 218 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 13:21:22 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/06/2025 13:21:22 DEBUG: tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 226 - value: b'2018:03:28 10:13:52\x00'
+08/06/2025 13:21:22 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+08/06/2025 13:21:22 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'\xf6\x00\x00\x00'
+08/06/2025 13:21:22 DEBUG: tag: GPSInfoIFD (34853) - type: long (4) - value: b'p\x19\x00\x00'
+08/06/2025 13:21:22 DEBUG: tag: MPFVersion (45056) - type: undefined (7) - value: b'0100'
+08/06/2025 13:21:22 DEBUG: tag: NumberOfImages (45057) - type: long (4) - value: b'\x02\x00\x00\x00'
+08/06/2025 13:21:22 DEBUG: tag: MPEntry (45058) - type: undefined (7) Tag Location: 46 - Data Location: 50 - value: b'\x00\x00\x03\x80A\x02A\x00\x00\x00\x00\x00\x02\x00\x00\x00\x02\x00\x01@\x00N\x07\x00X\x88@\x00\x00\x00\x00\x00'
+08/06/2025 13:21:26 INFO: Test 3/4: image 1/2: Yes
+08/06/2025 13:21:26 INFO: Test 3/4: Running prompt on image 2/2: tests/images/disaster/fire/fire-2-3308097013.jpg
+08/06/2025 13:21:30 INFO: Test 3/4: image 2/2: Yes
+08/06/2025 13:21:30 INFO: Starting test 4/4: Type of disaster
+08/06/2025 13:21:30 INFO: Test 4/4: prompt: What kind of disaster is shown here?
+08/06/2025 13:21:30 INFO: Test 4/4: total eval strings: 2
+08/06/2025 13:21:30 INFO: Test 4/4: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/06/2025 13:21:30 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/06/2025 13:21:37 INFO: Test 4/4: image 1/2: The image shows a disaster that resembles a flood, with water rising to the level of the first floor of a house. The water is brown, which is often indicative of heavy rainfall or sediment in the water. The presence of a mailbox partially submerged in the water suggests that the area is a residential neighborhood. The sky is overcast, which could contribute to the flooding. The house has a blue exterior, and the water level is high enough to reach the windows and the front porch.
+08/06/2025 13:21:37 INFO: Test 4/4: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/06/2025 13:21:43 INFO: Test 4/4: image 2/2: The image shows a room that has been severely damaged, likely due to a natural disaster such as an earthquake or a heavy storm. The walls are crumpled and broken, the floor is a chaotic jumble of wood planks, debris, and possibly water, and there is a general sense of destruction and disarray. The exact cause of the disaster is not visible in the image.
+08/06/2025 13:21:43 INFO: Run ended.
+08/06/2025 14:04:38 INFO: Starting run.
+08/06/2025 14:04:38 INFO: Using model file: models.txt
+08/06/2025 14:04:38 INFO: Using output_file file: results.csv
+08/06/2025 14:04:38 INFO: Using tests_file file: tests.json
+08/06/2025 14:04:38 DEBUG: Test 1 of 4: Evidence of disaster
+08/06/2025 14:04:38 DEBUG: Test 2 of 4: Type of disaster
+08/06/2025 14:04:38 DEBUG: Test 3 of 4: Evidence of disaster
+08/06/2025 14:04:38 DEBUG: Test 4 of 4: Type of disaster
+08/06/2025 14:04:38 INFO: Running 4 tests against 2 models.
+08/06/2025 14:04:38 INFO: Starting run with model 1 of 2: mlx-community/SmolVLM-Instruct-bf16
+08/06/2025 14:04:38 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/06/2025 14:04:38 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/06/2025 14:04:40 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/06/2025 14:04:40 INFO: Starting test 1/4: Evidence of disaster
+08/06/2025 14:04:40 INFO: Test 1/4: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.
+08/06/2025 14:04:40 INFO: Test 1/4: total eval strings: 4
+08/06/2025 14:04:40 INFO: Test 1/4: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/06/2025 14:04:40 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/06/2025 14:04:45 INFO: Test 1/4: image 1/2:  Yes.
+08/06/2025 14:04:45 INFO: Test 1/4: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/06/2025 14:04:49 INFO: Test 1/4: image 2/2:  Yes.
+08/06/2025 14:04:49 INFO: Starting test 2/4: Type of disaster
+08/06/2025 14:04:49 INFO: Test 2/4: prompt: What kind of disaster is shown here?
+08/06/2025 14:04:49 INFO: Test 2/4: total eval strings: 3
+08/06/2025 14:04:49 INFO: Test 2/4: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/06/2025 14:04:49 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/06/2025 14:04:59 INFO: Test 2/4: image 1/2:  The image depicts a flood situation, specifically a flood in a residential area. The water level has risen significantly, submerging the lower parts of several houses and potentially causing damage to their structures. The water is murky and brownish, suggesting that it may contain debris or pollutants.
+
+The houses are primarily blue in color, with some having white accents, and they are situated in a row. The front of the houses is visible, showing their windows and doors. The front doors are either white or blue, and the windows are either white or blue. The houses have a peaked roof, typical of residential buildings in the United States.
+
+In the foreground, there is a mailbox, which is partially submerged in the water. The mailbox is black and has a red flag attached to it. The water level is high enough to cover the mailbox, indicating that the flood has reached a significant depth.
+
+The background of the image shows a few trees, which are green, indicating that it is likely a summer or spring season. The sky is cloudy, with a mix of light and dark clouds, suggesting that the weather might be overcast or rainy.
+
+The image captures the aftermath of a flood, highlighting the devastation it can cause to homes and property
+08/06/2025 14:04:59 INFO: Test 2/4: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/06/2025 14:05:09 INFO: Test 2/4: image 2/2:  The image depicts a flooded basement. The water has caused significant damage to the floor, with large pieces of debris scattered across the wet surface. The water appears to be murky and possibly sewage-contaminated, given the presence of a yellow plastic bottle and other debris. The floor is severely damaged, with large cracks and gaps between the tiles. The walls and ceiling are also affected, with visible holes and water damage.
+
+In the background, there is a kitchen area with a refrigerator, a table, and a ladder. The refrigerator is old and appears to be in poor condition, with visible rust and water damage. The table is covered in debris, and the ladder is leaning against the wall, suggesting that it has been used to access the upper level. The kitchen area is cluttered with various items, including a potted plant, a box, and a few other objects.
+
+The ceiling is partially damaged, with exposed wiring and insulation. The light fixtures are not working, and the overall atmosphere of the basement is one of neglect and disrepair.
+
+### Analysis:
+
+The image is a photograph taken in a basement that has been flooded. The flooding has caused significant damage to the floor, walls, and ceiling, with large pieces of debris scattered across the
+08/06/2025 14:05:09 INFO: Starting test 3/4: Evidence of disaster
+08/06/2025 14:05:09 INFO: Test 3/4: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.
+08/06/2025 14:05:09 INFO: Test 3/4: total eval strings: 3
+08/06/2025 14:05:09 INFO: Test 3/4: Running prompt on image 1/2: tests/images/disaster/fire/IMG_0506-2885709045.jpg
+08/06/2025 14:05:09 DEBUG: tag: ImageDescription (270) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'                               \x00'
+08/06/2025 14:05:09 DEBUG: tag: Make (271) - type: string (2) Tag Location: 34 - Data Location: 178 - value: b'Canon\x00'
+08/06/2025 14:05:09 DEBUG: tag: Model (272) - type: string (2) Tag Location: 46 - Data Location: 184 - value: b'Canon PowerShot SX400 IS\x00'
+08/06/2025 14:05:09 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/06/2025 14:05:09 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 70 - Data Location: 210 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 14:05:09 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 82 - Data Location: 218 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 14:05:09 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/06/2025 14:05:09 DEBUG: tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 226 - value: b'2018:03:28 10:13:52\x00'
+08/06/2025 14:05:09 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+08/06/2025 14:05:09 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'\xf6\x00\x00\x00'
+08/06/2025 14:05:09 DEBUG: tag: GPSInfoIFD (34853) - type: long (4) - value: b'p\x19\x00\x00'
+08/06/2025 14:05:09 DEBUG: tag: MPFVersion (45056) - type: undefined (7) - value: b'0100'
+08/06/2025 14:05:09 DEBUG: tag: NumberOfImages (45057) - type: long (4) - value: b'\x02\x00\x00\x00'
+08/06/2025 14:05:09 DEBUG: tag: MPEntry (45058) - type: undefined (7) Tag Location: 46 - Data Location: 50 - value: b'\x00\x00\x03\x80A\x02A\x00\x00\x00\x00\x00\x02\x00\x00\x00\x02\x00\x01@\x00N\x07\x00X\x88@\x00\x00\x00\x00\x00'
+08/06/2025 14:05:14 INFO: Test 3/4: image 1/2:  Yes.
+08/06/2025 14:05:14 INFO: Test 3/4: Running prompt on image 2/2: tests/images/disaster/fire/fire-2-3308097013.jpg
+08/06/2025 14:05:18 INFO: Test 3/4: image 2/2:  Yes.
+08/06/2025 14:05:18 INFO: Starting test 4/4: Type of disaster
+08/06/2025 14:05:18 INFO: Test 4/4: prompt: What kind of disaster is shown here?
+08/06/2025 14:05:18 INFO: Test 4/4: total eval strings: 2
+08/06/2025 14:05:18 INFO: Test 4/4: Running prompt on image 1/2: tests/images/disaster/fire/IMG_0506-2885709045.jpg
+08/06/2025 14:05:18 DEBUG: tag: ImageDescription (270) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'                               \x00'
+08/06/2025 14:05:18 DEBUG: tag: Make (271) - type: string (2) Tag Location: 34 - Data Location: 178 - value: b'Canon\x00'
+08/06/2025 14:05:18 DEBUG: tag: Model (272) - type: string (2) Tag Location: 46 - Data Location: 184 - value: b'Canon PowerShot SX400 IS\x00'
+08/06/2025 14:05:18 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/06/2025 14:05:18 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 70 - Data Location: 210 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 14:05:18 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 82 - Data Location: 218 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 14:05:18 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/06/2025 14:05:18 DEBUG: tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 226 - value: b'2018:03:28 10:13:52\x00'
+08/06/2025 14:05:18 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+08/06/2025 14:05:18 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'\xf6\x00\x00\x00'
+08/06/2025 14:05:18 DEBUG: tag: GPSInfoIFD (34853) - type: long (4) - value: b'p\x19\x00\x00'
+08/06/2025 14:05:18 DEBUG: tag: MPFVersion (45056) - type: undefined (7) - value: b'0100'
+08/06/2025 14:05:18 DEBUG: tag: NumberOfImages (45057) - type: long (4) - value: b'\x02\x00\x00\x00'
+08/06/2025 14:05:18 DEBUG: tag: MPEntry (45058) - type: undefined (7) Tag Location: 46 - Data Location: 50 - value: b'\x00\x00\x03\x80A\x02A\x00\x00\x00\x00\x00\x02\x00\x00\x00\x02\x00\x01@\x00N\x07\x00X\x88@\x00\x00\x00\x00\x00'
+08/06/2025 14:05:28 INFO: Test 4/4: image 1/2:  The image depicts a scene of a house that has been severely damaged by a fire or other high-temperature event. The primary focus of the image is the kitchen area, which is severely damaged. The walls, ceiling, and refrigerator are all blackened and charred, indicating that the fire or heat was intense. The refrigerator is positioned in the center of the image, and its door is open, revealing the interior of the appliance. The interior of the refrigerator is also blackened and charred, suggesting that the fire or heat was intense.
+
+The kitchen area is cluttered with debris, including boxes, plastic bags, and other items that have been damaged or destroyed by the fire. The floor is covered in debris, and the walls are scorched and blackened. The doorway in the background is open, and a person is standing in the doorway, wearing a black T-shirt with the text "Rural Electrics Association" on the back. The person is looking into the kitchen area, and their expression is one of concern or worry.
+
+The image is a photograph, and it is clear that the house has been severely damaged by the fire or heat. The damage is extensive, and it is evident that the fire or heat was intense. The image
+08/06/2025 14:05:28 INFO: Test 4/4: Running prompt on image 2/2: tests/images/disaster/fire/fire-2-3308097013.jpg
+08/06/2025 14:05:38 INFO: Test 4/4: image 2/2:  The image depicts the aftermath of a fire, specifically a house that has been severely damaged. The scene is dominated by the charred remains of the house, which is now a pile of debris. The walls and roof of the house are completely destroyed, leaving only the foundation and a few pieces of debris. The interior of the house is exposed, revealing the charred remains of furniture and other household items. The scene is lit by the warm glow of the interior lights, which are still functional despite the extensive damage.
+
+The house is situated in a residential area, with neighboring houses visible in the background. The neighboring houses are intact, but they are also affected by the fire, as evidenced by the darkened and damaged state of their exteriors. The sky above is clear, with a few wisps of clouds, indicating that the fire occurred during the day. The overall scene is one of devastation and loss, with the fire having caused significant damage to the property and its surroundings.
+
+The image is a powerful visual representation of the destructive force of fire, highlighting the aftermath of a devastating event. The scene is a reminder of the importance of fire safety and the need for preparedness in preventing such incidents.
+08/06/2025 14:05:38 INFO: Starting run with model 2 of 2: mlx-community/llava-interleave-qwen-7b-4bit
+08/06/2025 14:05:38 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/06/2025 14:05:41 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/06/2025 14:05:41 INFO: Starting test 1/4: Evidence of disaster
+08/06/2025 14:05:41 INFO: Test 1/4: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.
+08/06/2025 14:05:41 INFO: Test 1/4: total eval strings: 4
+08/06/2025 14:05:41 INFO: Test 1/4: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/06/2025 14:05:41 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/06/2025 14:05:47 INFO: Test 1/4: image 1/2: Yes
+08/06/2025 14:05:47 INFO: Test 1/4: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/06/2025 14:05:51 INFO: Test 1/4: image 2/2: Yes
+08/06/2025 14:05:51 INFO: Starting test 2/4: Type of disaster
+08/06/2025 14:05:51 INFO: Test 2/4: prompt: What kind of disaster is shown here?
+08/06/2025 14:05:51 INFO: Test 2/4: total eval strings: 3
+08/06/2025 14:05:51 INFO: Test 2/4: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/06/2025 14:05:51 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/06/2025 14:05:58 INFO: Test 2/4: image 1/2: The image shows a disaster that resembles a flood, with water rising to the level of the first floor of a house. The water is brown, which is often indicative of heavy rainfall or sediment in the water. The presence of a mailbox partially submerged in the water suggests that the area is a residential neighborhood. The sky is overcast, which could contribute to the flooding. The house has a blue exterior, and the water level is high enough to reach the windows and the front porch.
+08/06/2025 14:05:58 INFO: Test 2/4: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/06/2025 14:06:04 INFO: Test 2/4: image 2/2: The image shows a room that has been severely damaged, likely due to a natural disaster such as an earthquake or a heavy storm. The walls are crumpled and broken, the floor is a chaotic jumble of wood planks, debris, and possibly water, and there is a general sense of destruction and disarray. The exact cause of the disaster is not visible in the image.
+08/06/2025 14:06:04 INFO: Starting test 3/4: Evidence of disaster
+08/06/2025 14:06:04 INFO: Test 3/4: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.
+08/06/2025 14:06:04 INFO: Test 3/4: total eval strings: 3
+08/06/2025 14:06:04 INFO: Test 3/4: Running prompt on image 1/2: tests/images/disaster/fire/IMG_0506-2885709045.jpg
+08/06/2025 14:06:04 DEBUG: tag: ImageDescription (270) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'                               \x00'
+08/06/2025 14:06:04 DEBUG: tag: Make (271) - type: string (2) Tag Location: 34 - Data Location: 178 - value: b'Canon\x00'
+08/06/2025 14:06:04 DEBUG: tag: Model (272) - type: string (2) Tag Location: 46 - Data Location: 184 - value: b'Canon PowerShot SX400 IS\x00'
+08/06/2025 14:06:04 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/06/2025 14:06:04 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 70 - Data Location: 210 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 14:06:04 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 82 - Data Location: 218 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 14:06:04 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/06/2025 14:06:04 DEBUG: tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 226 - value: b'2018:03:28 10:13:52\x00'
+08/06/2025 14:06:04 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+08/06/2025 14:06:04 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'\xf6\x00\x00\x00'
+08/06/2025 14:06:04 DEBUG: tag: GPSInfoIFD (34853) - type: long (4) - value: b'p\x19\x00\x00'
+08/06/2025 14:06:04 DEBUG: tag: MPFVersion (45056) - type: undefined (7) - value: b'0100'
+08/06/2025 14:06:04 DEBUG: tag: NumberOfImages (45057) - type: long (4) - value: b'\x02\x00\x00\x00'
+08/06/2025 14:06:04 DEBUG: tag: MPEntry (45058) - type: undefined (7) Tag Location: 46 - Data Location: 50 - value: b'\x00\x00\x03\x80A\x02A\x00\x00\x00\x00\x00\x02\x00\x00\x00\x02\x00\x01@\x00N\x07\x00X\x88@\x00\x00\x00\x00\x00'
+08/06/2025 14:06:08 INFO: Test 3/4: image 1/2: Yes
+08/06/2025 14:06:08 INFO: Test 3/4: Running prompt on image 2/2: tests/images/disaster/fire/fire-2-3308097013.jpg
+08/06/2025 14:06:12 INFO: Test 3/4: image 2/2: Yes
+08/06/2025 14:06:12 INFO: Starting test 4/4: Type of disaster
+08/06/2025 14:06:12 INFO: Test 4/4: prompt: What kind of disaster is shown here?
+08/06/2025 14:06:12 INFO: Test 4/4: total eval strings: 2
+08/06/2025 14:06:12 INFO: Test 4/4: Running prompt on image 1/2: tests/images/disaster/fire/IMG_0506-2885709045.jpg
+08/06/2025 14:06:12 DEBUG: tag: ImageDescription (270) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'                               \x00'
+08/06/2025 14:06:12 DEBUG: tag: Make (271) - type: string (2) Tag Location: 34 - Data Location: 178 - value: b'Canon\x00'
+08/06/2025 14:06:12 DEBUG: tag: Model (272) - type: string (2) Tag Location: 46 - Data Location: 184 - value: b'Canon PowerShot SX400 IS\x00'
+08/06/2025 14:06:12 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/06/2025 14:06:12 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 70 - Data Location: 210 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 14:06:12 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 82 - Data Location: 218 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/06/2025 14:06:12 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/06/2025 14:06:12 DEBUG: tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 226 - value: b'2018:03:28 10:13:52\x00'
+08/06/2025 14:06:12 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+08/06/2025 14:06:12 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'\xf6\x00\x00\x00'
+08/06/2025 14:06:12 DEBUG: tag: GPSInfoIFD (34853) - type: long (4) - value: b'p\x19\x00\x00'
+08/06/2025 14:06:12 DEBUG: tag: MPFVersion (45056) - type: undefined (7) - value: b'0100'
+08/06/2025 14:06:12 DEBUG: tag: NumberOfImages (45057) - type: long (4) - value: b'\x02\x00\x00\x00'
+08/06/2025 14:06:12 DEBUG: tag: MPEntry (45058) - type: undefined (7) Tag Location: 46 - Data Location: 50 - value: b'\x00\x00\x03\x80A\x02A\x00\x00\x00\x00\x00\x02\x00\x00\x00\x02\x00\x01@\x00N\x07\x00X\x88@\x00\x00\x00\x00\x00'
+08/06/2025 14:06:19 INFO: Test 4/4: image 1/2: The image shows a room that has suffered from a fire or other disaster, resulting in significant damage. The walls are charred, the ceiling is blackened, and the floor appears to be covered in soot or ash. The room is in a state of disrepair, with items such as a refrigerator, a door, and possibly some furniture or personal belongings scattered around. The overall impression is one of devastation and the need for significant cleanup and possibly rebuilding efforts.
+08/06/2025 14:06:19 INFO: Test 4/4: Running prompt on image 2/2: tests/images/disaster/fire/fire-2-3308097013.jpg
+08/06/2025 14:06:25 INFO: Test 4/4: image 2/2: The image shows a scene of destruction, possibly after a natural disaster such as an earthquake or a storm. The buildings are damaged, and debris is scattered around. The colors are predominantly dark and muted, with the exception of some bright spots that could be windows or fires. The style of the image is somewhat abstract, with the details of the scene not being very clear.
+08/06/2025 14:06:25 INFO: Run ended.
