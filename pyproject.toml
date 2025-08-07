@@ -15,4 +15,5 @@ dependencies = [
     "pillow>=11.3.0",
     "llm-structured-output>=0.0.20",
     "pillow-heif>=1.0.0",
+    "num2words>=0.5.14",
 ]

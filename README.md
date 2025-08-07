@@ -143,6 +143,7 @@ check|"True" if the test `expected_result` string is present in the output strin
     * run tests against both a pass/ and a fail/ directory (but only if they exist)
     * record whether the images are pass or fail images in the results
     * test image directories could be an array?
+    * probably need to provide eval criteria *per test file*
 
 * Safety
     * The function returning images from a path doesn't actually return images from a path. It just returns all files. We need to check that they're actually images.
