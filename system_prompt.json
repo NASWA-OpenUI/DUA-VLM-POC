@@ -1,0 +1,4 @@
+[
+    {
+        "system_prompt": "You are a helpful assistant that extracts structured information from documents and returns the information in JSON format"
+}]

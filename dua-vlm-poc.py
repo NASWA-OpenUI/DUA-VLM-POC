@@ -17,6 +17,13 @@ DEFAULT_MODELS_FILE = "models.txt"
 DEFAULT_OUTPUT_FILE = "results.csv"
 DEFAULT_TEST_FILE = "tests.json"
 DEFAULT_LOGFILE = "logs/DUA-VLM-POC.log"
+DEFAULT_SYSTEM_PROMPT_FILE = "system_prompt.json"
+
+def load_system_prompt(system_prompt_file):
+    with open(system_prompt_file, encoding='utf-8') as f:
+        system_prompt_json = json.load(f)
+        system_prompt = system_prompt_json[0]['system_prompt'])
+    return system_prompt
 
 def load_tests_json(tests_file):
     # print(f"Trying to load json tests file {tests_file}")
@@ -199,4 +206,3 @@ logging.basicConfig(
 if __name__ == "__main__":
 
     main()
-
