@@ -3579,3 +3579,1737 @@ The document clearly states "For assistance you may call us at:1-800-289-4933" a
 08/06/2025 17:23:01 DEBUG: STREAM b'IDAT' 91 65445
 08/06/2025 17:23:05 INFO: Test 3/3: image 4/4:  ACME LLC
 08/06/2025 17:23:05 INFO: Run ended.
+08/11/2025 10:35:26 INFO: Starting run.
+08/11/2025 10:36:18 INFO: Starting run.
+08/11/2025 10:36:18 INFO: Using model file: models.txt
+08/11/2025 10:36:18 INFO: Using output_file file: results.csv
+08/11/2025 10:36:18 INFO: Using tests_file file: tests.json
+08/11/2025 10:36:18 DEBUG: Test 1 of 1: Evidence of disaster
+08/11/2025 10:36:18 INFO: Running 1 tests against 1 models.
+08/11/2025 10:36:18 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 10:36:18 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 10:36:18 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:36:20 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:36:20 INFO: Starting test 1/1: Evidence of disaster
+08/11/2025 10:36:20 INFO: Test 1/1: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.
+08/11/2025 10:36:20 INFO: Test 1/1: total eval strings: 4
+08/11/2025 10:36:20 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/11/2025 10:36:20 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 10:36:26 INFO: Test 1/1: image 1/2:  Yes.
+08/11/2025 10:36:26 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 10:36:30 INFO: Test 1/1: image 2/2:  Yes.
+08/11/2025 10:36:30 INFO: Run ended.
+08/11/2025 10:37:19 INFO: Starting run.
+08/11/2025 10:37:19 INFO: Using model file: models.txt
+08/11/2025 10:37:19 INFO: Using output_file file: results.csv
+08/11/2025 10:37:19 INFO: Using tests_file file: tests.json
+08/11/2025 10:37:19 DEBUG: Test 1 of 1: Evidence of disaster
+08/11/2025 10:37:19 INFO: Running 1 tests against 1 models.
+08/11/2025 10:37:19 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 10:37:19 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 10:37:19 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:37:20 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:37:20 INFO: Starting test 1/1: Evidence of disaster
+08/11/2025 10:37:20 INFO: Test 1/1: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.
+08/11/2025 10:37:20 INFO: Test 1/1: total eval strings: 4
+08/11/2025 10:37:20 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/11/2025 10:37:20 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 10:37:24 INFO: Test 1/1: image 1/2:  Yes.
+08/11/2025 10:37:24 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 10:37:28 INFO: Test 1/1: image 2/2:  Yes.
+08/11/2025 10:37:28 INFO: Run ended.
+08/11/2025 10:38:37 INFO: Starting run.
+08/11/2025 10:38:37 INFO: Using model file: models.txt
+08/11/2025 10:38:37 INFO: Using output_file file: results.csv
+08/11/2025 10:38:37 INFO: Using tests_file file: tests.json
+08/11/2025 10:38:37 DEBUG: Test 1 of 1: Evidence of disaster
+08/11/2025 10:38:37 INFO: Running 1 tests against 1 models.
+08/11/2025 10:38:37 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 10:38:37 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 10:38:37 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:38:38 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:38:38 INFO: Starting test 1/1: Evidence of disaster
+08/11/2025 10:38:38 INFO: Test 1/1: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.
+08/11/2025 10:38:38 INFO: Test 1/1: total eval strings: 4
+08/11/2025 10:38:38 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/11/2025 10:38:38 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 10:38:42 INFO: Test 1/1: image 1/2:  Yes.
+08/11/2025 10:38:42 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 10:38:47 INFO: Test 1/1: image 2/2:  Yes.
+08/11/2025 10:38:47 INFO: Run ended.
+08/11/2025 10:39:09 INFO: Starting run.
+08/11/2025 10:39:09 INFO: Using model file: models.txt
+08/11/2025 10:39:09 INFO: Using output_file file: results.csv
+08/11/2025 10:39:09 INFO: Using tests_file file: tests.json
+08/11/2025 10:39:09 DEBUG: Test 1 of 1: Evidence of disaster
+08/11/2025 10:39:09 INFO: Running 1 tests against 1 models.
+08/11/2025 10:39:09 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 10:39:09 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 10:39:09 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:39:10 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:39:10 INFO: Starting test 1/1: Evidence of disaster
+08/11/2025 10:39:10 INFO: Test 1/1: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage.
+08/11/2025 10:39:10 INFO: Test 1/1: total eval strings: 4
+08/11/2025 10:39:10 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/11/2025 10:39:10 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 10:39:14 INFO: Test 1/1: image 1/2:  {'disaster_present': 'no'}.
+08/11/2025 10:39:14 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 10:39:19 INFO: Test 1/1: image 2/2:  {'disaster_present': 'yes'}.
+08/11/2025 10:39:19 INFO: Run ended.
+08/11/2025 10:40:27 INFO: Starting run.
+08/11/2025 10:40:27 INFO: Using model file: models.txt
+08/11/2025 10:40:27 INFO: Using output_file file: results.csv
+08/11/2025 10:40:27 INFO: Using tests_file file: tests.json
+08/11/2025 10:40:27 DEBUG: Test 1 of 1: Evidence of disaster
+08/11/2025 10:40:27 INFO: Running 1 tests against 1 models.
+08/11/2025 10:40:27 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 10:40:27 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 10:40:27 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:40:28 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:40:28 INFO: Starting test 1/1: Evidence of disaster
+08/11/2025 10:40:28 INFO: Test 1/1: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage.
+08/11/2025 10:40:28 INFO: Test 1/1: total eval strings: 4
+08/11/2025 10:40:28 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/11/2025 10:40:28 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 10:40:32 INFO: Test 1/1: image 1/2:  {'disaster_present': 'yes'}.
+08/11/2025 10:40:32 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 10:40:36 INFO: Test 1/1: image 2/2:  Yes.
+08/11/2025 10:40:36 INFO: Run ended.
+08/11/2025 10:42:07 INFO: Starting run.
+08/11/2025 10:42:07 INFO: Using model file: models.txt
+08/11/2025 10:42:07 INFO: Using output_file file: results.csv
+08/11/2025 10:42:07 INFO: Using tests_file file: tests.json
+08/11/2025 10:42:07 DEBUG: Test 1 of 1: Evidence of disaster
+08/11/2025 10:42:07 INFO: Running 1 tests against 1 models.
+08/11/2025 10:42:07 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 10:42:07 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 10:42:08 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:42:08 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:42:08 INFO: Starting test 1/1: Evidence of disaster
+08/11/2025 10:42:08 INFO: Test 1/1: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:42:08 INFO: Test 1/1: total eval strings: 4
+08/11/2025 10:42:08 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/11/2025 10:42:08 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 10:42:13 INFO: Test 1/1: image 1/2:  {'disaster_present': 'yes', 'disaster_type': 'flood'}
+08/11/2025 10:42:13 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 10:42:18 INFO: Test 1/1: image 2/2:  {'disaster_present': True, 'disaster_type': 'flood'}
+08/11/2025 10:42:18 INFO: Run ended.
+08/11/2025 10:44:01 INFO: Starting run.
+08/11/2025 10:44:01 INFO: Using model file: models.txt
+08/11/2025 10:44:01 INFO: Using output_file file: results.csv
+08/11/2025 10:44:01 INFO: Using tests_file file: tests.json
+08/11/2025 10:44:01 DEBUG: Test 1 of 2: Evidence of disaster
+08/11/2025 10:44:01 DEBUG: Test 2 of 2: Type of disaster
+08/11/2025 10:44:01 INFO: Running 2 tests against 1 models.
+08/11/2025 10:44:01 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 10:44:01 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 10:44:02 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:44:02 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:44:02 INFO: Starting test 1/2: Evidence of disaster
+08/11/2025 10:44:02 INFO: Test 1/2: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:44:02 INFO: Test 1/2: total eval strings: 4
+08/11/2025 10:44:02 INFO: Test 1/2: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/11/2025 10:44:02 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 10:44:07 INFO: Test 1/2: image 1/2:  {'disaster_present': TRUE, 'disaster_type': 'flood'}
+08/11/2025 10:44:07 INFO: Test 1/2: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 10:44:12 INFO: Test 1/2: image 2/2:  {'disaster_present': TRUE, 'disaster_type': 'flood'}
+08/11/2025 10:44:12 INFO: Starting test 2/2: Type of disaster
+08/11/2025 10:44:12 INFO: Test 2/2: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:44:12 INFO: Test 2/2: total eval strings: 3
+08/11/2025 10:44:12 INFO: Test 2/2: Running prompt on image 1/2: tests/images/disaster/fire/IMG_0506-2885709045.jpg
+08/11/2025 10:44:12 DEBUG: tag: ImageDescription (270) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'                               \x00'
+08/11/2025 10:44:12 DEBUG: tag: Make (271) - type: string (2) Tag Location: 34 - Data Location: 178 - value: b'Canon\x00'
+08/11/2025 10:44:12 DEBUG: tag: Model (272) - type: string (2) Tag Location: 46 - Data Location: 184 - value: b'Canon PowerShot SX400 IS\x00'
+08/11/2025 10:44:12 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/11/2025 10:44:12 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 70 - Data Location: 210 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/11/2025 10:44:12 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 82 - Data Location: 218 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/11/2025 10:44:12 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/11/2025 10:44:12 DEBUG: tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 226 - value: b'2018:03:28 10:13:52\x00'
+08/11/2025 10:44:12 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+08/11/2025 10:44:12 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'\xf6\x00\x00\x00'
+08/11/2025 10:44:12 DEBUG: tag: GPSInfoIFD (34853) - type: long (4) - value: b'p\x19\x00\x00'
+08/11/2025 10:44:12 DEBUG: tag: MPFVersion (45056) - type: undefined (7) - value: b'0100'
+08/11/2025 10:44:12 DEBUG: tag: NumberOfImages (45057) - type: long (4) - value: b'\x02\x00\x00\x00'
+08/11/2025 10:44:12 DEBUG: tag: MPEntry (45058) - type: undefined (7) Tag Location: 46 - Data Location: 50 - value: b'\x00\x00\x03\x80A\x02A\x00\x00\x00\x00\x00\x02\x00\x00\x00\x02\x00\x01@\x00N\x07\x00X\x88@\x00\x00\x00\x00\x00'
+08/11/2025 10:44:17 INFO: Test 2/2: image 1/2:  Yes
+{
+    "disaster_present": true,
+    "disaster_type": "fire"
+}
+08/11/2025 10:44:17 INFO: Test 2/2: Running prompt on image 2/2: tests/images/disaster/fire/fire-2-3308097013.jpg
+08/11/2025 10:44:21 INFO: Test 2/2: image 2/2:  No.
+08/11/2025 10:44:21 INFO: Run ended.
+08/11/2025 10:46:18 INFO: Starting run.
+08/11/2025 10:46:18 INFO: Using model file: models.txt
+08/11/2025 10:46:18 INFO: Using output_file file: results.csv
+08/11/2025 10:46:18 INFO: Using tests_file file: tests.json
+08/11/2025 10:46:18 DEBUG: Test 1 of 2: Evidence of disaster
+08/11/2025 10:46:18 DEBUG: Test 2 of 2: Type of disaster
+08/11/2025 10:46:18 INFO: Running 2 tests against 1 models.
+08/11/2025 10:46:18 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 10:46:18 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 10:46:18 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:46:19 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:46:19 INFO: Starting test 1/2: Evidence of disaster
+08/11/2025 10:46:19 INFO: Test 1/2: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:46:19 INFO: Test 1/2: total eval strings: 4
+08/11/2025 10:46:19 INFO: Test 1/2: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/11/2025 10:46:19 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer with the boolean TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': bool}, {'disaster_type'}: 
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:46:19 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 10:46:24 INFO: Test 1/2: image 1/2:  {'disaster_present': TRUE, 'disaster_type': 'flood'}
+08/11/2025 10:46:24 INFO: Test 1/2: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 10:46:24 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer with the boolean TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': bool}, {'disaster_type'}: 
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:46:29 INFO: Test 1/2: image 2/2:  {'disaster_present': TRUE, 'disaster_type': 'flood'}
+08/11/2025 10:46:29 INFO: Starting test 2/2: Type of disaster
+08/11/2025 10:46:29 INFO: Test 2/2: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:46:29 INFO: Test 2/2: total eval strings: 3
+08/11/2025 10:46:29 INFO: Test 2/2: Running prompt on image 1/2: tests/images/disaster/fire/IMG_0506-2885709045.jpg
+08/11/2025 10:46:29 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer with the boolean TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': bool}, {'disaster_type'}: 
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:46:29 DEBUG: tag: ImageDescription (270) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'                               \x00'
+08/11/2025 10:46:29 DEBUG: tag: Make (271) - type: string (2) Tag Location: 34 - Data Location: 178 - value: b'Canon\x00'
+08/11/2025 10:46:29 DEBUG: tag: Model (272) - type: string (2) Tag Location: 46 - Data Location: 184 - value: b'Canon PowerShot SX400 IS\x00'
+08/11/2025 10:46:29 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/11/2025 10:46:29 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 70 - Data Location: 210 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/11/2025 10:46:29 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 82 - Data Location: 218 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/11/2025 10:46:29 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/11/2025 10:46:29 DEBUG: tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 226 - value: b'2018:03:28 10:13:52\x00'
+08/11/2025 10:46:29 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+08/11/2025 10:46:29 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'\xf6\x00\x00\x00'
+08/11/2025 10:46:29 DEBUG: tag: GPSInfoIFD (34853) - type: long (4) - value: b'p\x19\x00\x00'
+08/11/2025 10:46:29 DEBUG: tag: MPFVersion (45056) - type: undefined (7) - value: b'0100'
+08/11/2025 10:46:29 DEBUG: tag: NumberOfImages (45057) - type: long (4) - value: b'\x02\x00\x00\x00'
+08/11/2025 10:46:29 DEBUG: tag: MPEntry (45058) - type: undefined (7) Tag Location: 46 - Data Location: 50 - value: b'\x00\x00\x03\x80A\x02A\x00\x00\x00\x00\x00\x02\x00\x00\x00\x02\x00\x01@\x00N\x07\x00X\x88@\x00\x00\x00\x00\x00'
+08/11/2025 10:46:34 INFO: Test 2/2: image 1/2:  Yes
+{
+    "disaster_present": true,
+    "disaster_type": "fire"
+}
+08/11/2025 10:46:34 INFO: Test 2/2: Running prompt on image 2/2: tests/images/disaster/fire/fire-2-3308097013.jpg
+08/11/2025 10:46:34 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer with the boolean TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': bool}, {'disaster_type'}: 
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:46:38 INFO: Test 2/2: image 2/2:  No.
+08/11/2025 10:46:38 INFO: Run ended.
+08/11/2025 10:49:10 INFO: Starting run.
+08/11/2025 10:49:10 INFO: Using model file: models.txt
+08/11/2025 10:49:10 INFO: Using output_file file: results.csv
+08/11/2025 10:49:10 INFO: Using tests_file file: tests.json
+08/11/2025 10:49:10 DEBUG: Test 1 of 2: Evidence of disaster
+08/11/2025 10:49:10 DEBUG: Test 2 of 2: Type of disaster
+08/11/2025 10:49:10 INFO: Running 2 tests against 1 models.
+08/11/2025 10:49:10 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 10:49:10 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 10:49:11 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:49:11 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:49:11 INFO: Starting test 1/2: Evidence of disaster
+08/11/2025 10:49:11 INFO: Test 1/2: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:49:11 INFO: Test 1/2: total eval strings: 4
+08/11/2025 10:49:11 INFO: Test 1/2: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+08/11/2025 10:49:11 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer with the boolean TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': bool}, {'disaster_type'}: 
+Image: flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:49:11 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 10:49:22 INFO: Test 1/2: image 1/2:  {'disaster_present': TRUE, 'disaster_type': 'flood', 'disaster_type_description': 'flood waters surround a blue house', 'disaster_type_image_link': 'Image: flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg', 'disaster_description': 'flood waters surround a blue house', 'disaster_image_link': 'Image: flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg', 'disaster_image_description': 'flood waters surround a blue house', 'disaster_image_link': 'Image: flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315
+08/11/2025 10:50:26 INFO: Starting run.
+08/11/2025 10:50:26 INFO: Using model file: models.txt
+08/11/2025 10:50:26 INFO: Using output_file file: results.csv
+08/11/2025 10:50:26 INFO: Using tests_file file: tests.json
+08/11/2025 10:50:26 DEBUG: Test 1 of 2: Evidence of disaster
+08/11/2025 10:50:26 DEBUG: Test 2 of 2: Type of disaster
+08/11/2025 10:50:26 INFO: Running 2 tests against 1 models.
+08/11/2025 10:50:26 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 10:50:26 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 10:50:26 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:50:27 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:50:27 INFO: Starting test 1/2: Evidence of disaster
+08/11/2025 10:50:27 INFO: Test 1/2: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:50:27 INFO: Test 1/2: total eval strings: 4
+08/11/2025 10:50:27 INFO: Test 1/2: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 10:50:27 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer with the boolean TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': bool}, {'disaster_type'}: 
+Image: flood-waters-around-blue-house.jpg
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:50:27 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 10:50:31 INFO: Test 1/2: image 1/2:  {'disaster_present': TRUE, 'disaster_type': 'flood'}
+08/11/2025 10:50:31 INFO: Test 1/2: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 10:50:31 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer with the boolean TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': bool}, {'disaster_type'}: 
+Image: basement-flooding-2073546059.jpg
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:50:36 INFO: Test 1/2: image 2/2:  No
+08/11/2025 10:50:36 INFO: Starting test 2/2: Type of disaster
+08/11/2025 10:50:36 INFO: Test 2/2: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:50:36 INFO: Test 2/2: total eval strings: 3
+08/11/2025 10:50:36 INFO: Test 2/2: Running prompt on image 1/2: tests/images/disaster/fire/IMG_0506-2885709045.jpg
+08/11/2025 10:50:36 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer with the boolean TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': bool}, {'disaster_type'}: 
+Image: IMG_0506-2885709045.jpg
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:50:36 DEBUG: tag: ImageDescription (270) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'                               \x00'
+08/11/2025 10:50:36 DEBUG: tag: Make (271) - type: string (2) Tag Location: 34 - Data Location: 178 - value: b'Canon\x00'
+08/11/2025 10:50:36 DEBUG: tag: Model (272) - type: string (2) Tag Location: 46 - Data Location: 184 - value: b'Canon PowerShot SX400 IS\x00'
+08/11/2025 10:50:36 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/11/2025 10:50:36 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 70 - Data Location: 210 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/11/2025 10:50:36 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 82 - Data Location: 218 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/11/2025 10:50:36 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/11/2025 10:50:36 DEBUG: tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 226 - value: b'2018:03:28 10:13:52\x00'
+08/11/2025 10:50:36 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+08/11/2025 10:50:36 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'\xf6\x00\x00\x00'
+08/11/2025 10:50:36 DEBUG: tag: GPSInfoIFD (34853) - type: long (4) - value: b'p\x19\x00\x00'
+08/11/2025 10:50:36 DEBUG: tag: MPFVersion (45056) - type: undefined (7) - value: b'0100'
+08/11/2025 10:50:36 DEBUG: tag: NumberOfImages (45057) - type: long (4) - value: b'\x02\x00\x00\x00'
+08/11/2025 10:50:36 DEBUG: tag: MPEntry (45058) - type: undefined (7) Tag Location: 46 - Data Location: 50 - value: b'\x00\x00\x03\x80A\x02A\x00\x00\x00\x00\x00\x02\x00\x00\x00\x02\x00\x01@\x00N\x07\x00X\x88@\x00\x00\x00\x00\x00'
+08/11/2025 10:50:40 INFO: Test 2/2: image 1/2:  Yes
+Disaster: Fire
+08/11/2025 10:50:40 INFO: Test 2/2: Running prompt on image 2/2: tests/images/disaster/fire/fire-2-3308097013.jpg
+08/11/2025 10:50:40 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer with the boolean TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': bool}, {'disaster_type'}: 
+Image: fire-2-3308097013.jpg
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:50:45 INFO: Test 2/2: image 2/2:  No.
+08/11/2025 10:50:45 INFO: Run ended.
+08/11/2025 10:57:12 INFO: Starting run.
+08/11/2025 10:57:12 INFO: Using model file: models.txt
+08/11/2025 10:57:12 INFO: Using output_file file: results.csv
+08/11/2025 10:57:12 INFO: Using tests_file file: tests.json
+08/11/2025 10:57:12 DEBUG: Test 1 of 2: Evidence of disaster
+08/11/2025 10:57:12 DEBUG: Test 2 of 2: Type of disaster
+08/11/2025 10:58:37 INFO: Starting run.
+08/11/2025 10:58:37 INFO: Using model file: models.txt
+08/11/2025 10:58:37 INFO: Using output_file file: results.csv
+08/11/2025 10:58:37 INFO: Using tests_file file: tests.json
+08/11/2025 10:58:37 DEBUG: Test 1 of 2: Evidence of disaster
+08/11/2025 10:58:37 DEBUG: Test 2 of 2: Type of disaster
+08/11/2025 10:59:26 INFO: Starting run.
+08/11/2025 10:59:26 INFO: Using model file: models.txt
+08/11/2025 10:59:26 INFO: Using output_file file: results.csv
+08/11/2025 10:59:26 INFO: Using tests_file file: tests.json
+08/11/2025 10:59:26 DEBUG: Test 1 of 2: Evidence of disaster
+08/11/2025 10:59:26 DEBUG: Test 2 of 2: Type of disaster
+08/11/2025 10:59:39 INFO: Starting run.
+08/11/2025 10:59:39 INFO: Using model file: models.txt
+08/11/2025 10:59:39 INFO: Using output_file file: results.csv
+08/11/2025 10:59:39 INFO: Using tests_file file: tests.json
+08/11/2025 10:59:39 DEBUG: Test 1 of 2: Evidence of disaster
+08/11/2025 10:59:39 DEBUG: Test 2 of 2: Type of disaster
+08/11/2025 10:59:39 INFO: Running 2 tests against 1 models.
+08/11/2025 10:59:39 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 10:59:39 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 10:59:39 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:59:40 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 10:59:40 INFO: Starting test 1/2: Evidence of disaster
+08/11/2025 10:59:40 INFO: Test 1/2: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:59:40 INFO: Test 1/2: total eval strings: 4
+08/11/2025 10:59:40 INFO: Test 1/2: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 10:59:40 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. 
+ Example of a valid json response:
+ {
+'image': 'evidence_image_11049.jpg'
+'disaster_present': 'TRUE',
+'disaster_type'': 'flood',
+}
+Image: flood-waters-around-blue-house.jpg
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:59:40 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 10:59:45 INFO: Test 1/2: image 1/2:  {
+    "image": "evidence_image_11049.jpg",
+    "disaster_present": "TRUE",
+    "disaster_type": "flood"
+}
+08/11/2025 10:59:45 INFO: Test 1/2: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 10:59:45 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. 
+ Example of a valid json response:
+ {
+'image': 'evidence_image_11049.jpg'
+'disaster_present': 'TRUE',
+'disaster_type'': 'flood',
+}
+Image: basement-flooding-2073546059.jpg
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:59:50 INFO: Test 1/2: image 2/2:  {
+    "image": "evidence_image_11049.jpg",
+    "disaster_present": "TRUE",
+    "disaster_type": "flood"
+}
+08/11/2025 10:59:50 INFO: Starting test 2/2: Type of disaster
+08/11/2025 10:59:50 INFO: Test 2/2: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:59:50 INFO: Test 2/2: total eval strings: 3
+08/11/2025 10:59:50 INFO: Test 2/2: Running prompt on image 1/2: tests/images/disaster/fire/IMG_0506-2885709045.jpg
+08/11/2025 10:59:50 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. 
+ Example of a valid json response:
+ {
+'image': 'evidence_image_11049.jpg'
+'disaster_present': 'TRUE',
+'disaster_type'': 'flood',
+}
+Image: IMG_0506-2885709045.jpg
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:59:50 DEBUG: tag: ImageDescription (270) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'                               \x00'
+08/11/2025 10:59:50 DEBUG: tag: Make (271) - type: string (2) Tag Location: 34 - Data Location: 178 - value: b'Canon\x00'
+08/11/2025 10:59:50 DEBUG: tag: Model (272) - type: string (2) Tag Location: 46 - Data Location: 184 - value: b'Canon PowerShot SX400 IS\x00'
+08/11/2025 10:59:50 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/11/2025 10:59:50 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 70 - Data Location: 210 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/11/2025 10:59:50 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 82 - Data Location: 218 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/11/2025 10:59:50 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/11/2025 10:59:50 DEBUG: tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 226 - value: b'2018:03:28 10:13:52\x00'
+08/11/2025 10:59:50 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+08/11/2025 10:59:50 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'\xf6\x00\x00\x00'
+08/11/2025 10:59:50 DEBUG: tag: GPSInfoIFD (34853) - type: long (4) - value: b'p\x19\x00\x00'
+08/11/2025 10:59:50 DEBUG: tag: MPFVersion (45056) - type: undefined (7) - value: b'0100'
+08/11/2025 10:59:50 DEBUG: tag: NumberOfImages (45057) - type: long (4) - value: b'\x02\x00\x00\x00'
+08/11/2025 10:59:50 DEBUG: tag: MPEntry (45058) - type: undefined (7) Tag Location: 46 - Data Location: 50 - value: b'\x00\x00\x03\x80A\x02A\x00\x00\x00\x00\x00\x02\x00\x00\x00\x02\x00\x01@\x00N\x07\x00X\x88@\x00\x00\x00\x00\x00'
+08/11/2025 10:59:55 INFO: Test 2/2: image 1/2:  No.
+08/11/2025 10:59:55 INFO: Test 2/2: Running prompt on image 2/2: tests/images/disaster/fire/fire-2-3308097013.jpg
+08/11/2025 10:59:55 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. 
+ Example of a valid json response:
+ {
+'image': 'evidence_image_11049.jpg'
+'disaster_present': 'TRUE',
+'disaster_type'': 'flood',
+}
+Image: fire-2-3308097013.jpg
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 10:59:59 INFO: Test 2/2: image 2/2:  Answer: flood.
+08/11/2025 10:59:59 INFO: Run ended.
+08/11/2025 11:02:16 INFO: Starting run.
+08/11/2025 11:02:16 INFO: Using model file: models.txt
+08/11/2025 11:02:16 INFO: Using output_file file: results.csv
+08/11/2025 11:02:16 INFO: Using tests_file file: tests.json
+08/11/2025 11:02:16 DEBUG: Test 1 of 2: Evidence of disaster
+08/11/2025 11:02:16 DEBUG: Test 2 of 2: Type of disaster
+08/11/2025 11:02:16 INFO: Running 2 tests against 1 models.
+08/11/2025 11:02:16 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:02:16 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:02:16 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:02:17 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:02:17 INFO: Starting test 1/2: Evidence of disaster
+08/11/2025 11:02:17 INFO: Test 1/2: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:02:17 INFO: Test 1/2: total eval strings: 4
+08/11/2025 11:02:17 INFO: Test 1/2: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 11:02:17 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. The provided image is in the json key 'image'.
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. 
+ Example of a valid json response:
+ {
+'image': 'evidence_image_11049.jpg'
+'disaster_present': 'TRUE',
+'disaster_type'': 'flood',
+}
+{'image': 'flood-waters-around-blue-house.jpg'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:02:17 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 11:02:22 INFO: Test 1/2: image 1/2:  TRUE
+'flood'.
+08/11/2025 11:02:22 INFO: Test 1/2: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 11:02:22 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. The provided image is in the json key 'image'.
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. 
+ Example of a valid json response:
+ {
+'image': 'evidence_image_11049.jpg'
+'disaster_present': 'TRUE',
+'disaster_type'': 'flood',
+}
+{'image': 'basement-flooding-2073546059.jpg'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:02:26 INFO: Test 1/2: image 2/2:  TRUE
+08/11/2025 11:02:26 INFO: Starting test 2/2: Type of disaster
+08/11/2025 11:02:26 INFO: Test 2/2: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:02:26 INFO: Test 2/2: total eval strings: 3
+08/11/2025 11:02:26 INFO: Test 2/2: Running prompt on image 1/2: tests/images/disaster/fire/IMG_0506-2885709045.jpg
+08/11/2025 11:02:26 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. The provided image is in the json key 'image'.
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. 
+ Example of a valid json response:
+ {
+'image': 'evidence_image_11049.jpg'
+'disaster_present': 'TRUE',
+'disaster_type'': 'flood',
+}
+{'image': 'IMG_0506-2885709045.jpg'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:02:26 DEBUG: tag: ImageDescription (270) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'                               \x00'
+08/11/2025 11:02:26 DEBUG: tag: Make (271) - type: string (2) Tag Location: 34 - Data Location: 178 - value: b'Canon\x00'
+08/11/2025 11:02:26 DEBUG: tag: Model (272) - type: string (2) Tag Location: 46 - Data Location: 184 - value: b'Canon PowerShot SX400 IS\x00'
+08/11/2025 11:02:26 DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+08/11/2025 11:02:26 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 70 - Data Location: 210 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/11/2025 11:02:26 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 82 - Data Location: 218 - value: b'\xb4\x00\x00\x00\x01\x00\x00\x00'
+08/11/2025 11:02:26 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+08/11/2025 11:02:26 DEBUG: tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 226 - value: b'2018:03:28 10:13:52\x00'
+08/11/2025 11:02:26 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+08/11/2025 11:02:26 DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'\xf6\x00\x00\x00'
+08/11/2025 11:02:26 DEBUG: tag: GPSInfoIFD (34853) - type: long (4) - value: b'p\x19\x00\x00'
+08/11/2025 11:02:26 DEBUG: tag: MPFVersion (45056) - type: undefined (7) - value: b'0100'
+08/11/2025 11:02:26 DEBUG: tag: NumberOfImages (45057) - type: long (4) - value: b'\x02\x00\x00\x00'
+08/11/2025 11:02:26 DEBUG: tag: MPEntry (45058) - type: undefined (7) Tag Location: 46 - Data Location: 50 - value: b'\x00\x00\x03\x80A\x02A\x00\x00\x00\x00\x00\x02\x00\x00\x00\x02\x00\x01@\x00N\x07\x00X\x88@\x00\x00\x00\x00\x00'
+08/11/2025 11:02:31 INFO: Test 2/2: image 1/2:  TRUE
+'flood'
+08/11/2025 11:02:31 INFO: Test 2/2: Running prompt on image 2/2: tests/images/disaster/fire/fire-2-3308097013.jpg
+08/11/2025 11:02:31 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. The provided image is in the json key 'image'.
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. 
+ Example of a valid json response:
+ {
+'image': 'evidence_image_11049.jpg'
+'disaster_present': 'TRUE',
+'disaster_type'': 'flood',
+}
+{'image': 'fire-2-3308097013.jpg'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:02:35 INFO: Test 2/2: image 2/2:  Yes.
+08/11/2025 11:02:35 INFO: Run ended.
+08/11/2025 11:04:22 INFO: Starting run.
+08/11/2025 11:04:22 INFO: Using model file: models.txt
+08/11/2025 11:04:22 INFO: Using output_file file: results.csv
+08/11/2025 11:04:22 INFO: Using tests_file file: tests.json
+08/11/2025 11:04:22 DEBUG: Test 1 of 1: Evidence of disaster
+08/11/2025 11:04:22 INFO: Running 1 tests against 1 models.
+08/11/2025 11:04:22 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:04:22 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:04:23 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:04:23 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:04:23 INFO: Starting test 1/1: Evidence of disaster
+08/11/2025 11:04:23 INFO: Test 1/1: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:04:23 INFO: Test 1/1: total eval strings: 4
+08/11/2025 11:04:23 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 11:04:23 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. The provided image is in the json key 'image'.
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. 
+ Example of a valid json response:
+ {
+'image': 'evidence_image_11049.jpg'
+'disaster_present': 'TRUE',
+'disaster_type'': 'flood',
+}
+{'image': 'flood-waters-around-blue-house.jpg'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:04:23 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 11:04:28 INFO: Test 1/1: image 1/2:  TRUE
+'flood'.
+08/11/2025 11:04:28 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 11:04:28 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. The provided image is in the json key 'image'.
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. 
+ Example of a valid json response:
+ {
+'image': 'evidence_image_11049.jpg'
+'disaster_present': 'TRUE',
+'disaster_type'': 'flood',
+}
+{'image': 'basement-flooding-2073546059.jpg'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:04:32 INFO: Test 1/1: image 2/2:  TRUE
+08/11/2025 11:04:32 INFO: Run ended.
+08/11/2025 11:05:23 INFO: Starting run.
+08/11/2025 11:05:23 INFO: Using model file: models.txt
+08/11/2025 11:05:23 INFO: Using output_file file: results.csv
+08/11/2025 11:05:23 INFO: Using tests_file file: tests.json
+08/11/2025 11:05:23 DEBUG: Test 1 of 1: Evidence of disaster
+08/11/2025 11:05:23 INFO: Running 1 tests against 1 models.
+08/11/2025 11:05:23 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:05:23 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:05:24 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:05:24 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:05:24 INFO: Starting test 1/1: Evidence of disaster
+08/11/2025 11:05:24 INFO: Test 1/1: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:05:24 INFO: Test 1/1: total eval strings: 4
+08/11/2025 11:05:24 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 11:05:24 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. The provided image is in the json key 'image'.
+Output a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. The object must contain the requested data. 
+ Example of a valid json response:
+ {
+'image': 'evidence_image_11049.jpg'
+'disaster_present': 'TRUE',
+'disaster_type'': 'flood',
+}
+{'image': 'flood-waters-around-blue-house.jpg'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:05:24 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 11:05:29 INFO: Test 1/1: image 1/2:  TRUE
+08/11/2025 11:05:29 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 11:05:29 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. The provided image is in the json key 'image'.
+Output a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. The object must contain the requested data. 
+ Example of a valid json response:
+ {
+'image': 'evidence_image_11049.jpg'
+'disaster_present': 'TRUE',
+'disaster_type'': 'flood',
+}
+{'image': 'basement-flooding-2073546059.jpg'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:05:33 INFO: Test 1/1: image 2/2:  TRUE
+08/11/2025 11:05:33 INFO: Run ended.
+08/11/2025 11:06:24 INFO: Starting run.
+08/11/2025 11:06:24 INFO: Using model file: models.txt
+08/11/2025 11:06:24 INFO: Using output_file file: results.csv
+08/11/2025 11:06:24 INFO: Using tests_file file: tests.json
+08/11/2025 11:06:24 DEBUG: Test 1 of 1: Evidence of disaster
+08/11/2025 11:06:24 INFO: Running 1 tests against 1 models.
+08/11/2025 11:06:24 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:06:24 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:06:24 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:06:25 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:06:25 INFO: Starting test 1/1: Evidence of disaster
+08/11/2025 11:06:25 INFO: Test 1/1: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:06:25 INFO: Test 1/1: total eval strings: 4
+08/11/2025 11:06:25 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 11:06:25 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. The provided image is in the json key 'image'.
+Output a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. The object must contain the requested data in this format:
+ {
+'image': 'evidence_image_11049.jpg'
+'disaster_present': 'TRUE',
+'disaster_type'': 'flood',
+}
+{'image': 'flood-waters-around-blue-house.jpg'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:06:25 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 11:06:29 INFO: Test 1/1: image 1/2:  TRUE
+flood
+08/11/2025 11:06:29 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 11:06:29 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. The provided image is in the json key 'image'.
+Output a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. The object must contain the requested data in this format:
+ {
+'image': 'evidence_image_11049.jpg'
+'disaster_present': 'TRUE',
+'disaster_type'': 'flood',
+}
+{'image': 'basement-flooding-2073546059.jpg'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:06:34 INFO: Test 1/1: image 2/2:  TRUE
+08/11/2025 11:06:34 INFO: Run ended.
+08/11/2025 11:07:25 INFO: Starting run.
+08/11/2025 11:07:25 INFO: Using model file: models.txt
+08/11/2025 11:07:25 INFO: Using output_file file: results.csv
+08/11/2025 11:07:25 INFO: Using tests_file file: tests.json
+08/11/2025 11:07:25 DEBUG: Test 1 of 1: Evidence of disaster
+08/11/2025 11:07:25 INFO: Running 1 tests against 1 models.
+08/11/2025 11:07:25 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:07:25 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:07:25 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:07:26 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:07:26 INFO: Starting test 1/1: Evidence of disaster
+08/11/2025 11:07:26 INFO: Test 1/1: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:07:26 INFO: Test 1/1: total eval strings: 4
+08/11/2025 11:07:26 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 11:07:26 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. The provided image is in the json key 'image'.
+Output a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. The object must contain the requested data in this format. Start the object with the provided image key.
+ {
+'image': 'evidence_image_11049.jpg'
+'disaster_present': 'TRUE',
+'disaster_type'': 'flood',
+}
+{'image': 'flood-waters-around-blue-house.jpg'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:07:26 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 11:07:31 INFO: Test 1/1: image 1/2:  TRUE
+DISASTER_TYPE: FLOOD
+08/11/2025 11:07:31 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 11:07:31 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. The provided image is in the json key 'image'.
+Output a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. The object must contain the requested data in this format. Start the object with the provided image key.
+ {
+'image': 'evidence_image_11049.jpg'
+'disaster_present': 'TRUE',
+'disaster_type'': 'flood',
+}
+{'image': 'basement-flooding-2073546059.jpg'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:07:35 INFO: Test 1/1: image 2/2:  TRUE
+08/11/2025 11:07:35 INFO: Run ended.
+08/11/2025 11:08:29 INFO: Starting run.
+08/11/2025 11:08:29 INFO: Using model file: models.txt
+08/11/2025 11:08:29 INFO: Using output_file file: results.csv
+08/11/2025 11:08:29 INFO: Using tests_file file: tests.json
+08/11/2025 11:08:29 DEBUG: Test 1 of 1: Evidence of disaster
+08/11/2025 11:08:29 INFO: Running 1 tests against 1 models.
+08/11/2025 11:08:29 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:08:29 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:08:29 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:08:30 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:08:30 INFO: Starting test 1/1: Evidence of disaster
+08/11/2025 11:08:30 INFO: Test 1/1: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:08:30 INFO: Test 1/1: total eval strings: 4
+08/11/2025 11:08:30 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 11:08:30 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. The provided image is in the json key 'image'.
+Output a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. The object must contain the requested data in this format.
+ {
+'disaster_present': 'TRUE',
+'disaster_type'': 'flood',
+}
+{'image': 'flood-waters-around-blue-house.jpg'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:08:30 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 11:08:34 INFO: Test 1/1: image 1/2:  TRUE
+'flood'.
+08/11/2025 11:08:34 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 11:08:34 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. The provided image is in the json key 'image'.
+Output a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. The object must contain the requested data in this format.
+ {
+'disaster_present': 'TRUE',
+'disaster_type'': 'flood',
+}
+{'image': 'basement-flooding-2073546059.jpg'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:08:38 INFO: Test 1/1: image 2/2:  TRUE
+08/11/2025 11:08:38 INFO: Run ended.
+08/11/2025 11:09:27 INFO: Starting run.
+08/11/2025 11:09:27 INFO: Using model file: models.txt
+08/11/2025 11:09:27 INFO: Using output_file file: results.csv
+08/11/2025 11:09:27 INFO: Using tests_file file: tests.json
+08/11/2025 11:09:27 DEBUG: Test 1 of 1: Evidence of disaster
+08/11/2025 11:09:27 INFO: Running 1 tests against 1 models.
+08/11/2025 11:09:27 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:09:27 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:09:27 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:09:28 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:09:28 INFO: Starting test 1/1: Evidence of disaster
+08/11/2025 11:09:28 INFO: Test 1/1: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:09:28 INFO: Test 1/1: total eval strings: 4
+08/11/2025 11:09:28 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 11:09:28 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. The provided image is in the json key 'image'.
+Output a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. The object must contain the requested data in this format.
+ {
+'disaster_present': 'TRUE',
+'disaster_type'': 'flood',
+}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:09:28 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 11:09:32 INFO: Test 1/1: image 1/2:  TRUE
+DISASTER_TYPE: FLOOD
+08/11/2025 11:09:32 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 11:09:32 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. The provided image is in the json key 'image'.
+Output a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. The object must contain the requested data in this format.
+ {
+'disaster_present': 'TRUE',
+'disaster_type'': 'flood',
+}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:09:37 INFO: Test 1/1: image 2/2:  TRUE
+08/11/2025 11:09:37 INFO: Run ended.
+08/11/2025 11:10:51 INFO: Starting run.
+08/11/2025 11:10:51 INFO: Using model file: models.txt
+08/11/2025 11:10:51 INFO: Using output_file file: results.csv
+08/11/2025 11:10:51 INFO: Using tests_file file: tests.json
+08/11/2025 11:10:51 DEBUG: Test 1 of 1: Evidence of disaster
+08/11/2025 11:10:51 INFO: Running 1 tests against 1 models.
+08/11/2025 11:10:51 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:10:51 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:10:51 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:10:52 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:10:52 INFO: Starting test 1/1: Evidence of disaster
+08/11/2025 11:10:52 INFO: Test 1/1: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:10:52 INFO: Test 1/1: total eval strings: 4
+08/11/2025 11:10:52 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 11:10:52 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON.
+Output a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. If the answer is yes or no, answer with a bool The object must contain the requested data in this format:
+ {
+'disaster_present': 'bool',
+'disaster_type'':
+}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:10:52 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 11:10:57 INFO: Test 1/1: image 1/2:  Yes.
+08/11/2025 11:10:57 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 11:10:57 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON.
+Output a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. If the answer is yes or no, answer with a bool The object must contain the requested data in this format:
+ {
+'disaster_present': 'bool',
+'disaster_type'':
+}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:11:01 INFO: Test 1/1: image 2/2:  Yes.
+08/11/2025 11:11:01 INFO: Run ended.
+08/11/2025 11:11:41 INFO: Starting run.
+08/11/2025 11:11:41 INFO: Using model file: models.txt
+08/11/2025 11:11:41 INFO: Using output_file file: results.csv
+08/11/2025 11:11:41 INFO: Using tests_file file: tests.json
+08/11/2025 11:11:41 DEBUG: Test 1 of 1: Evidence of disaster
+08/11/2025 11:11:41 INFO: Running 1 tests against 1 models.
+08/11/2025 11:11:41 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:11:41 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:11:41 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:11:42 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:11:42 INFO: Starting test 1/1: Evidence of disaster
+08/11/2025 11:11:42 INFO: Test 1/1: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:11:42 INFO: Test 1/1: total eval strings: 4
+08/11/2025 11:11:42 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 11:11:42 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON.
+Output a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. If the answer is yes or no, answer with a bool. Use this format:{'disaster_present': 'bool', 'disaster_type:'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:11:42 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 11:11:46 INFO: Test 1/1: image 1/2:  Yes.
+08/11/2025 11:11:46 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 11:11:46 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON.
+Output a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. If the answer is yes or no, answer with a bool. Use this format:{'disaster_present': 'bool', 'disaster_type:'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:11:50 INFO: Test 1/1: image 2/2:  Yes
+08/11/2025 11:11:50 INFO: Run ended.
+08/11/2025 11:12:06 INFO: Starting run.
+08/11/2025 11:12:06 INFO: Using model file: models.txt
+08/11/2025 11:12:06 INFO: Using output_file file: results.csv
+08/11/2025 11:12:06 INFO: Using tests_file file: tests.json
+08/11/2025 11:12:06 DEBUG: Test 1 of 1: Evidence of disaster
+08/11/2025 11:12:06 INFO: Running 1 tests against 1 models.
+08/11/2025 11:12:06 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:12:06 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:12:06 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:12:07 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:12:07 INFO: Starting test 1/1: Evidence of disaster
+08/11/2025 11:12:07 INFO: Test 1/1: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:12:07 INFO: Test 1/1: total eval strings: 4
+08/11/2025 11:12:07 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 11:12:07 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON.
+Output a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. If the answer is yes or no, answer with a bool. Use this format:{'disaster_present': 'bool', 'disaster_type:'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:12:07 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 11:12:11 INFO: Test 1/1: image 1/2:  Yes.
+08/11/2025 11:12:11 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 11:12:11 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON.
+Output a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. If the answer is yes or no, answer with a bool. Use this format:{'disaster_present': 'bool', 'disaster_type:'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:12:16 INFO: Test 1/1: image 2/2:  Yes
+08/11/2025 11:12:16 INFO: Run ended.
+08/11/2025 11:13:22 INFO: Starting run.
+08/11/2025 11:13:22 INFO: Using model file: models.txt
+08/11/2025 11:13:22 INFO: Using output_file file: results.csv
+08/11/2025 11:13:22 INFO: Using tests_file file: tests.json
+08/11/2025 11:13:22 DEBUG: Test 1 of 1: Evidence of disaster
+08/11/2025 11:13:22 INFO: Running 1 tests against 1 models.
+08/11/2025 11:13:22 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:13:22 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:13:23 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:13:23 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:13:23 INFO: Starting test 1/1: Evidence of disaster
+08/11/2025 11:13:23 INFO: Test 1/1: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:13:23 INFO: Test 1/1: total eval strings: 4
+08/11/2025 11:13:23 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 11:13:23 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON.
+Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Use this format:{'disaster_present': 'bool', 'disaster_type:'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:13:23 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 11:13:28 INFO: Test 1/1: image 1/2:  {'disaster_present': 'yes', 'disaster_type': 'flood'}
+08/11/2025 11:13:28 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 11:13:28 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON.
+Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Use this format:{'disaster_present': 'bool', 'disaster_type:'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:13:33 INFO: Test 1/1: image 2/2:  Yes.
+08/11/2025 11:13:33 INFO: Run ended.
+08/11/2025 11:14:16 INFO: Starting run.
+08/11/2025 11:14:16 INFO: Using model file: models.txt
+08/11/2025 11:14:16 INFO: Using output_file file: results.csv
+08/11/2025 11:14:16 INFO: Using tests_file file: tests.json
+08/11/2025 11:14:16 DEBUG: Test 1 of 1: Evidence of disaster
+08/11/2025 11:14:16 INFO: Running 1 tests against 1 models.
+08/11/2025 11:14:16 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:14:16 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:14:16 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:14:17 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:14:17 INFO: Starting test 1/1: Evidence of disaster
+08/11/2025 11:14:17 INFO: Test 1/1: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:14:17 INFO: Test 1/1: total eval strings: 4
+08/11/2025 11:14:17 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 11:14:17 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Use this format:{'disaster_present': 'bool', 'disaster_type:'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:14:17 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 11:14:21 INFO: Test 1/1: image 1/2:  Yes.
+08/11/2025 11:14:21 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 11:14:21 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Use this format:{'disaster_present': 'bool', 'disaster_type:'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:14:25 INFO: Test 1/1: image 2/2:  Yes.
+08/11/2025 11:14:25 INFO: Run ended.
+08/11/2025 11:15:04 INFO: Starting run.
+08/11/2025 11:15:04 INFO: Using model file: models.txt
+08/11/2025 11:15:04 INFO: Using output_file file: results.csv
+08/11/2025 11:15:04 INFO: Using tests_file file: tests.json
+08/11/2025 11:15:04 DEBUG: Test 1 of 1: Evidence of disaster
+08/11/2025 11:15:04 INFO: Running 1 tests against 1 models.
+08/11/2025 11:15:04 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:15:04 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:15:04 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:15:04 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:15:04 INFO: Starting test 1/1: Evidence of disaster
+08/11/2025 11:15:04 INFO: Test 1/1: prompt: Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:15:04 INFO: Test 1/1: total eval strings: 4
+08/11/2025 11:15:04 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 11:15:04 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:15:04 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 11:15:09 INFO: Test 1/1: image 1/2:  Yes.
+08/11/2025 11:15:09 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 11:15:09 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?
+08/11/2025 11:15:13 INFO: Test 1/1: image 2/2:  Yes.
+08/11/2025 11:15:13 INFO: Run ended.
+08/11/2025 11:16:10 INFO: Starting run.
+08/11/2025 11:16:10 INFO: Using model file: models.txt
+08/11/2025 11:16:10 INFO: Using output_file file: results.csv
+08/11/2025 11:16:10 INFO: Using tests_file file: tests.json
+08/11/2025 11:16:10 DEBUG: Test 1 of 1: Evidence of disaster
+08/11/2025 11:16:10 INFO: Running 1 tests against 1 models.
+08/11/2025 11:16:10 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:16:10 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:16:10 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:16:11 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:16:11 INFO: Starting test 1/1: Evidence of disaster
+08/11/2025 11:16:11 INFO: Test 1/1: prompt: Produce a detailed description of this image in json, answer whether disaster_present is true or false, and providing the disaster_type
+08/11/2025 11:16:11 INFO: Test 1/1: total eval strings: 4
+08/11/2025 11:16:11 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 11:16:11 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json, answer whether disaster_present is true or false, and providing the disaster_type
+08/11/2025 11:16:11 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 11:16:16 INFO: Test 1/1: image 1/2:  {'disaster_present': 'yes', 'disaster_type': 'flooding'}
+08/11/2025 11:16:16 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 11:16:16 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json, answer whether disaster_present is true or false, and providing the disaster_type
+08/11/2025 11:16:21 INFO: Test 1/1: image 2/2:  {'disaster_present': true, 'disaster_type': 'flooding'}
+08/11/2025 11:16:21 INFO: Run ended.
+08/11/2025 11:19:11 INFO: Starting run.
+08/11/2025 11:19:11 INFO: Using model file: models.txt
+08/11/2025 11:19:11 INFO: Using output_file file: results.csv
+08/11/2025 11:19:11 INFO: Using tests_file file: tests.json
+08/11/2025 11:19:11 DEBUG: Test 1 of 2: Evidence of disaster, pass
+08/11/2025 11:19:11 DEBUG: Test 2 of 2: Evidence of disaster, failiure
+08/11/2025 11:19:11 INFO: Running 2 tests against 1 models.
+08/11/2025 11:19:11 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:19:11 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:19:11 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:19:12 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:19:12 INFO: Starting test 1/2: Evidence of disaster, pass
+08/11/2025 11:19:12 INFO: Test 1/2: prompt: Produce a detailed description of this image in json, answer whether disaster_present is true or false, and providing the disaster_type
+08/11/2025 11:19:12 INFO: Test 1/2: total eval strings: 4
+08/11/2025 11:19:12 INFO: Test 1/2: Running prompt on image 1/3: tests/images/disaster/flooding/.DS_Store
+08/11/2025 11:19:12 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json, answer whether disaster_present is true or false, and providing the disaster_type
+08/11/2025 11:19:12 DEBUG: Importing AvifImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing BlpImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing BmpImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing BufrStubImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing CurImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing DcxImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing DdsImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing EpsImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing FitsImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing FliImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing FpxImagePlugin
+08/11/2025 11:19:12 DEBUG: Image: failed to import FpxImagePlugin: No module named 'olefile'
+08/11/2025 11:19:12 DEBUG: Importing FtexImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing GbrImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing GifImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing GribStubImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing Hdf5StubImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing IcnsImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing IcoImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing ImImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing ImtImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing IptcImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing JpegImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing Jpeg2KImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing McIdasImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing MicImagePlugin
+08/11/2025 11:19:12 DEBUG: Image: failed to import MicImagePlugin: No module named 'olefile'
+08/11/2025 11:19:12 DEBUG: Importing MpegImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing MpoImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing MspImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing PalmImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing PcdImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing PcxImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing PdfImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing PixarImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing PngImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing PpmImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing PsdImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing QoiImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing SgiImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing SpiderImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing SunImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing TgaImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing TiffImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing WebPImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing WmfImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing XbmImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing XpmImagePlugin
+08/11/2025 11:19:12 DEBUG: Importing XVThumbImagePlugin
+08/11/2025 11:20:01 INFO: Starting run.
+08/11/2025 11:20:01 INFO: Using model file: models.txt
+08/11/2025 11:20:01 INFO: Using output_file file: results.csv
+08/11/2025 11:20:01 INFO: Using tests_file file: tests.json
+08/11/2025 11:20:01 DEBUG: Test 1 of 2: Evidence of disaster, pass
+08/11/2025 11:20:01 DEBUG: Test 2 of 2: Evidence of disaster, failiure
+08/11/2025 11:20:01 INFO: Running 2 tests against 1 models.
+08/11/2025 11:20:01 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:20:01 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:20:02 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:20:03 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:20:03 INFO: Starting test 1/2: Evidence of disaster, pass
+08/11/2025 11:20:03 INFO: Test 1/2: prompt: Produce a detailed description of this image in json, answer whether disaster_present is true or false, and providing the disaster_type
+08/11/2025 11:20:03 INFO: Test 1/2: total eval strings: 4
+08/11/2025 11:20:03 INFO: Test 1/2: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 11:20:03 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json, answer whether disaster_present is true or false, and providing the disaster_type
+08/11/2025 11:20:03 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 11:20:08 INFO: Test 1/2: image 1/2:  {'disaster_present': 'yes', 'disaster_type': 'flooding'}
+08/11/2025 11:20:08 INFO: Test 1/2: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 11:20:08 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json, answer whether disaster_present is true or false, and providing the disaster_type
+08/11/2025 11:20:13 INFO: Test 1/2: image 2/2:  {'disaster_present': true, 'disaster_type': 'flooding'}
+08/11/2025 11:20:13 INFO: Starting test 2/2: Evidence of disaster, failiure
+08/11/2025 11:20:13 INFO: Test 2/2: prompt: Produce a detailed description of this image in json, answer whether disaster_present is true or false, and providing the disaster_type
+08/11/2025 11:20:13 INFO: Test 2/2: total eval strings: 3
+08/11/2025 11:20:13 INFO: Test 2/2: Running prompt on image 1/2: tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg
+08/11/2025 11:20:13 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json, answer whether disaster_present is true or false, and providing the disaster_type
+08/11/2025 11:20:18 INFO: Test 2/2: image 1/2:  {
+    "disaster_present": true,
+    "disaster_type": "house"
+}
+08/11/2025 11:20:18 INFO: Test 2/2: Running prompt on image 2/2: tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg
+08/11/2025 11:20:18 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json, answer whether disaster_present is true or false, and providing the disaster_type
+08/11/2025 11:20:18 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:20:18 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:20:18 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+08/11/2025 11:20:18 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+08/11/2025 11:20:18 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 70 - Data Location: 90 - value: <table: 35 bytes>
+08/11/2025 11:20:22 INFO: Test 2/2: image 2/2:  {
+    "disaster_present": true,
+    "disaster_type": "house"
+}
+08/11/2025 11:20:22 INFO: Run ended.
+08/11/2025 11:20:58 INFO: Starting run.
+08/11/2025 11:20:58 INFO: Using model file: models.txt
+08/11/2025 11:20:58 INFO: Using output_file file: results.csv
+08/11/2025 11:20:58 INFO: Using tests_file file: tests.json
+08/11/2025 11:20:58 DEBUG: Test 1 of 2: Evidence of disaster, pass
+08/11/2025 11:20:58 DEBUG: Test 2 of 2: Evidence of disaster, failiure
+08/11/2025 11:20:58 INFO: Running 2 tests against 1 models.
+08/11/2025 11:20:58 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:20:58 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:20:59 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:20:59 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:20:59 INFO: Starting test 1/2: Evidence of disaster, pass
+08/11/2025 11:20:59 INFO: Test 1/2: prompt: Produce a detailed description of this image in json, answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type
+08/11/2025 11:20:59 INFO: Test 1/2: total eval strings: 4
+08/11/2025 11:20:59 INFO: Test 1/2: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 11:20:59 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json, answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type
+08/11/2025 11:21:00 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 11:21:04 INFO: Test 1/2: image 1/2:  {'disaster_present': 'yes', 'disaster_type': 'flooding'}
+08/11/2025 11:21:04 INFO: Test 1/2: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 11:21:04 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json, answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type
+08/11/2025 11:21:09 INFO: Test 1/2: image 2/2:  {'disaster_present': 'true', 'disaster_type': 'water damage'}.
+08/11/2025 11:21:09 INFO: Starting test 2/2: Evidence of disaster, failiure
+08/11/2025 11:21:09 INFO: Test 2/2: prompt: Produce a detailed description of this image in json, answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type
+08/11/2025 11:21:09 INFO: Test 2/2: total eval strings: 3
+08/11/2025 11:21:09 INFO: Test 2/2: Running prompt on image 1/2: tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg
+08/11/2025 11:21:09 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json, answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type
+08/11/2025 11:21:14 INFO: Test 2/2: image 1/2:  {'disaster_present': 'yes', 'disaster_type': 'house on fire'}
+08/11/2025 11:21:14 INFO: Test 2/2: Running prompt on image 2/2: tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg
+08/11/2025 11:21:14 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json, answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type
+08/11/2025 11:21:14 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:21:14 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:21:14 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+08/11/2025 11:21:14 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+08/11/2025 11:21:14 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 70 - Data Location: 90 - value: <table: 35 bytes>
+08/11/2025 11:21:19 INFO: Test 2/2: image 2/2:  {
+    "disaster_present": true,
+    "disaster_type": "house on fire"
+}
+08/11/2025 11:21:19 INFO: Run ended.
+08/11/2025 11:22:28 INFO: Starting run.
+08/11/2025 11:22:28 INFO: Using model file: models.txt
+08/11/2025 11:22:28 INFO: Using output_file file: results.csv
+08/11/2025 11:22:28 INFO: Using tests_file file: tests.json
+08/11/2025 11:22:28 DEBUG: Test 1 of 2: Evidence of disaster, pass
+08/11/2025 11:22:28 DEBUG: Test 2 of 2: Evidence of disaster, failiure
+08/11/2025 11:22:28 INFO: Running 2 tests against 1 models.
+08/11/2025 11:22:28 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:22:28 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:22:28 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:22:29 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:22:29 INFO: Starting test 1/2: Evidence of disaster, pass
+08/11/2025 11:22:29 INFO: Test 1/2: prompt: Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. A disaster would be something like water, fire, smoke, or wind damage.
+08/11/2025 11:22:29 INFO: Test 1/2: total eval strings: 4
+08/11/2025 11:22:29 INFO: Test 1/2: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 11:22:29 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. A disaster would be something like water, fire, smoke, or wind damage.
+08/11/2025 11:22:29 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 11:22:34 INFO: Test 1/2: image 1/2:  {'disaster_present': 'true', 'disaster_type': 'flooding'}.
+08/11/2025 11:22:34 INFO: Test 1/2: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 11:22:34 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. A disaster would be something like water, fire, smoke, or wind damage.
+08/11/2025 11:22:39 INFO: Test 1/2: image 2/2:  {'disaster_present': 'true', 'disaster_type': 'water damage'}.
+08/11/2025 11:22:39 INFO: Starting test 2/2: Evidence of disaster, failiure
+08/11/2025 11:22:39 INFO: Test 2/2: prompt: Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. A disaster would be something like water, fire, smoke, or wind damage.
+08/11/2025 11:22:39 INFO: Test 2/2: total eval strings: 3
+08/11/2025 11:22:39 INFO: Test 2/2: Running prompt on image 1/2: tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg
+08/11/2025 11:22:39 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. A disaster would be something like water, fire, smoke, or wind damage.
+08/11/2025 11:22:44 INFO: Test 2/2: image 1/2:  {
+    "disaster_present": true,
+    "disaster_type": "water"
+}
+08/11/2025 11:22:44 INFO: Test 2/2: Running prompt on image 2/2: tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg
+08/11/2025 11:22:44 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. A disaster would be something like water, fire, smoke, or wind damage.
+08/11/2025 11:22:44 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:22:44 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:22:44 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+08/11/2025 11:22:44 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+08/11/2025 11:22:44 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 70 - Data Location: 90 - value: <table: 35 bytes>
+08/11/2025 11:22:49 INFO: Test 2/2: image 2/2:  {
+    "disaster_present": true,
+    "disaster_type": "water"
+}
+08/11/2025 11:22:49 INFO: Run ended.
+08/11/2025 11:23:50 INFO: Starting run.
+08/11/2025 11:23:50 INFO: Using model file: models.txt
+08/11/2025 11:23:50 INFO: Using output_file file: results.csv
+08/11/2025 11:23:50 INFO: Using tests_file file: tests.json
+08/11/2025 11:23:50 DEBUG: Test 1 of 2: Evidence of disaster, pass
+08/11/2025 11:23:50 DEBUG: Test 2 of 2: Evidence of disaster, failiure
+08/11/2025 11:23:50 INFO: Running 2 tests against 1 models.
+08/11/2025 11:23:50 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:23:50 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:23:50 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:23:51 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:23:51 INFO: Starting test 1/2: Evidence of disaster, pass
+08/11/2025 11:23:51 INFO: Test 1/2: prompt: Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster. A disaster would be something like water, fire, smoke, or wind damage.
+08/11/2025 11:23:51 INFO: Test 1/2: total eval strings: 4
+08/11/2025 11:23:51 INFO: Test 1/2: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 11:23:51 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster. A disaster would be something like water, fire, smoke, or wind damage.
+08/11/2025 11:23:51 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 11:23:57 INFO: Test 1/2: image 1/2:  {'disaster_present': 'true', 'disaster_type': 'flooding', 'disaster_explanation': 'water has flooded the area around the house'}.
+08/11/2025 11:23:57 INFO: Test 1/2: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 11:23:57 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster. A disaster would be something like water, fire, smoke, or wind damage.
+08/11/2025 11:24:02 INFO: Test 1/2: image 2/2:  {'disaster_present': 'true', 'disaster_type': 'water damage', 'disaster_explanation': 'water damage from a broken pipe in the basement.
+08/11/2025 11:24:02 INFO: Starting test 2/2: Evidence of disaster, failiure
+08/11/2025 11:24:02 INFO: Test 2/2: prompt: Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster. A disaster would be something like water, fire, smoke, or wind damage.
+08/11/2025 11:24:02 INFO: Test 2/2: total eval strings: 3
+08/11/2025 11:24:02 INFO: Test 2/2: Running prompt on image 1/2: tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg
+08/11/2025 11:24:02 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster. A disaster would be something like water, fire, smoke, or wind damage.
+08/11/2025 11:24:07 INFO: Test 2/2: image 1/2:  {
+    "disaster_present": true,
+    "disaster_type": "water damage"
+}
+08/11/2025 11:24:07 INFO: Test 2/2: Running prompt on image 2/2: tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg
+08/11/2025 11:24:07 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster. A disaster would be something like water, fire, smoke, or wind damage.
+08/11/2025 11:24:07 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:24:07 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:24:07 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+08/11/2025 11:24:07 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+08/11/2025 11:24:07 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 70 - Data Location: 90 - value: <table: 35 bytes>
+08/11/2025 11:24:11 INFO: Test 2/2: image 2/2:  {
+    "disaster_present": true,
+    "disaster_type": "water damage"
+}
+08/11/2025 11:24:11 INFO: Run ended.
+08/11/2025 11:24:53 INFO: Starting run.
+08/11/2025 11:24:53 INFO: Using model file: models.txt
+08/11/2025 11:24:53 INFO: Using output_file file: results.csv
+08/11/2025 11:24:53 INFO: Using tests_file file: tests.json
+08/11/2025 11:24:53 DEBUG: Test 1 of 1: Evidence of disaster, failiure
+08/11/2025 11:24:53 INFO: Running 1 tests against 1 models.
+08/11/2025 11:24:53 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:24:53 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:24:53 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:24:54 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:24:54 INFO: Starting test 1/1: Evidence of disaster, failiure
+08/11/2025 11:24:54 INFO: Test 1/1: prompt: Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster. A disaster would be something like water, fire, smoke, or wind damage.
+08/11/2025 11:24:54 INFO: Test 1/1: total eval strings: 3
+08/11/2025 11:24:54 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg
+08/11/2025 11:24:54 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster. A disaster would be something like water, fire, smoke, or wind damage.
+08/11/2025 11:24:59 INFO: Test 1/1: image 1/2:  {
+    "disaster_present": true,
+    "disaster_type": "water damage"
+}
+08/11/2025 11:24:59 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg
+08/11/2025 11:24:59 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type:'}
+Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster. A disaster would be something like water, fire, smoke, or wind damage.
+08/11/2025 11:24:59 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:24:59 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:24:59 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+08/11/2025 11:24:59 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+08/11/2025 11:24:59 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 70 - Data Location: 90 - value: <table: 35 bytes>
+08/11/2025 11:25:04 INFO: Test 1/1: image 2/2:  {
+    "disaster_present": true,
+    "disaster_type": "water damage"
+}
+08/11/2025 11:25:04 INFO: Run ended.
+08/11/2025 11:26:30 INFO: Starting run.
+08/11/2025 11:26:30 INFO: Using model file: models.txt
+08/11/2025 11:26:30 INFO: Using output_file file: results.csv
+08/11/2025 11:26:30 INFO: Using tests_file file: tests.json
+08/11/2025 11:26:30 DEBUG: Test 1 of 1: Evidence of disaster, failiure
+08/11/2025 11:26:30 INFO: Running 1 tests against 1 models.
+08/11/2025 11:26:30 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:26:30 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:26:30 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:26:31 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:26:31 INFO: Starting test 1/1: Evidence of disaster, failiure
+08/11/2025 11:26:31 INFO: Test 1/1: prompt: Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster. A disaster would be something like water, fire, smoke, or wind damage.
+08/11/2025 11:26:31 INFO: Test 1/1: total eval strings: 3
+08/11/2025 11:26:31 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg
+08/11/2025 11:26:31 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster. A disaster would be something like water, fire, smoke, or wind damage.
+08/11/2025 11:26:41 INFO: Test 1/1: image 1/2:  {'disaster_present': 'true', 'disaster_type': 'water damage', 'disaster_explanation': 'The house has water damage on the roof and the walls. The water damage is from a flood that occurred in the area. The house is in need of repair and replacement of the roof and walls. The house is also in need of cleaning and drying out. The house is also in need of repair and replacement of the windows and doors. The house is also in need of repair and replacement of the siding and trim. The house is also in need of repair and replacement of the electrical system and the plumbing system. The house is also in need of repair and replacement of the HVAC system. The house is also in need of repair and replacement of the appliances. The house is also in need of repair and replacement of the furniture. The house is also in need of repair and replacement of the landscaping. The house is also in need of repair and replacement of the landscaping. The house is also in need of repair and replacement of the landscaping. The house is also in need of repair and replacement of the landscaping. The house is also in need of repair and replacement of the landscaping. The house is also in need of repair and replacement of the
+08/11/2025 11:26:41 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg
+08/11/2025 11:26:41 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster. A disaster would be something like water, fire, smoke, or wind damage.
+08/11/2025 11:26:41 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:26:41 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:26:41 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+08/11/2025 11:26:41 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+08/11/2025 11:26:41 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 70 - Data Location: 90 - value: <table: 35 bytes>
+08/11/2025 11:26:52 INFO: Test 1/1: image 2/2:  {'disaster_present': 'true', 'disaster_type': 'fire', 'disaster_explanation': 'The house is on fire and the roof is on fire. The house is made of wood and the roof is made of wood. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire.
+08/11/2025 11:26:52 INFO: Run ended.
+08/11/2025 11:28:37 INFO: Starting run.
+08/11/2025 11:28:37 INFO: Using model file: models.txt
+08/11/2025 11:28:37 INFO: Using output_file file: results.csv
+08/11/2025 11:28:37 INFO: Using tests_file file: tests.json
+08/11/2025 11:28:37 DEBUG: Test 1 of 1: Evidence of disaster, failiure
+08/11/2025 11:28:37 INFO: Running 1 tests against 1 models.
+08/11/2025 11:28:37 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:28:37 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:28:38 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:28:38 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:28:38 INFO: Starting test 1/1: Evidence of disaster, failiure
+08/11/2025 11:28:38 INFO: Test 1/1: prompt: Produce a detailed description of this image in json. A disaster would be something like evidence of extreme water, fire, smoke, or wind damage. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster.
+08/11/2025 11:28:38 INFO: Test 1/1: total eval strings: 3
+08/11/2025 11:28:38 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg
+08/11/2025 11:28:38 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Produce a detailed description of this image in json. A disaster would be something like evidence of extreme water, fire, smoke, or wind damage. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster.
+08/11/2025 11:28:43 INFO: Test 1/1: image 1/2:  {'disaster_present': 'false', 'disaster_type': 'none', 'disaster_explanation': 'none'}.
+08/11/2025 11:28:43 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg
+08/11/2025 11:28:43 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Produce a detailed description of this image in json. A disaster would be something like evidence of extreme water, fire, smoke, or wind damage. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster.
+08/11/2025 11:28:43 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:28:43 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:28:43 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+08/11/2025 11:28:43 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+08/11/2025 11:28:43 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 70 - Data Location: 90 - value: <table: 35 bytes>
+08/11/2025 11:28:54 INFO: Test 1/1: image 2/2:  {
+    "disaster_present": true,
+    "disaster_type": "fire",
+    "disaster_explanation": "The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire
+08/11/2025 11:28:54 INFO: Run ended.
+08/11/2025 11:30:22 INFO: Starting run.
+08/11/2025 11:30:22 INFO: Using model file: models.txt
+08/11/2025 11:30:22 INFO: Using output_file file: results.csv
+08/11/2025 11:30:22 INFO: Using tests_file file: tests.json
+08/11/2025 11:30:22 DEBUG: Test 1 of 1: Evidence of disaster, failiure
+08/11/2025 11:30:22 INFO: Running 1 tests against 1 models.
+08/11/2025 11:30:22 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:30:22 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:30:22 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:30:23 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:30:23 INFO: Starting test 1/1: Evidence of disaster, failiure
+08/11/2025 11:30:23 INFO: Test 1/1: prompt: Examine this image for the presence of a disaster. A disaster would be something like evidence of extreme water, fire, smoke, or wind damage. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include an answer in disaster_explanation.
+08/11/2025 11:30:23 INFO: Test 1/1: total eval strings: 3
+08/11/2025 11:30:23 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg
+08/11/2025 11:30:23 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of a disaster. A disaster would be something like evidence of extreme water, fire, smoke, or wind damage. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include an answer in disaster_explanation.
+08/11/2025 11:30:27 INFO: Test 1/1: image 1/2:  False.
+08/11/2025 11:30:27 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg
+08/11/2025 11:30:27 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer like this: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of a disaster. A disaster would be something like evidence of extreme water, fire, smoke, or wind damage. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include an answer in disaster_explanation.
+08/11/2025 11:30:27 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:30:27 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:30:27 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+08/11/2025 11:30:27 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+08/11/2025 11:30:27 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 70 - Data Location: 90 - value: <table: 35 bytes>
+08/11/2025 11:30:31 INFO: Test 1/1: image 2/2:  False.
+08/11/2025 11:30:31 INFO: Run ended.
+08/11/2025 11:32:09 INFO: Starting run.
+08/11/2025 11:32:09 INFO: Using model file: models.txt
+08/11/2025 11:32:09 INFO: Using output_file file: results.csv
+08/11/2025 11:32:09 INFO: Using tests_file file: tests.json
+08/11/2025 11:32:09 DEBUG: Test 1 of 1: Evidence of disaster, failiure
+08/11/2025 11:32:09 INFO: Running 1 tests against 1 models.
+08/11/2025 11:32:09 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:32:09 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:32:09 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:32:10 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:32:10 INFO: Starting test 1/1: Evidence of disaster, failiure
+08/11/2025 11:32:10 INFO: Test 1/1: prompt: Examine this image for the presence of a disaster. A disaster would be something like evidence of extreme water, fire, smoke, or wind damage. Answer disaster_present as true or false. Provide the disaster_type. Provide an answer in disaster_explanation.
+08/11/2025 11:32:10 INFO: Test 1/1: total eval strings: 3
+08/11/2025 11:32:10 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg
+08/11/2025 11:32:10 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of a disaster. A disaster would be something like evidence of extreme water, fire, smoke, or wind damage. Answer disaster_present as true or false. Provide the disaster_type. Provide an answer in disaster_explanation.
+08/11/2025 11:32:14 INFO: Test 1/1: image 1/2:  true.
+08/11/2025 11:32:14 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg
+08/11/2025 11:32:14 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of a disaster. A disaster would be something like evidence of extreme water, fire, smoke, or wind damage. Answer disaster_present as true or false. Provide the disaster_type. Provide an answer in disaster_explanation.
+08/11/2025 11:32:14 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:32:14 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:32:14 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+08/11/2025 11:32:14 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+08/11/2025 11:32:14 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 70 - Data Location: 90 - value: <table: 35 bytes>
+08/11/2025 11:32:19 INFO: Test 1/1: image 2/2:  true.
+08/11/2025 11:32:19 INFO: Run ended.
+08/11/2025 11:33:46 INFO: Starting run.
+08/11/2025 11:33:46 INFO: Using model file: models.txt
+08/11/2025 11:33:46 INFO: Using output_file file: results.csv
+08/11/2025 11:33:46 INFO: Using tests_file file: tests.json
+08/11/2025 11:33:46 DEBUG: Test 1 of 1: Evidence of disaster, failiure
+08/11/2025 11:33:46 INFO: Running 1 tests against 1 models.
+08/11/2025 11:33:46 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:33:46 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:33:46 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:33:47 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:33:47 INFO: Starting test 1/1: Evidence of disaster, failiure
+08/11/2025 11:33:47 INFO: Test 1/1: prompt: Examine this image for the presence of an extreme disaste, like water, fire, smoke, or wind damage. Answer disaster_present as true or false depending on if there is evidence of a disaster. If there was a disaster, provide the disaster_type. Provide an explanation in disaster_explanation.
+08/11/2025 11:33:47 INFO: Test 1/1: total eval strings: 3
+08/11/2025 11:33:47 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg
+08/11/2025 11:33:47 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaste, like water, fire, smoke, or wind damage. Answer disaster_present as true or false depending on if there is evidence of a disaster. If there was a disaster, provide the disaster_type. Provide an explanation in disaster_explanation.
+08/11/2025 11:33:51 INFO: Test 1/1: image 1/2:  False.
+08/11/2025 11:33:51 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg
+08/11/2025 11:33:51 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaste, like water, fire, smoke, or wind damage. Answer disaster_present as true or false depending on if there is evidence of a disaster. If there was a disaster, provide the disaster_type. Provide an explanation in disaster_explanation.
+08/11/2025 11:33:51 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:33:51 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:33:51 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+08/11/2025 11:33:51 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+08/11/2025 11:33:51 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 70 - Data Location: 90 - value: <table: 35 bytes>
+08/11/2025 11:33:56 INFO: Test 1/1: image 2/2:  True.
+08/11/2025 11:33:56 INFO: Run ended.
+08/11/2025 11:35:00 INFO: Starting run.
+08/11/2025 11:35:00 INFO: Using model file: models.txt
+08/11/2025 11:35:00 INFO: Using output_file file: results.csv
+08/11/2025 11:35:00 INFO: Using tests_file file: tests.json
+08/11/2025 11:35:00 DEBUG: Test 1 of 1: Evidence of disaster, failiure
+08/11/2025 11:35:00 INFO: Running 1 tests against 1 models.
+08/11/2025 11:35:00 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:35:00 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:35:00 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:35:01 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:35:01 INFO: Starting test 1/1: Evidence of disaster, failiure
+08/11/2025 11:35:01 INFO: Test 1/1: prompt: Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation. A disaster is something like extreme damage due to water, flood, wind, or fire
+08/11/2025 11:35:01 INFO: Test 1/1: total eval strings: 3
+08/11/2025 11:35:01 INFO: Test 1/1: Running prompt on image 1/2: tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg
+08/11/2025 11:35:01 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation. A disaster is something like extreme damage due to water, flood, wind, or fire
+08/11/2025 11:35:06 INFO: Test 1/1: image 1/2:  disaster_present: no, disaster_type: no, disaster_explanation:
+08/11/2025 11:35:06 INFO: Test 1/1: Running prompt on image 2/2: tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg
+08/11/2025 11:35:06 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation. A disaster is something like extreme damage due to water, flood, wind, or fire
+08/11/2025 11:35:06 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:35:06 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:35:06 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+08/11/2025 11:35:06 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+08/11/2025 11:35:06 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 70 - Data Location: 90 - value: <table: 35 bytes>
+08/11/2025 11:35:12 INFO: Test 1/1: image 2/2:  {'disaster_present': 'yes', 'disaster_type': 'water', 'disaster_explanation': 'The house is flooded. The water is very high and it is difficult to get out. The house is made of wood and it is very easy to burn. The house is also very old and it is not very strong. The house is in danger of being destroyed. '}
+08/11/2025 11:35:12 INFO: Run ended.
+08/11/2025 11:38:00 INFO: Starting run.
+08/11/2025 11:38:00 INFO: Using model file: models.txt
+08/11/2025 11:38:00 INFO: Using output_file file: results.csv
+08/11/2025 11:38:00 INFO: Using tests_file file: tests.json
+08/11/2025 11:38:00 DEBUG: Test 1 of 1: Evidence of disaster, failiure
+08/11/2025 11:38:00 INFO: Running 1 tests against 1 models.
+08/11/2025 11:38:00 INFO: Starting run with model 1 of 1: mlx-community/SmolVLM-Instruct-bf16
+08/11/2025 11:38:00 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:38:00 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:38:01 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/SmolVLM-Instruct-bf16/revision/main HTTP/1.1" 200 2973
+08/11/2025 11:38:01 INFO: Starting test 1/1: Evidence of disaster, failiure
+08/11/2025 11:38:01 INFO: Test 1/1: prompt: Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation. A disaster is something like extreme damage due to water, flood, wind, or fire
+08/11/2025 11:38:01 INFO: Test 1/1: total eval strings: 3
+08/11/2025 11:38:01 INFO: Test 1/1: Running prompt on image 1/3: tests/images/disaster/flooding/fail/3-2770253275.jpg
+08/11/2025 11:38:01 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation. A disaster is something like extreme damage due to water, flood, wind, or fire
+08/11/2025 11:38:06 INFO: Test 1/1: image 1/3:  true
+08/11/2025 11:38:06 INFO: Test 1/1: Running prompt on image 2/3: tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg
+08/11/2025 11:38:06 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation. A disaster is something like extreme damage due to water, flood, wind, or fire
+08/11/2025 11:38:10 INFO: Test 1/1: image 2/3:  disaster_present: no, disaster_type: no, disaster_explanation:
+08/11/2025 11:38:10 INFO: Test 1/1: Running prompt on image 3/3: tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg
+08/11/2025 11:38:10 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation. A disaster is something like extreme damage due to water, flood, wind, or fire
+08/11/2025 11:38:10 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:38:10 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:38:10 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+08/11/2025 11:38:10 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+08/11/2025 11:38:10 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 70 - Data Location: 90 - value: <table: 35 bytes>
+08/11/2025 11:38:16 INFO: Test 1/1: image 3/3:  {'disaster_present': 'yes', 'disaster_type': 'water', 'disaster_explanation': 'The house is flooded. The water is very high and it is difficult to get out. The house is made of wood and it is very easy to burn. The house is also very old and it is not very strong. The house is in danger of being destroyed. '}
+08/11/2025 11:38:16 INFO: Run ended.
+08/11/2025 11:39:08 INFO: Starting run.
+08/11/2025 11:39:08 INFO: Using model file: models.txt
+08/11/2025 11:39:08 INFO: Using output_file file: results.csv
+08/11/2025 11:39:08 INFO: Using tests_file file: tests.json
+08/11/2025 11:39:08 DEBUG: Test 1 of 1: Evidence of disaster, failiure
+08/11/2025 11:39:08 INFO: Running 1 tests against 1 models.
+08/11/2025 11:39:08 INFO: Starting run with model 1 of 1: mlx-community/llava-interleave-qwen-7b-4bit
+08/11/2025 11:39:08 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:39:08 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/11/2025 11:39:10 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/11/2025 11:39:10 INFO: Starting test 1/1: Evidence of disaster, failiure
+08/11/2025 11:39:10 INFO: Test 1/1: prompt: Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation. A disaster is something like extreme damage due to water, flood, wind, or fire
+08/11/2025 11:39:10 INFO: Test 1/1: total eval strings: 3
+08/11/2025 11:39:10 INFO: Test 1/1: Running prompt on image 1/3: tests/images/disaster/flooding/fail/3-2770253275.jpg
+08/11/2025 11:39:10 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation. A disaster is something like extreme damage due to water, flood, wind, or fire
+08/11/2025 11:39:17 INFO: Test 1/1: image 1/3: ```json
+{
+  "disaster_present": "No, there is no visible damage to the building in the image.",
+  "disaster_type": "The image does not depict any extreme disaster such as water, flood, wind, or fire damage.",
+  "disaster_explanation": "The building appears to be in good condition without any visible damage."
+}
+```
+08/11/2025 11:39:17 INFO: Test 1/1: Running prompt on image 2/3: tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg
+08/11/2025 11:39:17 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation. A disaster is something like extreme damage due to water, flood, wind, or fire
+08/11/2025 11:39:24 INFO: Test 1/1: image 2/3: ```json
+{
+  "disaster_present": "No visible signs of disaster such as water, fire, or smoke damage are present in the image provided.",
+  "disaster_type": "The image does not show any clear evidence of a disaster like a flood, fire, or wind damage.",
+  "disaster_explanation": "There is no indication of any disaster in the scene depicted. The house appears undamaged, and there are no visible signs of water, fire, or smoke damage."
+}
+```
+08/11/2025 11:39:24 INFO: Test 1/1: Running prompt on image 3/3: tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg
+08/11/2025 11:39:24 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation. A disaster is something like extreme damage due to water, flood, wind, or fire
+08/11/2025 11:39:24 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:39:24 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:39:24 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+08/11/2025 11:39:24 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+08/11/2025 11:39:24 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 70 - Data Location: 90 - value: <table: 35 bytes>
+08/11/2025 11:39:32 INFO: Test 1/1: image 3/3: ```json
+{
+  "disaster_present": "No, there is no visible damage to the house or the surrounding environment in the image provided.",
+  "disaster_type": "The image does not depict any extreme disaster such as water, flood, wind, or fire damage.",
+  "disaster_explanation": "The house appears to be in good condition, with no visible damage to the structure or the surrounding landscape. The sky is clear, and there are no signs of smoke, debris, or other indicators of a disaster."
+}
+```
+08/11/2025 11:39:32 INFO: Run ended.
+08/11/2025 11:40:59 INFO: Starting run.
+08/11/2025 11:40:59 INFO: Using model file: models.txt
+08/11/2025 11:40:59 INFO: Using output_file file: results.csv
+08/11/2025 11:40:59 INFO: Using tests_file file: tests.json
+08/11/2025 11:41:09 INFO: Starting run.
+08/11/2025 11:41:09 INFO: Using model file: models.txt
+08/11/2025 11:41:09 INFO: Using output_file file: results.csv
+08/11/2025 11:41:09 INFO: Using tests_file file: tests.json
+08/11/2025 11:41:09 DEBUG: Test 1 of 2: Evidence of disaster, failiure
+08/11/2025 11:41:09 DEBUG: Test 2 of 2: Evidence of disaster, failiure
+08/11/2025 11:41:09 INFO: Running 2 tests against 1 models.
+08/11/2025 11:41:09 INFO: Starting run with model 1 of 1: mlx-community/llava-interleave-qwen-7b-4bit
+08/11/2025 11:41:09 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:41:09 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/11/2025 11:41:11 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/11/2025 11:41:11 INFO: Starting test 1/2: Evidence of disaster, failiure
+08/11/2025 11:41:11 INFO: Test 1/2: prompt: Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation.
+08/11/2025 11:41:11 INFO: Test 1/2: total eval strings: 3
+08/11/2025 11:41:11 INFO: Test 1/2: Running prompt on image 1/3: tests/images/disaster/flooding/fail/3-2770253275.jpg
+08/11/2025 11:41:11 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation.
+08/11/2025 11:41:17 INFO: Test 1/2: image 1/3: ```json
+{
+  "disaster_present": "No extreme disaster is visible in the image",
+  "disaster_type": "None of the visible elements suggest a disaster",
+  "disaster_explanation": "The image shows a building with no apparent damage or disaster. The structure appears intact, there is no visible smoke, water, or debris, and no signs of destruction or emergency."
+}
+```
+08/11/2025 11:41:17 INFO: Test 1/2: Running prompt on image 2/3: tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg
+08/11/2025 11:41:17 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation.
+08/11/2025 11:41:23 INFO: Test 1/2: image 2/3: ```json
+{
+  "disaster_present": "No visible signs of disaster such as water, fire, smoke, or wind damage",
+  "disaster_type": "None",
+  "disaster_explanation": "The image shows a house with no apparent damage, and the surrounding environment appears normal. There is no indication of an extreme disaster."
+}
+```
+08/11/2025 11:41:23 INFO: Test 1/2: Running prompt on image 3/3: tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg
+08/11/2025 11:41:23 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation.
+08/11/2025 11:41:23 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:41:23 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:41:23 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+08/11/2025 11:41:23 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+08/11/2025 11:41:23 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 70 - Data Location: 90 - value: <table: 35 bytes>
+08/11/2025 11:41:29 INFO: Test 1/2: image 3/3: ```json
+{
+  "disaster_present": "No extreme disaster is visible in the image",
+  "disaster_type": "None of the visible elements suggest a disaster",
+  "disaster_explanation": "The image shows a wooden house with a tiled roof, surrounded by green grass and trees, under a clear blue sky. There is no indication of water, fire, smoke, or wind damage."
+}
+```
+08/11/2025 11:41:29 INFO: Starting test 2/2: Evidence of disaster, failiure
+08/11/2025 11:41:29 INFO: Test 2/2: prompt: Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood or fire or wind, and a short disaster_explanation.
+08/11/2025 11:41:29 INFO: Test 2/2: total eval strings: 3
+08/11/2025 11:41:29 INFO: Test 2/2: Running prompt on image 1/3: tests/images/disaster/flooding/fail/3-2770253275.jpg
+08/11/2025 11:41:29 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood or fire or wind, and a short disaster_explanation.
+08/11/2025 11:41:36 INFO: Test 2/2: image 1/3: ```json
+{
+  "disaster_present": false,
+  "disaster_type": "flood",
+  "disaster_explanation": "The image shows a building with water damage, which indicates a flood. The water is not visible, but the presence of water damage suggests that the building has been affected by a flood."
+}
+```
+08/11/2025 11:41:36 INFO: Test 2/2: Running prompt on image 2/3: tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg
+08/11/2025 11:41:36 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood or fire or wind, and a short disaster_explanation.
+08/11/2025 11:41:41 INFO: Test 2/2: image 2/3: ```json
+{
+  "disaster_present": false,
+  "disaster_type": "flood",
+  "disaster_explanation": "The image shows a house with no visible damage, indicating that there has been no extreme disaster like water, fire, or wind damage."
+}
+```
+08/11/2025 11:41:41 INFO: Test 2/2: Running prompt on image 3/3: tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg
+08/11/2025 11:41:41 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood or fire or wind, and a short disaster_explanation.
+08/11/2025 11:41:41 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:41:42 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:41:42 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+08/11/2025 11:41:42 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+08/11/2025 11:41:42 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 70 - Data Location: 90 - value: <table: 35 bytes>
+08/11/2025 11:41:48 INFO: Test 2/2: image 3/3: ```json
+{
+  "disaster_present": false,
+  "disaster_type": "none",
+  "disaster_explanation": "The image provided does not show any signs of disaster such as water, fire, smoke, or wind damage. The wooden house appears undamaged, and there are no visible signs of destruction or distress."
+}
+```
+08/11/2025 11:41:48 INFO: Run ended.
+08/11/2025 11:42:31 INFO: Starting run.
+08/11/2025 11:42:31 INFO: Using model file: models.txt
+08/11/2025 11:42:31 INFO: Using output_file file: results.csv
+08/11/2025 11:42:31 INFO: Using tests_file file: tests.json
+08/11/2025 11:42:31 DEBUG: Test 1 of 1: Evidence of disaster, failiure
+08/11/2025 11:42:31 INFO: Running 1 tests against 1 models.
+08/11/2025 11:42:31 INFO: Starting run with model 1 of 1: mlx-community/llava-interleave-qwen-7b-4bit
+08/11/2025 11:42:31 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:42:32 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/11/2025 11:42:33 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/11/2025 11:42:33 INFO: Starting test 1/1: Evidence of disaster, failiure
+08/11/2025 11:42:33 INFO: Test 1/1: prompt: Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.
+08/11/2025 11:42:33 INFO: Test 1/1: total eval strings: 3
+08/11/2025 11:42:33 INFO: Test 1/1: Running prompt on image 1/3: tests/images/disaster/flooding/fail/3-2770253275.jpg
+08/11/2025 11:42:33 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.
+08/11/2025 11:42:40 INFO: Test 1/1: image 1/3: ```json
+{
+  "disaster_present": false,
+  "disaster_type": "none",
+  "disaster_explanation": "The image provided does not show any evidence of an extreme disaster such as water, fire, smoke, or wind damage. There are no visible signs of flooding, structural damage, or other indicators of a disaster."
+}
+```
+08/11/2025 11:42:40 INFO: Test 1/1: Running prompt on image 2/3: tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg
+08/11/2025 11:42:40 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.
+08/11/2025 11:42:46 INFO: Test 1/1: image 2/3: ```json
+{
+  "disaster_present": false,
+  "disaster_type": "none",
+  "disaster_explanation": "The image provided does not show any clear evidence of a disaster such as water, fire, wind, or other damage. The house appears undamaged, and there are no visible signs of destruction or distress."
+}
+```
+08/11/2025 11:42:46 INFO: Test 1/1: Running prompt on image 3/3: tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg
+08/11/2025 11:42:46 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.
+08/11/2025 11:42:46 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:42:46 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:42:46 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+08/11/2025 11:42:46 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+08/11/2025 11:42:46 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 70 - Data Location: 90 - value: <table: 35 bytes>
+08/11/2025 11:42:53 INFO: Test 1/1: image 3/3: ```json
+{
+  "disaster_present": false,
+  "disaster_type": "none",
+  "disaster_explanation": "The image provided does not show any evidence of an extreme disaster such as water, fire, wind, or other damage. The wooden house appears undamaged, and there is no visible smoke, debris, or damage to the surrounding environment."
+}
+```
+08/11/2025 11:42:53 INFO: Run ended.
+08/11/2025 11:44:27 INFO: Starting run.
+08/11/2025 11:44:27 INFO: Using model file: models.txt
+08/11/2025 11:44:27 INFO: Using output_file file: results.csv
+08/11/2025 11:44:27 INFO: Using tests_file file: tests.json
+08/11/2025 11:44:42 INFO: Starting run.
+08/11/2025 11:44:42 INFO: Using model file: models.txt
+08/11/2025 11:44:42 INFO: Using output_file file: results.csv
+08/11/2025 11:44:42 INFO: Using tests_file file: tests.json
+08/11/2025 11:44:42 DEBUG: Test 1 of 2: Evidence of disaster, flooding
+08/11/2025 11:44:42 DEBUG: Test 2 of 2: Evidence of disaster, failiure
+08/11/2025 11:44:42 INFO: Running 2 tests against 1 models.
+08/11/2025 11:44:42 INFO: Starting run with model 1 of 1: mlx-community/llava-interleave-qwen-7b-4bit
+08/11/2025 11:44:42 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:44:42 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/11/2025 11:44:44 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/11/2025 11:44:44 INFO: Starting test 1/2: Evidence of disaster, flooding
+08/11/2025 11:44:44 INFO: Test 1/2: prompt: Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.
+08/11/2025 11:44:44 INFO: Test 1/2: total eval strings: 5
+08/11/2025 11:44:44 INFO: Test 1/2: Running prompt on image 1/3: tests/images/disaster/flooding/.DS_Store
+08/11/2025 11:44:44 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.
+08/11/2025 11:44:44 DEBUG: Importing AvifImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing BlpImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing BmpImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing BufrStubImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing CurImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing DcxImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing DdsImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing EpsImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing FitsImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing FliImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing FpxImagePlugin
+08/11/2025 11:44:44 DEBUG: Image: failed to import FpxImagePlugin: No module named 'olefile'
+08/11/2025 11:44:44 DEBUG: Importing FtexImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing GbrImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing GifImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing GribStubImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing Hdf5StubImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing IcnsImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing IcoImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing ImImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing ImtImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing IptcImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing JpegImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing Jpeg2KImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing McIdasImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing MicImagePlugin
+08/11/2025 11:44:44 DEBUG: Image: failed to import MicImagePlugin: No module named 'olefile'
+08/11/2025 11:44:44 DEBUG: Importing MpegImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing MpoImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing MspImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing PalmImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing PcdImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing PcxImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing PdfImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing PixarImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing PngImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing PpmImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing PsdImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing QoiImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing SgiImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing SpiderImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing SunImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing TgaImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing TiffImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing WebPImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing WmfImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing XbmImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing XpmImagePlugin
+08/11/2025 11:44:44 DEBUG: Importing XVThumbImagePlugin
+08/11/2025 11:45:00 INFO: Starting run.
+08/11/2025 11:45:00 INFO: Using model file: models.txt
+08/11/2025 11:45:00 INFO: Using output_file file: results.csv
+08/11/2025 11:45:00 INFO: Using tests_file file: tests.json
+08/11/2025 11:45:00 DEBUG: Test 1 of 2: Evidence of disaster, flooding
+08/11/2025 11:45:00 DEBUG: Test 2 of 2: Evidence of disaster, failiure
+08/11/2025 11:45:00 INFO: Running 2 tests against 1 models.
+08/11/2025 11:45:00 INFO: Starting run with model 1 of 1: mlx-community/llava-interleave-qwen-7b-4bit
+08/11/2025 11:45:00 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/11/2025 11:45:00 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/11/2025 11:45:02 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/llava-interleave-qwen-7b-4bit/revision/main HTTP/1.1" 200 2860
+08/11/2025 11:45:02 INFO: Starting test 1/2: Evidence of disaster, flooding
+08/11/2025 11:45:02 INFO: Test 1/2: prompt: Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.
+08/11/2025 11:45:02 INFO: Test 1/2: total eval strings: 5
+08/11/2025 11:45:02 INFO: Test 1/2: Running prompt on image 1/2: tests/images/disaster/flooding/flood-waters-around-blue-house.jpg
+08/11/2025 11:45:02 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.
+08/11/2025 11:45:02 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: <table: 89 bytes>
+08/11/2025 11:45:09 INFO: Test 1/2: image 1/2: ```json
+{
+  "disaster_present": true,
+  "disaster_type": "flood",
+  "disaster_explanation": "The image shows a house partially submerged in water, indicating a flood has occurred. The water level is high enough to submerge the house, which is a clear indication of a flood disaster."
+}
+```
+08/11/2025 11:45:09 INFO: Test 1/2: Running prompt on image 2/2: tests/images/disaster/flooding/basement-flooding-2073546059.jpg
+08/11/2025 11:45:09 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.
+08/11/2025 11:45:15 INFO: Test 1/2: image 2/2: ```json
+{
+  "disaster_present": true,
+  "disaster_type": "flood",
+  "disaster_explanation": "The image shows a room with water on the floor, indicating a flood. The presence of water and the state of the room suggest that an extreme disaster has occurred, specifically a flood."
+}
+```
+08/11/2025 11:45:15 INFO: Starting test 2/2: Evidence of disaster, failiure
+08/11/2025 11:45:15 INFO: Test 2/2: prompt: Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.
+08/11/2025 11:45:15 INFO: Test 2/2: total eval strings: 3
+08/11/2025 11:45:15 INFO: Test 2/2: Running prompt on image 1/3: tests/images/disaster/fail/3-2770253275.jpg
+08/11/2025 11:45:15 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.
+08/11/2025 11:45:21 INFO: Test 2/2: image 1/3: ```json
+{
+  "disaster_present": false,
+  "disaster_type": "none",
+  "disaster_explanation": "The image provided does not show any evidence of an extreme disaster such as water, fire, smoke, or wind damage. There are no visible signs of flooding, structural damage, or other indicators of a disaster."
+}
+```
+08/11/2025 11:45:21 INFO: Test 2/2: Running prompt on image 2/3: tests/images/disaster/fail/single-family-home-exterior-on-overcast.jpg
+08/11/2025 11:45:21 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.
+08/11/2025 11:45:27 INFO: Test 2/2: image 2/3: ```json
+{
+  "disaster_present": false,
+  "disaster_type": "none",
+  "disaster_explanation": "The image provided does not show any clear evidence of a disaster such as water, fire, wind, or other damage. The house appears undamaged, and there are no visible signs of destruction or distress."
+}
+```
+08/11/2025 11:45:27 INFO: Test 2/2: Running prompt on image 3/3: tests/images/disaster/fail/traditional-georgian-historic-wooden.jpg
+08/11/2025 11:45:27 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.
+08/11/2025 11:45:27 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:45:27 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:45:27 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+08/11/2025 11:45:27 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+08/11/2025 11:45:27 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 70 - Data Location: 90 - value: <table: 35 bytes>
+08/11/2025 11:45:34 INFO: Test 2/2: image 3/3: ```json
+{
+  "disaster_present": false,
+  "disaster_type": "none",
+  "disaster_explanation": "The image provided does not show any evidence of an extreme disaster such as water, fire, wind, or other damage. The wooden house appears undamaged, and there is no visible smoke, debris, or damage to the surrounding environment."
+}
+```
+08/11/2025 11:45:34 INFO: Run ended.

@@ -17,6 +17,13 @@ DEFAULT_MODELS_FILE = "models.txt"
 DEFAULT_OUTPUT_FILE = "results.csv"
 DEFAULT_TEST_FILE = "tests.json"
 DEFAULT_LOGFILE = "logs/DUA-VLM-POC.log"
+DEFAULT_SYSTEM_PROMPT_FILE = "system_prompt.json"
+
+def load_system_prompt(system_prompt_file):
+    with open(system_prompt_file, encoding='utf-8') as f:
+        system_prompt_json = json.load(f)
+        system_prompt = system_prompt_json[0]['system_prompt']
+    return system_prompt
 
 def load_tests_json(tests_file):
     # print(f"Trying to load json tests file {tests_file}")
@@ -42,6 +49,7 @@ def parse_args():
     parser.add_argument("--models", default=DEFAULT_MODELS_FILE, help="Provide the path to model file listing huggingface models (default: models.txt)")
     parser.add_argument("--tests", default=DEFAULT_TEST_FILE, help="Provide the path to the csv file containing tests (default: tests.csv)")
     parser.add_argument("--output", default=DEFAULT_OUTPUT_FILE, help = "Provide the path to the output csv file (default: results.csv")
+    parser.add_argument("--system", default=DEFAULT_SYSTEM_PROMPT_FILE, help = "Provide the path to a json file specifiying a system prompt to use")
     return parser.parse_args()
     
 def load_models_list(models_file):
@@ -65,15 +73,6 @@ def run_prompt(model, processor, config, prompt, image):
     response = generate(model, processor, formatted_prompt, image, verbose=False)
     return response
 
-# def check_result(prompt_output, test):
-#     # actually what we want to do here is get the prompt output, and the list of strings to check against.
-#     # if *any* of the strings to check against are in the prompt output, then we returnt true
-
-#     """Provide the prompt output and a test string. Normalizes / lowercases the strings and returns whether the test string is present in the prompt output."""
-#     if test:
-#         return test.lower() in prompt_output.lower()
-
-
 def write_results(file_path, results):
     file_exists = Path(file_path).exists()
 
@@ -94,6 +93,7 @@ def main():
     models_file = args.models
     output_file = args.output
     tests_file = args.tests
+    system_prompts_file = args.system
 
 
     logger.info('Using model file: %s', models_file)
@@ -102,6 +102,7 @@ def main():
     
     models = load_models_list(models_file)
     tests = load_tests_json(tests_file)
+    system_prompt = load_system_prompt(system_prompts_file)
 
     logger.info('Running %s tests against %s models.', len(tests), len(models))
 
@@ -143,7 +144,15 @@ def main():
 
                 logger.info('Test %s/%s: Running prompt on image %s/%s: %s', test_idx, len(tests), image_idx, len(test_images), image_path)
 
-                prompt = test['prompt']
+                # prompt = test['prompt']
+
+                # Append the test prompt to the system prompt 
+                # TODO: Can't figure out if the generator for these models will accept a system prompt as a kwarg
+
+                prompt = system_prompt + "\n" + test['prompt']
+                # print("Using prompt: %s", prompt)           
+
+                logging.debug('Using prompt: %s', prompt)
                 register_heif_opener()
                 image = [Image.open(image_path)]
                 this_result = []
@@ -162,6 +171,8 @@ def main():
                 # in this approach, we want one row per test, and to return True if any of the expected results are in the prompt output
                 # so we just take output.text and the list of expected_results
 
+
+                # This here is the test loop, it should probably be a function?
                 test_satisfied = False
 
                 for check in check_strings:
@@ -169,7 +180,7 @@ def main():
                         test_satisfied = True
                         break
                 
-                this_result = [{"timestamp": timestamp, "model": model_path, "test_description": test['test_description'], "image_path": image_path, "prompt": prompt, "output": output.text, "expected_result": test['expected_result'], "check": test_satisfied}]
+                this_result = [{"timestamp": timestamp, "model": model_path, "test_description": test['test_description'], "image_path": image_path, "prompt": test['prompt'], "output": output.text, "expected_result": test['expected_result'], "check": test_satisfied}]
                 results.append(this_result)                
                 write_results(output_file, this_result)
 
@@ -199,4 +210,3 @@ logging.basicConfig(
 if __name__ == "__main__":
 
     main()
-

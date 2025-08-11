@@ -1,0 +1,20 @@
+[
+
+    {   "test_description": "Evidence of EIN",
+        "prompt": "Does this show anything that might be an Employer Identification Number (EIN)?. EINs come in the form of 2 digits, a dash, and then 7 digits. Answer yes or no, then the percentage confidence in the answer.",
+        "image_directory": "tests/images/self-employment/ein",
+        "expected_result": ["yes"]    
+    },
+    {   
+        "test_description": "EIN",
+        "prompt": "If there is an employer identification number (EIN) in this document, answer with that EIN. Limit the answer to the EIN itself, which takes the form of 2 digits, a dash, and then 7 digits. Provide the percentage confidence in the answer",
+        "image_directory": "tests/images/self-employment/ein",
+        "expected_result": ["21-7893456", "12-3456789", "33-0643958", "52-1980218"]    
+    },
+    {   
+        "test_description": "EIN Addressee",
+        "prompt": "Who is this document addressed to? Provide the name of the addressee, and the percentage confidence in the answer",
+        "image_directory": "tests/images/self-employment/ein",
+        "expected_result": ["ACME LLC", "THERESA LOPEZ-FITZGERALD", "PACIFIC AQUASPACE CALIFORNIA INC", "TRUE BUDDHA TEMPLE MARYLAND", "KENNETH CHIU"]    
+    }
+]

@@ -427,3 +427,375 @@ The document clearly states ""For assistance you may call us at:1-800-289-4933""
 2025-08-06T17:22:10,mlx-community/SmolVLM-Instruct-bf16,EIN Addressee,tests/images/self-employment/ein/hwkowk7el4x6q3yeg5ip-1147943500.jpg,"Who is this document addressed to? Provide the name of the addressee, and the percentage confidence in the answer", Dear Taxpayer:,"['ACME LLC', 'THERESA LOPEZ-FITZGERALD', 'PACIFIC AQUASPACE CALIFORNIA INC', 'TRUE BUDDHA TEMPLE MARYLAND', 'KENNETH CHIU']",False
 2025-08-06T17:22:10,mlx-community/SmolVLM-Instruct-bf16,EIN Addressee,tests/images/self-employment/ein/IRS-EIN-letter-752751540.png,"Who is this document addressed to? Provide the name of the addressee, and the percentage confidence in the answer"," Dear [Name], I have 90% confidence in the answer.","['ACME LLC', 'THERESA LOPEZ-FITZGERALD', 'PACIFIC AQUASPACE CALIFORNIA INC', 'TRUE BUDDHA TEMPLE MARYLAND', 'KENNETH CHIU']",False
 2025-08-06T17:22:10,mlx-community/SmolVLM-Instruct-bf16,EIN Addressee,tests/images/self-employment/ein/b5f84dd177b753c20f80983125d53ded07bba3b5c207e92c644ecc7832c923bd-2817087531.png,"Who is this document addressed to? Provide the name of the addressee, and the percentage confidence in the answer", ACME LLC,"['ACME LLC', 'THERESA LOPEZ-FITZGERALD', 'PACIFIC AQUASPACE CALIFORNIA INC', 'TRUE BUDDHA TEMPLE MARYLAND', 'KENNETH CHIU']",True
+2025-08-11T10:36:18,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg,"You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Analyze the image from multiple perspectives. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.", Yes.,"['yes', 'flood', 'flooding', 'water']",True
+2025-08-11T10:36:18,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Analyze the image from multiple perspectives. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.", Yes.,"['yes', 'flood', 'flooding', 'water']",True
+2025-08-11T10:37:19,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg,"You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Analyze the image from multiple perspectives. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.", Yes.,"['yes', 'flood', 'flooding', 'water']",True
+2025-08-11T10:37:19,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Analyze the image from multiple perspectives. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.", Yes.,"['yes', 'flood', 'flooding', 'water']",True
+2025-08-11T10:38:37,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg,"You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Analyze the image from multiple perspectives. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': 'answer'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.", Yes.,"['yes', 'flood', 'flooding', 'water']",True
+2025-08-11T10:38:37,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Analyze the image from multiple perspectives. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': 'answer'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.", Yes.,"['yes', 'flood', 'flooding', 'water']",True
+2025-08-11T10:39:09,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg,"You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Analyze the image from multiple perspectives. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': 'answer'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage.", {'disaster_present': 'no'}.,"['yes', 'flood', 'flooding', 'water']",False
+2025-08-11T10:39:09,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Analyze the image from multiple perspectives. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': 'answer'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage.", {'disaster_present': 'yes'}.,"['yes', 'flood', 'flooding', 'water']",True
+2025-08-11T10:40:27,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg,"You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': 'answer'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage.", {'disaster_present': 'yes'}.,"['yes', 'flood', 'flooding', 'water']",True
+2025-08-11T10:40:27,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': 'answer'}
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage.", Yes.,"['yes', 'flood', 'flooding', 'water']",True
+2025-08-11T10:42:07,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg,"You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': bool}, {'disaster_type'}: 
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?"," {'disaster_present': 'yes', 'disaster_type': 'flood'}","['yes', 'flood', 'flooding', 'water']",True
+2025-08-11T10:42:07,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': bool}, {'disaster_type'}: 
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?"," {'disaster_present': True, 'disaster_type': 'flood'}","['yes', 'flood', 'flooding', 'water']",True
+2025-08-11T10:44:01,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg,"You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer with the boolean TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': bool}, {'disaster_type'}: 
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?"," {'disaster_present': TRUE, 'disaster_type': 'flood'}","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T10:44:01,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer with the boolean TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': bool}, {'disaster_type'}: 
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?"," {'disaster_present': TRUE, 'disaster_type': 'flood'}","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T10:44:01,mlx-community/SmolVLM-Instruct-bf16,Type of disaster,tests/images/disaster/fire/IMG_0506-2885709045.jpg,"You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer with the boolean TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': bool}, {'disaster_type'}: 
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?"," Yes
+{
+    ""disaster_present"": true,
+    ""disaster_type"": ""fire""
+}","['true', 'fire', 'smoke']",True
+2025-08-11T10:44:01,mlx-community/SmolVLM-Instruct-bf16,Type of disaster,tests/images/disaster/fire/fire-2-3308097013.jpg,"You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer with the boolean TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': bool}, {'disaster_type'}: 
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", No.,"['true', 'fire', 'smoke']",False
+2025-08-11T10:46:18,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house-standard_8150b0462cc3bcfa6cbffd185f828669-1315407200.jpg,"You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer with the boolean TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': bool}, {'disaster_type'}: 
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?"," {'disaster_present': TRUE, 'disaster_type': 'flood'}","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T10:46:18,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer with the boolean TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': bool}, {'disaster_type'}: 
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?"," {'disaster_present': TRUE, 'disaster_type': 'flood'}","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T10:46:18,mlx-community/SmolVLM-Instruct-bf16,Type of disaster,tests/images/disaster/fire/IMG_0506-2885709045.jpg,"You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer with the boolean TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': bool}, {'disaster_type'}: 
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?"," Yes
+{
+    ""disaster_present"": true,
+    ""disaster_type"": ""fire""
+}","['true', 'fire', 'smoke']",True
+2025-08-11T10:46:18,mlx-community/SmolVLM-Instruct-bf16,Type of disaster,tests/images/disaster/fire/fire-2-3308097013.jpg,"You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. 
+Output a single JSON object with nested properties, formatted with standard JSON syntax and indentation for readability.
+
+ If the answer to a question is yes or no, answer with the boolean TRUE or FALSE. If the question is about whether a disaster is present, use a format like this: 
+
+ {'disaster_present': bool}, {'disaster_type'}: 
+Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", No.,"['true', 'fire', 'smoke']",False
+2025-08-11T10:50:26,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?"," {'disaster_present': TRUE, 'disaster_type': 'flood'}","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T10:50:26,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", No,"['true', 'flood', 'flooding', 'water']",False
+2025-08-11T10:50:26,mlx-community/SmolVLM-Instruct-bf16,Type of disaster,tests/images/disaster/fire/IMG_0506-2885709045.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?"," Yes
+Disaster: Fire","['true', 'fire', 'smoke']",True
+2025-08-11T10:50:26,mlx-community/SmolVLM-Instruct-bf16,Type of disaster,tests/images/disaster/fire/fire-2-3308097013.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", No.,"['true', 'fire', 'smoke']",False
+2025-08-11T10:59:39,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?"," {
+    ""image"": ""evidence_image_11049.jpg"",
+    ""disaster_present"": ""TRUE"",
+    ""disaster_type"": ""flood""
+}","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T10:59:39,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?"," {
+    ""image"": ""evidence_image_11049.jpg"",
+    ""disaster_present"": ""TRUE"",
+    ""disaster_type"": ""flood""
+}","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T10:59:39,mlx-community/SmolVLM-Instruct-bf16,Type of disaster,tests/images/disaster/fire/IMG_0506-2885709045.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", No.,"['true', 'fire', 'smoke']",False
+2025-08-11T10:59:39,mlx-community/SmolVLM-Instruct-bf16,Type of disaster,tests/images/disaster/fire/fire-2-3308097013.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", Answer: flood.,"['true', 'fire', 'smoke']",False
+2025-08-11T11:02:16,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?"," TRUE
+'flood'.","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:02:16,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", TRUE,"['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:02:16,mlx-community/SmolVLM-Instruct-bf16,Type of disaster,tests/images/disaster/fire/IMG_0506-2885709045.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?"," TRUE
+'flood'","['true', 'fire', 'smoke']",True
+2025-08-11T11:02:16,mlx-community/SmolVLM-Instruct-bf16,Type of disaster,tests/images/disaster/fire/fire-2-3308097013.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", Yes.,"['true', 'fire', 'smoke']",False
+2025-08-11T11:04:22,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?"," TRUE
+'flood'.","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:04:22,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", TRUE,"['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:05:23,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", TRUE,"['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:05:23,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", TRUE,"['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:06:24,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?"," TRUE
+flood","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:06:24,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", TRUE,"['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:07:25,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?"," TRUE
+DISASTER_TYPE: FLOOD","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:07:25,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", TRUE,"['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:08:29,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?"," TRUE
+'flood'.","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:08:29,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", TRUE,"['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:09:27,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?"," TRUE
+DISASTER_TYPE: FLOOD","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:09:27,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", TRUE,"['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:10:51,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", Yes.,"['true', 'flood', 'flooding', 'water']",False
+2025-08-11T11:10:51,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", Yes.,"['true', 'flood', 'flooding', 'water']",False
+2025-08-11T11:11:41,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", Yes.,"['true', 'flood', 'flooding', 'water']",False
+2025-08-11T11:11:41,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", Yes,"['true', 'flood', 'flooding', 'water']",False
+2025-08-11T11:12:06,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", Yes.,"['true', 'flood', 'flooding', 'water']",False
+2025-08-11T11:12:06,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", Yes,"['true', 'flood', 'flooding', 'water']",False
+2025-08-11T11:13:22,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?"," {'disaster_present': 'yes', 'disaster_type': 'flood'}","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:13:22,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", Yes.,"['true', 'flood', 'flooding', 'water']",False
+2025-08-11T11:14:16,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", Yes.,"['true', 'flood', 'flooding', 'water']",False
+2025-08-11T11:14:16,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", Yes.,"['true', 'flood', 'flooding', 'water']",False
+2025-08-11T11:15:04,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", Yes.,"['true', 'flood', 'flooding', 'water']",False
+2025-08-11T11:15:04,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. What type of disaster does it show?", Yes.,"['true', 'flood', 'flooding', 'water']",False
+2025-08-11T11:16:10,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Produce a detailed description of this image in json, answer whether disaster_present is true or false, and providing the disaster_type"," {'disaster_present': 'yes', 'disaster_type': 'flooding'}","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:16:10,mlx-community/SmolVLM-Instruct-bf16,Evidence of disaster,tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Produce a detailed description of this image in json, answer whether disaster_present is true or false, and providing the disaster_type"," {'disaster_present': true, 'disaster_type': 'flooding'}","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:20:01,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, pass",tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Produce a detailed description of this image in json, answer whether disaster_present is true or false, and providing the disaster_type"," {'disaster_present': 'yes', 'disaster_type': 'flooding'}","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:20:01,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, pass",tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Produce a detailed description of this image in json, answer whether disaster_present is true or false, and providing the disaster_type"," {'disaster_present': true, 'disaster_type': 'flooding'}","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:20:01,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg,"Produce a detailed description of this image in json, answer whether disaster_present is true or false, and providing the disaster_type"," {
+    ""disaster_present"": true,
+    ""disaster_type"": ""house""
+}","['false', 'no', 'none']",False
+2025-08-11T11:20:01,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg,"Produce a detailed description of this image in json, answer whether disaster_present is true or false, and providing the disaster_type"," {
+    ""disaster_present"": true,
+    ""disaster_type"": ""house""
+}","['false', 'no', 'none']",False
+2025-08-11T11:20:58,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, pass",tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Produce a detailed description of this image in json, answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type"," {'disaster_present': 'yes', 'disaster_type': 'flooding'}","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:20:58,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, pass",tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Produce a detailed description of this image in json, answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type"," {'disaster_present': 'true', 'disaster_type': 'water damage'}.","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:20:58,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg,"Produce a detailed description of this image in json, answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type"," {'disaster_present': 'yes', 'disaster_type': 'house on fire'}","['false', 'no', 'none']",False
+2025-08-11T11:20:58,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg,"Produce a detailed description of this image in json, answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type"," {
+    ""disaster_present"": true,
+    ""disaster_type"": ""house on fire""
+}","['false', 'no', 'none']",False
+2025-08-11T11:22:28,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, pass",tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. A disaster would be something like water, fire, smoke, or wind damage."," {'disaster_present': 'true', 'disaster_type': 'flooding'}.","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:22:28,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, pass",tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. A disaster would be something like water, fire, smoke, or wind damage."," {'disaster_present': 'true', 'disaster_type': 'water damage'}.","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:22:28,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg,"Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. A disaster would be something like water, fire, smoke, or wind damage."," {
+    ""disaster_present"": true,
+    ""disaster_type"": ""water""
+}","['false', 'no', 'none']",False
+2025-08-11T11:22:28,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg,"Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. A disaster would be something like water, fire, smoke, or wind damage."," {
+    ""disaster_present"": true,
+    ""disaster_type"": ""water""
+}","['false', 'no', 'none']",False
+2025-08-11T11:23:50,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, pass",tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster. A disaster would be something like water, fire, smoke, or wind damage."," {'disaster_present': 'true', 'disaster_type': 'flooding', 'disaster_explanation': 'water has flooded the area around the house'}.","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:23:50,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, pass",tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster. A disaster would be something like water, fire, smoke, or wind damage."," {'disaster_present': 'true', 'disaster_type': 'water damage', 'disaster_explanation': 'water damage from a broken pipe in the basement.","['true', 'flood', 'flooding', 'water']",True
+2025-08-11T11:23:50,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg,"Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster. A disaster would be something like water, fire, smoke, or wind damage."," {
+    ""disaster_present"": true,
+    ""disaster_type"": ""water damage""
+}","['false', 'no', 'none']",False
+2025-08-11T11:23:50,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg,"Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster. A disaster would be something like water, fire, smoke, or wind damage."," {
+    ""disaster_present"": true,
+    ""disaster_type"": ""water damage""
+}","['false', 'no', 'none']",False
+2025-08-11T11:24:53,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg,"Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster. A disaster would be something like water, fire, smoke, or wind damage."," {
+    ""disaster_present"": true,
+    ""disaster_type"": ""water damage""
+}","['false', 'no', 'none']",False
+2025-08-11T11:24:53,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg,"Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster. A disaster would be something like water, fire, smoke, or wind damage."," {
+    ""disaster_present"": true,
+    ""disaster_type"": ""water damage""
+}","['false', 'no', 'none']",False
+2025-08-11T11:26:30,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg,"Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster. A disaster would be something like water, fire, smoke, or wind damage."," {'disaster_present': 'true', 'disaster_type': 'water damage', 'disaster_explanation': 'The house has water damage on the roof and the walls. The water damage is from a flood that occurred in the area. The house is in need of repair and replacement of the roof and walls. The house is also in need of cleaning and drying out. The house is also in need of repair and replacement of the windows and doors. The house is also in need of repair and replacement of the siding and trim. The house is also in need of repair and replacement of the electrical system and the plumbing system. The house is also in need of repair and replacement of the HVAC system. The house is also in need of repair and replacement of the appliances. The house is also in need of repair and replacement of the furniture. The house is also in need of repair and replacement of the landscaping. The house is also in need of repair and replacement of the landscaping. The house is also in need of repair and replacement of the landscaping. The house is also in need of repair and replacement of the landscaping. The house is also in need of repair and replacement of the landscaping. The house is also in need of repair and replacement of the","['false', 'no', 'none']",False
+2025-08-11T11:26:30,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg,"Produce a detailed description of this image in json. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster. A disaster would be something like water, fire, smoke, or wind damage."," {'disaster_present': 'true', 'disaster_type': 'fire', 'disaster_explanation': 'The house is on fire and the roof is on fire. The house is made of wood and the roof is made of wood. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire.","['false', 'no', 'none']",False
+2025-08-11T11:28:37,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg,"Produce a detailed description of this image in json. A disaster would be something like evidence of extreme water, fire, smoke, or wind damage. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster."," {'disaster_present': 'false', 'disaster_type': 'none', 'disaster_explanation': 'none'}.","['false', 'no', 'none']",True
+2025-08-11T11:28:37,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg,"Produce a detailed description of this image in json. A disaster would be something like evidence of extreme water, fire, smoke, or wind damage. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include the explanation about the disaster in disaster_explanation. Make sure to check if there is evidence of a disaster."," {
+    ""disaster_present"": true,
+    ""disaster_type"": ""fire"",
+    ""disaster_explanation"": ""The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire. The house is on fire and the roof is on fire","['false', 'no', 'none']",False
+2025-08-11T11:30:22,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg,"Examine this image for the presence of a disaster. A disaster would be something like evidence of extreme water, fire, smoke, or wind damage. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include an answer in disaster_explanation.", False.,"['false', 'no', 'none']",True
+2025-08-11T11:30:22,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg,"Examine this image for the presence of a disaster. A disaster would be something like evidence of extreme water, fire, smoke, or wind damage. Answer whether disaster_present is true or false. If there is a disaster, provide the disaster_type. Include an answer in disaster_explanation.", False.,"['false', 'no', 'none']",True
+2025-08-11T11:32:09,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg,"Examine this image for the presence of a disaster. A disaster would be something like evidence of extreme water, fire, smoke, or wind damage. Answer disaster_present as true or false. Provide the disaster_type. Provide an answer in disaster_explanation.", true.,"['false', 'no', 'none']",False
+2025-08-11T11:32:09,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg,"Examine this image for the presence of a disaster. A disaster would be something like evidence of extreme water, fire, smoke, or wind damage. Answer disaster_present as true or false. Provide the disaster_type. Provide an answer in disaster_explanation.", true.,"['false', 'no', 'none']",False
+2025-08-11T11:33:46,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg,"Examine this image for the presence of an extreme disaste, like water, fire, smoke, or wind damage. Answer disaster_present as true or false depending on if there is evidence of a disaster. If there was a disaster, provide the disaster_type. Provide an explanation in disaster_explanation.", False.,"['false', 'no', 'none']",True
+2025-08-11T11:33:46,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg,"Examine this image for the presence of an extreme disaste, like water, fire, smoke, or wind damage. Answer disaster_present as true or false depending on if there is evidence of a disaster. If there was a disaster, provide the disaster_type. Provide an explanation in disaster_explanation.", True.,"['false', 'no', 'none']",False
+2025-08-11T11:35:00,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation. A disaster is something like extreme damage due to water, flood, wind, or fire"," disaster_present: no, disaster_type: no, disaster_explanation:","['false', 'no', 'none']",True
+2025-08-11T11:35:00,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation. A disaster is something like extreme damage due to water, flood, wind, or fire"," {'disaster_present': 'yes', 'disaster_type': 'water', 'disaster_explanation': 'The house is flooded. The water is very high and it is difficult to get out. The house is made of wood and it is very easy to burn. The house is also very old and it is not very strong. The house is in danger of being destroyed. '}","['false', 'no', 'none']",True
+2025-08-11T11:38:00,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/3-2770253275.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation. A disaster is something like extreme damage due to water, flood, wind, or fire", true,"['false', 'no', 'none']",False
+2025-08-11T11:38:00,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation. A disaster is something like extreme damage due to water, flood, wind, or fire"," disaster_present: no, disaster_type: no, disaster_explanation:","['false', 'no', 'none']",True
+2025-08-11T11:38:00,mlx-community/SmolVLM-Instruct-bf16,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation. A disaster is something like extreme damage due to water, flood, wind, or fire"," {'disaster_present': 'yes', 'disaster_type': 'water', 'disaster_explanation': 'The house is flooded. The water is very high and it is difficult to get out. The house is made of wood and it is very easy to burn. The house is also very old and it is not very strong. The house is in danger of being destroyed. '}","['false', 'no', 'none']",True
+2025-08-11T11:39:08,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/3-2770253275.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation. A disaster is something like extreme damage due to water, flood, wind, or fire","```json
+{
+  ""disaster_present"": ""No, there is no visible damage to the building in the image."",
+  ""disaster_type"": ""The image does not depict any extreme disaster such as water, flood, wind, or fire damage."",
+  ""disaster_explanation"": ""The building appears to be in good condition without any visible damage.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T11:39:08,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation. A disaster is something like extreme damage due to water, flood, wind, or fire","```json
+{
+  ""disaster_present"": ""No visible signs of disaster such as water, fire, or smoke damage are present in the image provided."",
+  ""disaster_type"": ""The image does not show any clear evidence of a disaster like a flood, fire, or wind damage."",
+  ""disaster_explanation"": ""There is no indication of any disaster in the scene depicted. The house appears undamaged, and there are no visible signs of water, fire, or smoke damage.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T11:39:08,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation. A disaster is something like extreme damage due to water, flood, wind, or fire","```json
+{
+  ""disaster_present"": ""No, there is no visible damage to the house or the surrounding environment in the image provided."",
+  ""disaster_type"": ""The image does not depict any extreme disaster such as water, flood, wind, or fire damage."",
+  ""disaster_explanation"": ""The house appears to be in good condition, with no visible damage to the structure or the surrounding landscape. The sky is clear, and there are no signs of smoke, debris, or other indicators of a disaster.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T11:41:09,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/3-2770253275.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation.","```json
+{
+  ""disaster_present"": ""No extreme disaster is visible in the image"",
+  ""disaster_type"": ""None of the visible elements suggest a disaster"",
+  ""disaster_explanation"": ""The image shows a building with no apparent damage or disaster. The structure appears intact, there is no visible smoke, water, or debris, and no signs of destruction or emergency.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T11:41:09,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation.","```json
+{
+  ""disaster_present"": ""No visible signs of disaster such as water, fire, smoke, or wind damage"",
+  ""disaster_type"": ""None"",
+  ""disaster_explanation"": ""The image shows a house with no apparent damage, and the surrounding environment appears normal. There is no indication of an extreme disaster.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T11:41:09,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present, disaster_type, and disaster_explanation.","```json
+{
+  ""disaster_present"": ""No extreme disaster is visible in the image"",
+  ""disaster_type"": ""None of the visible elements suggest a disaster"",
+  ""disaster_explanation"": ""The image shows a wooden house with a tiled roof, surrounded by green grass and trees, under a clear blue sky. There is no indication of water, fire, smoke, or wind damage.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T11:41:09,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/3-2770253275.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood or fire or wind, and a short disaster_explanation.","```json
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""flood"",
+  ""disaster_explanation"": ""The image shows a building with water damage, which indicates a flood. The water is not visible, but the presence of water damage suggests that the building has been affected by a flood.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T11:41:09,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood or fire or wind, and a short disaster_explanation.","```json
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""flood"",
+  ""disaster_explanation"": ""The image shows a house with no visible damage, indicating that there has been no extreme disaster like water, fire, or wind damage.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T11:41:09,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood or fire or wind, and a short disaster_explanation.","```json
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any signs of disaster such as water, fire, smoke, or wind damage. The wooden house appears undamaged, and there are no visible signs of destruction or distress.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T11:42:31,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/3-2770253275.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any evidence of an extreme disaster such as water, fire, smoke, or wind damage. There are no visible signs of flooding, structural damage, or other indicators of a disaster.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T11:42:31,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/single-family-home-exterior-on-overcast.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any clear evidence of a disaster such as water, fire, wind, or other damage. The house appears undamaged, and there are no visible signs of destruction or distress.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T11:42:31,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failiure",tests/images/disaster/flooding/fail/traditional-georgian-historic-wooden.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any evidence of an extreme disaster such as water, fire, wind, or other damage. The wooden house appears undamaged, and there is no visible smoke, debris, or damage to the surrounding environment.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T11:45:00,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, flooding",tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": true,
+  ""disaster_type"": ""flood"",
+  ""disaster_explanation"": ""The image shows a house partially submerged in water, indicating a flood has occurred. The water level is high enough to submerge the house, which is a clear indication of a flood disaster.""
+}
+```","['true', 'yes', 'flood', 'flooding', 'water']",True
+2025-08-11T11:45:00,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, flooding",tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": true,
+  ""disaster_type"": ""flood"",
+  ""disaster_explanation"": ""The image shows a room with water on the floor, indicating a flood. The presence of water and the state of the room suggest that an extreme disaster has occurred, specifically a flood.""
+}
+```","['true', 'yes', 'flood', 'flooding', 'water']",True
+2025-08-11T11:45:00,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failiure",tests/images/disaster/fail/3-2770253275.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any evidence of an extreme disaster such as water, fire, smoke, or wind damage. There are no visible signs of flooding, structural damage, or other indicators of a disaster.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T11:45:00,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failiure",tests/images/disaster/fail/single-family-home-exterior-on-overcast.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any clear evidence of a disaster such as water, fire, wind, or other damage. The house appears undamaged, and there are no visible signs of destruction or distress.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T11:45:00,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failiure",tests/images/disaster/fail/traditional-georgian-historic-wooden.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any evidence of an extreme disaster such as water, fire, wind, or other damage. The wooden house appears undamaged, and there is no visible smoke, debris, or damage to the surrounding environment.""
+}
+```","['false', 'no', 'none']",True
