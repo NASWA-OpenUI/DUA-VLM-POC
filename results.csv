@@ -778,3 +778,24 @@ DISASTER_TYPE: FLOOD","['true', 'flood', 'flooding', 'water']",True
   ""disaster_explanation"": ""The image shows a room with water on the floor, indicating a flood. The presence of water and the state of the room suggest that an extreme disaster has occurred, specifically a flood.""
 }
 ```","['true', 'yes', 'flood', 'flooding', 'water']",True
+2025-08-11T11:45:00,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failiure",tests/images/disaster/fail/3-2770253275.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any evidence of an extreme disaster such as water, fire, smoke, or wind damage. There are no visible signs of flooding, structural damage, or other indicators of a disaster.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T11:45:00,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failiure",tests/images/disaster/fail/single-family-home-exterior-on-overcast.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any clear evidence of a disaster such as water, fire, wind, or other damage. The house appears undamaged, and there are no visible signs of destruction or distress.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T11:45:00,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failiure",tests/images/disaster/fail/traditional-georgian-historic-wooden.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any evidence of an extreme disaster such as water, fire, wind, or other damage. The wooden house appears undamaged, and there is no visible smoke, debris, or damage to the surrounding environment.""
+}
+```","['false', 'no', 'none']",True

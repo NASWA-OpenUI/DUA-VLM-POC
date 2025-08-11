@@ -5280,3 +5280,36 @@ Examine this image for the presence of an extreme disaster, like water, fire, sm
 08/11/2025 11:45:15 INFO: Test 2/2: Running prompt on image 1/3: tests/images/disaster/fail/3-2770253275.jpg
 08/11/2025 11:45:15 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
 Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.
+08/11/2025 11:45:21 INFO: Test 2/2: image 1/3: ```json
+{
+  "disaster_present": false,
+  "disaster_type": "none",
+  "disaster_explanation": "The image provided does not show any evidence of an extreme disaster such as water, fire, smoke, or wind damage. There are no visible signs of flooding, structural damage, or other indicators of a disaster."
+}
+```
+08/11/2025 11:45:21 INFO: Test 2/2: Running prompt on image 2/3: tests/images/disaster/fail/single-family-home-exterior-on-overcast.jpg
+08/11/2025 11:45:21 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.
+08/11/2025 11:45:27 INFO: Test 2/2: image 2/3: ```json
+{
+  "disaster_present": false,
+  "disaster_type": "none",
+  "disaster_explanation": "The image provided does not show any clear evidence of a disaster such as water, fire, wind, or other damage. The house appears undamaged, and there are no visible signs of destruction or distress."
+}
+```
+08/11/2025 11:45:27 INFO: Test 2/2: Running prompt on image 3/3: tests/images/disaster/fail/traditional-georgian-historic-wooden.jpg
+08/11/2025 11:45:27 DEBUG: Using prompt: You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }
+Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.
+08/11/2025 11:45:27 DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:45:27 DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+08/11/2025 11:45:27 DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+08/11/2025 11:45:27 DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+08/11/2025 11:45:27 DEBUG: tag: Copyright (33432) - type: string (2) Tag Location: 70 - Data Location: 90 - value: <table: 35 bytes>
+08/11/2025 11:45:34 INFO: Test 2/2: image 3/3: ```json
+{
+  "disaster_present": false,
+  "disaster_type": "none",
+  "disaster_explanation": "The image provided does not show any evidence of an extreme disaster such as water, fire, wind, or other damage. The wooden house appears undamaged, and there is no visible smoke, debris, or damage to the surrounding environment."
+}
+```
+08/11/2025 11:45:34 INFO: Run ended.
