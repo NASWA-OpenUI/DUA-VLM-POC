@@ -1,8 +1,12 @@
 [
-
-    {   "test_description": "Evidence of disaster",
-        "prompt": "Does this show evidence of a disaster? A disaster is something like a flood, fire, earthquake, hurricane damage. Answer yes or no.",
+    {   "test_description": "Evidence of disaster, flooding",
+        "prompt": "Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.",
         "image_directory": "tests/images/disaster/flooding",
-        "expected_result": ["yes", "flood", "flooding", "water"]    
+        "expected_result": ["true", "yes", "flood", "flooding", "water"]    
+    },
+    {   "test_description": "Evidence of disaster, failiure",
+        "prompt": "Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.",
+        "image_directory": "tests/images/disaster/fail",
+        "expected_result": ["false", "no", "none"]    
     }
 ]
