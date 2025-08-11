@@ -3535,3 +3535,47 @@ The document clearly states "For assistance you may call us at:1-800-289-4933" a
 08/06/2025 17:22:25 DEBUG: STREAM b'gAMA' 54 4
 08/06/2025 17:22:25 DEBUG: STREAM b'pHYs' 70 9
 08/06/2025 17:22:25 DEBUG: STREAM b'IDAT' 91 65445
+08/06/2025 17:22:29 INFO: Test 1/3: image 4/4:  Yes.
+08/06/2025 17:22:29 INFO: Starting test 2/3: EIN
+08/06/2025 17:22:29 INFO: Test 2/3: prompt: If there is an employer identification number (EIN) in this document, answer with that EIN. Limit the answer to the EIN itself, which takes the form of 2 digits, a dash, and then 7 digits. Provide the percentage confidence in the answer
+08/06/2025 17:22:29 INFO: Test 2/3: total eval strings: 4
+08/06/2025 17:22:29 INFO: Test 2/3: Running prompt on image 1/4: tests/images/self-employment/ein/Where-to-find-tax-ID-number-2048x1088-1105960284.png
+08/06/2025 17:22:29 DEBUG: STREAM b'IHDR' 16 13
+08/06/2025 17:22:29 DEBUG: STREAM b'IDAT' 41 233396
+08/06/2025 17:22:33 INFO: Test 2/3: image 1/4:  21-7893456
+08/06/2025 17:22:33 INFO: Test 2/3: Running prompt on image 2/4: tests/images/self-employment/ein/hwkowk7el4x6q3yeg5ip-1147943500.jpg
+08/06/2025 17:22:37 INFO: Test 2/3: image 2/4:  33-0643958
+08/06/2025 17:22:37 INFO: Test 2/3: Running prompt on image 3/4: tests/images/self-employment/ein/IRS-EIN-letter-752751540.png
+08/06/2025 17:22:37 DEBUG: STREAM b'IHDR' 16 13
+08/06/2025 17:22:37 DEBUG: STREAM b'pHYs' 41 9
+08/06/2025 17:22:37 DEBUG: STREAM b'IDAT' 62 8192
+08/06/2025 17:22:43 INFO: Test 2/3: image 3/4:  9900000000
+08/06/2025 17:22:43 INFO: Test 2/3: Running prompt on image 4/4: tests/images/self-employment/ein/b5f84dd177b753c20f80983125d53ded07bba3b5c207e92c644ecc7832c923bd-2817087531.png
+08/06/2025 17:22:43 DEBUG: STREAM b'IHDR' 16 13
+08/06/2025 17:22:43 DEBUG: STREAM b'sRGB' 41 1
+08/06/2025 17:22:43 DEBUG: STREAM b'gAMA' 54 4
+08/06/2025 17:22:43 DEBUG: STREAM b'pHYs' 70 9
+08/06/2025 17:22:43 DEBUG: STREAM b'IDAT' 91 65445
+08/06/2025 17:22:47 INFO: Test 2/3: image 4/4:  12-3456789
+08/06/2025 17:22:47 INFO: Starting test 3/3: EIN Addressee
+08/06/2025 17:22:47 INFO: Test 3/3: prompt: Who is this document addressed to? Provide the name of the addressee, and the percentage confidence in the answer
+08/06/2025 17:22:47 INFO: Test 3/3: total eval strings: 5
+08/06/2025 17:22:47 INFO: Test 3/3: Running prompt on image 1/4: tests/images/self-employment/ein/Where-to-find-tax-ID-number-2048x1088-1105960284.png
+08/06/2025 17:22:47 DEBUG: STREAM b'IHDR' 16 13
+08/06/2025 17:22:47 DEBUG: STREAM b'IDAT' 41 233396
+08/06/2025 17:22:52 INFO: Test 3/3: image 1/4:  ACME LLC
+08/06/2025 17:22:52 INFO: Test 3/3: Running prompt on image 2/4: tests/images/self-employment/ein/hwkowk7el4x6q3yeg5ip-1147943500.jpg
+08/06/2025 17:22:56 INFO: Test 3/3: image 2/4:  Dear Taxpayer:
+08/06/2025 17:22:56 INFO: Test 3/3: Running prompt on image 3/4: tests/images/self-employment/ein/IRS-EIN-letter-752751540.png
+08/06/2025 17:22:56 DEBUG: STREAM b'IHDR' 16 13
+08/06/2025 17:22:56 DEBUG: STREAM b'pHYs' 41 9
+08/06/2025 17:22:56 DEBUG: STREAM b'IDAT' 62 8192
+08/06/2025 17:23:01 INFO: Test 3/3: image 3/4:  Dear [Name], I have 90% confidence in the answer.
+08/06/2025 17:23:01 INFO: Test 3/3: Running prompt on image 4/4: tests/images/self-employment/ein/b5f84dd177b753c20f80983125d53ded07bba3b5c207e92c644ecc7832c923bd-2817087531.png
+08/06/2025 17:23:01 DEBUG: STREAM b'IHDR' 16 13
+08/06/2025 17:23:01 DEBUG: STREAM b'sRGB' 41 1
+08/06/2025 17:23:01 DEBUG: STREAM b'gAMA' 54 4
+08/06/2025 17:23:01 DEBUG: STREAM b'pHYs' 70 9
+08/06/2025 17:23:01 DEBUG: STREAM b'IDAT' 91 65445
+08/06/2025 17:23:05 INFO: Test 3/3: image 4/4:  ACME LLC
+08/06/2025 17:23:05 INFO: Run ended.

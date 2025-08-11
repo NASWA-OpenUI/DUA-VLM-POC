@@ -20,6 +20,6 @@
         "test_description": "Type of disaster",
         "prompt": "What kind of disaster is shown here?",
         "image_directory": "tests/images/disaster/fire",
-        "expected_result": ["fire", "smoke"]    
+        "expected_result": ["fire", "smoke"]
     }
 ]
