@@ -16,8 +16,9 @@ This proof-of-concept has been tested with the following models:
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-    - [Tests](#tests)
     - [Models](#models)
+    - [System prompts](#system-prompts)
+    - [Tests](#tests)
     - [Output and examples](#output-and-examples)
 - [Proof of Concept evaluation](#proof-of-concept-evaluation)
 - [To-do](#to-do)
@@ -60,16 +61,7 @@ You can override these defaults by specifing arguments:
 
 will use the specified files as sources for the model list, tests, and output file.
 
-
-## System prompts
-
-A system prompt can be specified as an argument at runtime. 
-
-A prompt is formed by concatenating the system prompt with the provided test prompt.
-
-|Key|Description|Example value
----|---|---
-system_prompt|System prompt as a string|""You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }"
+---
 
 ### Models
 
@@ -86,6 +78,20 @@ mlx-community/SmolVLM-Instruct-bf16
 mlx-community/llava-interleave-qwen-7b-4bit
 mlx-community/Phi-3.5-vision-instruct-bf16
 ```
+
+---
+
+### System prompts
+
+A system prompt can be specified as an argument at runtime. 
+
+A prompt is formed by concatenating the system prompt with the provided test prompt.
+
+|Key|Description|Example value
+---|---|---
+system_prompt|System prompt as a string|""You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }"
+
+---
 
 ### Tests
 
@@ -114,6 +120,7 @@ DUA-VLM-POC implements a naive test:
 ### Acceptable image formats
 DUA-VLM-POC uses [Pillow](https://python-pillow.github.io) to process images and has been tested with png and jpeg formats.
 
+---
 
 ## Output and examples
 
