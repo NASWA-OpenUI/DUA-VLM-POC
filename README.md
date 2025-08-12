@@ -19,6 +19,7 @@ This proof-of-concept has been tested with the following models:
     - [Tests](#tests)
     - [Models](#models)
     - [Output and examples](#output-and-examples)
+- [Proof of Concept evaluation](#proof-of-concept-evaluation)
 - [To-do](#to-do)
 - [Changelog](#changelog)
 
@@ -59,6 +60,16 @@ You can override these defaults by specifing arguments:
 
 will use the specified files as sources for the model list, tests, and output file.
 
+
+## System prompts
+
+A system prompt can be specified as an argument at runtime. 
+
+A prompt is formed by concatenating the system prompt with the provided test prompt.
+
+|Key|Description|Example value
+---|---|---
+system_prompt|System prompt as a string|""You are a helpful assistant that extracts detailed structured information from an image and returns the requested information in JSON. Answer the provided questions as a single valid JSON object with nested properties, formatted with standard JSON syntax and indentation for readability. Answer in this format: {'disaster_present': , 'disaster_type':, 'disaster_expanation': }"
 
 ### Models
 
@@ -137,10 +148,73 @@ check|"True" if the test `expected_result` string is present in the output strin
 
 ----
 
+## Proof of Concept evaluation
+
+As of 0.1: 
+
+`uv run dua-vlm-poc.py  --system tests/tests_disaster_system_prompt.json --tests tests/tests_disaster.json`
+
+outputs the following:
+
+<img src="tests/images/disaster/fail/traditional-georgian-historic-wooden.jpg"/>
+
+```
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any evidence of an extreme disaster such as water, fire, wind, or other damage. The wooden house appears undamaged, and there is no visible smoke, debris, or damage to the surrounding environment.""
+}
+```
+
+
+<img src="tests/images/disaster/fail/single-family-home-exterior-on-overcast.jpg" />
+
+```
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any clear evidence of a disaster such as water, fire, wind, or other damage. The house appears undamaged, and there are no visible signs of destruction or distress.""
+}
+```
+
+<img src="tests/images/disaster/fail/3-2770253275.jpg" />
+
+```
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any evidence of an extreme disaster such as water, fire, smoke, or wind damage. There are no visible signs of flooding, structural damage, or other indicators of a disaster.""
+}
+
+```
+
+<img src="tests/images/disaster/flooding/basement-flooding-2073546059.jpg" />
+
+```
+{
+  ""disaster_present"": true,
+  ""disaster_type"": ""flood"",
+  ""disaster_explanation"": ""The image shows a room with water on the floor, indicating a flood. The presence of water and the state of the room suggest that an extreme disaster has occurred, specifically a flood.""
+}
+```
+
+<img src="tests/images/disaster/fire/fire-2-3308097013.jpg" />
+
+```
+{
+  ""disaster_present"": true,
+  ""disaster_type"": ""fire"",
+  ""disaster_explanation"": ""The image depicts a scene with houses engulfed in flames, indicating a fire disaster. The flames are visible, and the structures are in a state of destruction, which is characteristic of a fire disaster.""
+}
+```
+
+
+---
+
 ## To-do
 * Model/prompt testing
     * JSON validator for tests so it doesn't just fall over
-    * run tests against both a pass/ and a fail/ directory (but only if they exist)
+    * ~~run tests against both a pass/ and a fail/ directory (but only if they exist)~~
     * record whether the images are pass or fail images in the results
     * test image directories could be an array?
     * probably need to provide eval criteria *per test file*
@@ -152,9 +226,9 @@ check|"True" if the test `expected_result` string is present in the output strin
 * ~~Add more test data~~
 * ~~run a single test against multiple images~~
 * Do logging "properly"
-* "Tidy up the console output"
+* ~~"Tidy up the console output"~~
 * Stalls on requiring passing the argument `trust_remote_code=True` for some huggingface models requiring y/n from user
-* Implement args to allow alternatives to results.csv, tests.csv, and models.txt for users to specify their own results, tests, and models
+* ~Implement args to allow alternatives to results.csv, tests.csv, and models.txt for users to specify their own results, tests, and models~
 * ~~move from personal repo to VLG repo~~
 * ~~test against the expected result, duh~~
 * ~~the csv should include the test image too, duh~~
@@ -163,6 +237,13 @@ check|"True" if the test `expected_result` string is present in the output strin
 ---
 
 ## Latest Version
+
+## 0.1
+* Probably getting close to done for now.
+* System prompts can now be specified as an argument
+* Some tests are outputting the correct data as structured json
+* Example failure tests in tests/disaster/fail (just specify the failures in the same test.json file)
+
 
 ## 0.05
 * Tests are specified in json now

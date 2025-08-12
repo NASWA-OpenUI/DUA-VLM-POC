@@ -799,3 +799,206 @@ DISASTER_TYPE: FLOOD","['true', 'flood', 'flooding', 'water']",True
   ""disaster_explanation"": ""The image provided does not show any evidence of an extreme disaster such as water, fire, wind, or other damage. The wooden house appears undamaged, and there is no visible smoke, debris, or damage to the surrounding environment.""
 }
 ```","['false', 'no', 'none']",True
+2025-08-11T15:30:48,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, fire",tests/images/disaster/fire/IMG_0506-2885709045.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": true,
+  ""disaster_type"": ""fire"",
+  ""disaster_explanation"": ""The image shows a room with significant damage to the walls and ceiling, which is indicative of a fire. The charred remains and the state of the room suggest that a fire has recently occurred, causing substantial damage.""
+}
+```","['true', 'yes', 'fire', 'smoke']",True
+2025-08-11T15:30:48,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, fire",tests/images/disaster/fire/fire-2-3308097013.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": true,
+  ""disaster_type"": ""fire"",
+  ""disaster_explanation"": ""The image depicts a scene with houses engulfed in flames, indicating a fire disaster. The flames are visible, and the structures are in a state of destruction, which is characteristic of a fire disaster.""
+}
+```","['true', 'yes', 'fire', 'smoke']",True
+2025-08-11T15:30:48,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, flooding",tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": true,
+  ""disaster_type"": ""flood"",
+  ""disaster_explanation"": ""The image shows a house partially submerged in water, indicating a flood has occurred. The water level is high enough to submerge the house, which is a clear indication of a flood disaster.""
+}
+```","['true', 'yes', 'flood', 'flooding', 'water']",True
+2025-08-11T15:30:48,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, flooding",tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": true,
+  ""disaster_type"": ""flood"",
+  ""disaster_explanation"": ""The image shows a room with water on the floor, indicating a flood. The presence of water and the state of the room suggest that an extreme disaster has occurred, specifically a flood.""
+}
+```","['true', 'yes', 'flood', 'flooding', 'water']",True
+2025-08-11T15:30:48,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failure",tests/images/disaster/fail/3-2770253275.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any evidence of an extreme disaster such as water, fire, smoke, or wind damage. There are no visible signs of flooding, structural damage, or other indicators of a disaster.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T15:30:48,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failure",tests/images/disaster/fail/single-family-home-exterior-on-overcast.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any clear evidence of a disaster such as water, fire, wind, or other damage. The house appears undamaged, and there are no visible signs of destruction or distress.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T15:30:48,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failure",tests/images/disaster/fail/traditional-georgian-historic-wooden.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any evidence of an extreme disaster such as water, fire, wind, or other damage. The wooden house appears undamaged, and there is no visible smoke, debris, or damage to the surrounding environment.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T15:38:00,mlx-community/llava-interleave-qwen-7b-4bit,Self-employment contractor test,tests/images/self-employment/offers/test-offer-002.HEIC,"Examine this image for evidence of self-employment, like freelance work, contract work, or a business owner. Fill in self_employment as a bool, self_employment_type as the time of self-employment (e.g. contract, freelance, business owner), and include a short self_employment_explanation.","```json
+{
+  ""self_employment"": true,
+  ""self_employment_type"": ""freelance"",
+  ""self_employment_explanation"": ""The image shows a document with text that mentions a 'Contract Writing Opportunity with GreenFuture Weekly' and a 'Freance Writing Offer with GreenFuture Weekly.' These phrases suggest that the document is related to employment opportunities in the context of freelance writing for GreenFuture Weekly, which implies self-employment in the form of freelance work.""
+}
+```","['true', 'freelance', 'contractor']",True
+2025-08-11T15:38:00,mlx-community/llava-interleave-qwen-7b-4bit,Self-employment contractor test,tests/images/self-employment/offers/test-offer-003.HEIC,"Examine this image for evidence of self-employment, like freelance work, contract work, or a business owner. Fill in self_employment as a bool, self_employment_type as the time of self-employment (e.g. contract, freelance, business owner), and include a short self_employment_explanation.","```json
+{
+  ""self_employment"": true,
+  ""self_employment_type"": ""business owner"",
+  ""self_employment_explanation"": ""The individual is the owner and operator of a business, which is not explicitly a contract or freelance job but rather a long-term commitment to running the business.""
+}
+```","['true', 'freelance', 'contractor']",True
+2025-08-11T15:38:00,mlx-community/llava-interleave-qwen-7b-4bit,Self-employment contractor test,tests/images/self-employment/offers/test-offer-001.HEIC,"Examine this image for evidence of self-employment, like freelance work, contract work, or a business owner. Fill in self_employment as a bool, self_employment_type as the time of self-employment (e.g. contract, freelance, business owner), and include a short self_employment_explanation.","```json
+{
+  ""self_employment"": true,
+  ""self_employment_type"": ""business owner"",
+  ""self_employment_explanation"": ""The individual is the owner and operator of a business, as indicated by the visible title 'Business Owner' and the context provided in the text.""
+}
+```","['true', 'freelance', 'contractor']",True
+2025-08-11T15:46:57,mlx-community/llava-interleave-qwen-7b-4bit,EIN full,tests/images/self-employment/ein/Where-to-find-tax-ID-number-2048x1088-1105960284.png,"Examine this image for information about an Employer Identification Number (EIN) and the addressee. Fill in ein_present as a bool, ein_number with the EIN, and name with the name of the addresse.","```json
+{
+  ""ein_present"": true,
+  ""ein_number"": ""21-89845"",
+  ""name"": ""Theresa Loe-Figgerald MRR""
+}
+```",['true'],True
+2025-08-11T15:46:57,mlx-community/llava-interleave-qwen-7b-4bit,EIN full,tests/images/self-employment/ein/hwkowk7el4x6q3yeg5ip-1147943500.jpg,"Examine this image for information about an Employer Identification Number (EIN) and the addressee. Fill in ein_present as a bool, ein_number with the EIN, and name with the name of the addresse.","```json
+{
+  ""ein_present"": true,
+  ""ein_number"": ""21-89845"",
+  ""name"": ""Theresa Loe-Figgerald MRR""
+}
+```",['true'],True
+2025-08-11T15:46:57,mlx-community/llava-interleave-qwen-7b-4bit,EIN full,tests/images/self-employment/ein/IRS-EIN-letter-752751540.png,"Examine this image for information about an Employer Identification Number (EIN) and the addressee. Fill in ein_present as a bool, ein_number with the EIN, and name with the name of the addresse.","```json
+{
+  ""ein_present"": true,
+  ""ein_number"": ""21-89845"",
+  ""name"": ""Theresa Loe-Figgerald MRR""
+}
+```",['true'],True
+2025-08-11T15:46:57,mlx-community/llava-interleave-qwen-7b-4bit,EIN full,tests/images/self-employment/ein/b5f84dd177b753c20f80983125d53ded07bba3b5c207e92c644ecc7832c923bd-2817087531.png,"Examine this image for information about an Employer Identification Number (EIN) and the addressee. Fill in ein_present as a bool, ein_number with the EIN, and name with the name of the addresse.","```json
+{
+  ""ein_present"": true,
+  ""ein_number"": ""21-89845"",
+  ""name"": ""Theresa Loe-Figgerald MRR""
+}
+```",['true'],True
+2025-08-11T15:46:57,mlx-community/llava-interleave-qwen-7b-4bit,EIN,tests/images/self-employment/ein/Where-to-find-tax-ID-number-2048x1088-1105960284.png,"Examine this image for information about an Employer Identification Number (EIN) and the addressee. Fill in ein_number with the EIN if it present, otherwise leave it null.","```json
+{
+  ""ein_present"": true,
+  ""ein"": ""12-122-2022"",
+  ""name"": ""ACME LLC - FITHGALD MMR""
+}
+```","['21-7893456', '12-3456789', '33-0643958', '52-1980218']",False
+2025-08-11T15:46:57,mlx-community/llava-interleave-qwen-7b-4bit,EIN,tests/images/self-employment/ein/hwkowk7el4x6q3yeg5ip-1147943500.jpg,"Examine this image for information about an Employer Identification Number (EIN) and the addressee. Fill in ein_number with the EIN if it present, otherwise leave it null.","```json
+{
+  ""ein_present"": true,
+  ""ein"": ""12-122-2022"",
+  ""name"": ""ACME LLC - FITHGALD MMR""
+}
+```","['21-7893456', '12-3456789', '33-0643958', '52-1980218']",False
+2025-08-11T15:46:57,mlx-community/llava-interleave-qwen-7b-4bit,EIN,tests/images/self-employment/ein/IRS-EIN-letter-752751540.png,"Examine this image for information about an Employer Identification Number (EIN) and the addressee. Fill in ein_number with the EIN if it present, otherwise leave it null.","```json
+{
+  ""ein_present"": true,
+  ""ein"": ""12-122-2022"",
+  ""name"": ""ACME LLC - FITHGALD MMR""
+}
+```","['21-7893456', '12-3456789', '33-0643958', '52-1980218']",False
+2025-08-11T15:46:57,mlx-community/llava-interleave-qwen-7b-4bit,EIN,tests/images/self-employment/ein/b5f84dd177b753c20f80983125d53ded07bba3b5c207e92c644ecc7832c923bd-2817087531.png,"Examine this image for information about an Employer Identification Number (EIN) and the addressee. Fill in ein_number with the EIN if it present, otherwise leave it null.","```json
+{
+  ""ein_present"": true,
+  ""ein"": ""12-122-2022"",
+  ""name"": ""ACME LLC - FITHGALD MMR""
+}
+```","['21-7893456', '12-3456789', '33-0643958', '52-1980218']",False
+2025-08-11T15:46:57,mlx-community/llava-interleave-qwen-7b-4bit,EIN Addressee,tests/images/self-employment/ein/Where-to-find-tax-ID-number-2048x1088-1105960284.png,"Examine this image for information about an Employer Identification Number (EIN) and the addressee. Fill in the name field with the name of the addressee, othewrise leave it null.","```json
+{
+  ""ein_present"": ""EIN is present"",
+  ""ein"": ""EIN is visible"",
+  ""name"": ""Theresa Loe-Figerald MR""
+}
+```","['ACME LLC', 'THERESA LOPEZ-FITZGERALD', 'PACIFIC AQUASPACE CALIFORNIA INC', 'TRUE BUDDHA TEMPLE MARYLAND', 'KENNETH CHIU']",False
+2025-08-11T15:46:57,mlx-community/llava-interleave-qwen-7b-4bit,EIN Addressee,tests/images/self-employment/ein/hwkowk7el4x6q3yeg5ip-1147943500.jpg,"Examine this image for information about an Employer Identification Number (EIN) and the addressee. Fill in the name field with the name of the addressee, othewrise leave it null.","```json
+{
+  ""ein_present"": ""EIN is present"",
+  ""ein"": ""EIN is visible"",
+  ""name"": ""Theresa Loe-Figerald MR""
+}
+```","['ACME LLC', 'THERESA LOPEZ-FITZGERALD', 'PACIFIC AQUASPACE CALIFORNIA INC', 'TRUE BUDDHA TEMPLE MARYLAND', 'KENNETH CHIU']",False
+2025-08-11T15:46:57,mlx-community/llava-interleave-qwen-7b-4bit,EIN Addressee,tests/images/self-employment/ein/IRS-EIN-letter-752751540.png,"Examine this image for information about an Employer Identification Number (EIN) and the addressee. Fill in the name field with the name of the addressee, othewrise leave it null.","```json
+{
+  ""ein_present"": ""EIN is present"",
+  ""ein"": ""EIN is visible"",
+  ""name"": ""Theresa Loe-Figerald MR""
+}
+```","['ACME LLC', 'THERESA LOPEZ-FITZGERALD', 'PACIFIC AQUASPACE CALIFORNIA INC', 'TRUE BUDDHA TEMPLE MARYLAND', 'KENNETH CHIU']",False
+2025-08-11T15:46:57,mlx-community/llava-interleave-qwen-7b-4bit,EIN Addressee,tests/images/self-employment/ein/b5f84dd177b753c20f80983125d53ded07bba3b5c207e92c644ecc7832c923bd-2817087531.png,"Examine this image for information about an Employer Identification Number (EIN) and the addressee. Fill in the name field with the name of the addressee, othewrise leave it null.","```json
+{
+  ""ein_present"": ""EIN is present"",
+  ""ein"": ""EIN is visible"",
+  ""name"": ""Theresa Loe-Figerald MR""
+}
+```","['ACME LLC', 'THERESA LOPEZ-FITZGERALD', 'PACIFIC AQUASPACE CALIFORNIA INC', 'TRUE BUDDHA TEMPLE MARYLAND', 'KENNETH CHIU']",False
+2025-08-11T16:56:56,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, fire",tests/images/disaster/fire/IMG_0506-2885709045.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": true,
+  ""disaster_type"": ""fire"",
+  ""disaster_explanation"": ""The image shows a room with significant damage to the walls and ceiling, which is indicative of a fire. The charred remains and the state of the room suggest that a fire has recently occurred, causing substantial damage.""
+}
+```","['true', 'yes', 'fire', 'smoke']",True
+2025-08-11T16:56:56,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, fire",tests/images/disaster/fire/fire-2-3308097013.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": true,
+  ""disaster_type"": ""fire"",
+  ""disaster_explanation"": ""The image depicts a scene with houses engulfed in flames, indicating a fire disaster. The flames are visible, and the structures are in a state of destruction, which is characteristic of a fire disaster.""
+}
+```","['true', 'yes', 'fire', 'smoke']",True
+2025-08-11T16:56:56,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, flooding",tests/images/disaster/flooding/flood-waters-around-blue-house.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": true,
+  ""disaster_type"": ""flood"",
+  ""disaster_explanation"": ""The image shows a house partially submerged in water, indicating a flood has occurred. The water level is high enough to submerge the house, which is a clear indication of a flood disaster.""
+}
+```","['true', 'yes', 'flood', 'flooding', 'water']",True
+2025-08-11T16:56:56,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, flooding",tests/images/disaster/flooding/basement-flooding-2073546059.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": true,
+  ""disaster_type"": ""flood"",
+  ""disaster_explanation"": ""The image shows a room with water on the floor, indicating a flood. The presence of water and the state of the room suggest that an extreme disaster has occurred, specifically a flood.""
+}
+```","['true', 'yes', 'flood', 'flooding', 'water']",True
+2025-08-11T16:56:56,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failure",tests/images/disaster/fail/3-2770253275.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any evidence of an extreme disaster such as water, fire, smoke, or wind damage. There are no visible signs of flooding, structural damage, or other indicators of a disaster.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T16:56:56,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failure",tests/images/disaster/fail/single-family-home-exterior-on-overcast.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any clear evidence of a disaster such as water, fire, wind, or other damage. The house appears undamaged, and there are no visible signs of destruction or distress.""
+}
+```","['false', 'no', 'none']",True
+2025-08-11T16:56:56,mlx-community/llava-interleave-qwen-7b-4bit,"Evidence of disaster, failure",tests/images/disaster/fail/traditional-georgian-historic-wooden.jpg,"Examine this image for the presence of an extreme disaster, like water, fire, smoke, or wind damage. Fill in disaster_present as a bool, disaster_type as flood, fire, wind, other, or none, and include a short disaster_explanation.","```json
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any evidence of an extreme disaster such as water, fire, wind, or other damage. The wooden house appears undamaged, and there is no visible smoke, debris, or damage to the surrounding environment.""
+}
+```","['false', 'no', 'none']",True

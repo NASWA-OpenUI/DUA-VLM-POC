@@ -1,19 +1,19 @@
 [
 
-    {   "test_description": "Evidence of EIN",
-        "prompt": "Does this show anything that might be an Employer Identification Number (EIN)?. EINs come in the form of 2 digits, a dash, and then 7 digits. Answer yes or no, then the percentage confidence in the answer.",
+    {   "test_description": "EIN full",
+        "prompt": "Examine this image for information about an Employer Identification Number (EIN) and the addressee. Fill in ein_present as a bool, ein_number with the EIN, and name with the name of the addresse.",
         "image_directory": "tests/images/self-employment/ein",
-        "expected_result": ["yes"]    
+        "expected_result": ["true"]    
     },
     {   
         "test_description": "EIN",
-        "prompt": "If there is an employer identification number (EIN) in this document, answer with that EIN. Limit the answer to the EIN itself, which takes the form of 2 digits, a dash, and then 7 digits. Provide the percentage confidence in the answer",
+        "prompt": "Examine this image for information about an Employer Identification Number (EIN) and the addressee. Fill in ein_number with the EIN if it present, otherwise leave it null.",
         "image_directory": "tests/images/self-employment/ein",
         "expected_result": ["21-7893456", "12-3456789", "33-0643958", "52-1980218"]    
     },
     {   
         "test_description": "EIN Addressee",
-        "prompt": "Who is this document addressed to? Provide the name of the addressee, and the percentage confidence in the answer",
+        "prompt": "Examine this image for information about an Employer Identification Number (EIN) and the addressee. Fill in the name field with the name of the addressee, othewrise leave it null.",
         "image_directory": "tests/images/self-employment/ein",
         "expected_result": ["ACME LLC", "THERESA LOPEZ-FITZGERALD", "PACIFIC AQUASPACE CALIFORNIA INC", "TRUE BUDDHA TEMPLE MARYLAND", "KENNETH CHIU"]    
     }
