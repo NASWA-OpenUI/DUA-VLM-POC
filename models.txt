@@ -1,6 +1,6 @@
 mlx-community/llava-interleave-qwen-7b-4bit
-# mlx-community/SmolVLM-Instruct-bf16
 
+# mlx-community/SmolVLM-Instruct-bf16
 # EZCon/SmolVLM2-2.2B-Instruct-mlx
 # EZCon/gemma-3-4b-it-4bit-mlx
 # mlx-community/Qwen2.5-VL-3B-Instruct-4bit
