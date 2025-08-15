@@ -5702,3 +5702,79 @@ Examine this image for the presence of an extreme disaster, like water, fire, sm
 }
 ```
 08/11/2025 16:57:47 INFO: Run ended.
+08/14/2025 11:33:29 INFO: Starting run.
+08/14/2025 11:33:29 INFO: Using model file: models.txt
+08/14/2025 11:33:29 INFO: Using output_file file: results.csv
+08/14/2025 11:33:29 INFO: Using tests_file file: tests/tests_disaster.json
+08/14/2025 11:33:29 DEBUG: Test 1 of 3: Evidence of disaster, fire
+08/14/2025 11:33:29 DEBUG: Test 2 of 3: Evidence of disaster, flooding
+08/14/2025 11:33:29 DEBUG: Test 3 of 3: Evidence of disaster, failure
+08/14/2025 11:33:29 INFO: Running 3 tests against 1 models.
+08/14/2025 11:33:29 INFO: Starting run with model 1 of 1: mlx-community/gemma-3-270m-bf16
+08/14/2025 11:33:29 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "GET /api/models/mlx-community/gemma-3-270m-bf16/revision/main HTTP/1.1" 200 3221
+08/14/2025 11:33:29 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/14/2025 11:33:29 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/14/2025 11:33:29 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/14/2025 11:33:29 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/14/2025 11:33:29 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/14/2025 11:33:29 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/14/2025 11:33:29 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/14/2025 11:33:29 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "HEAD /mlx-community/gemma-3-270m-bf16/resolve/738ba436ef62efdbd07a7e468f6db96472d7d48b/config.json HTTP/1.1" 307 0
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "HEAD /mlx-community/gemma-3-270m-bf16/resolve/738ba436ef62efdbd07a7e468f6db96472d7d48b/model.safetensors.index.json HTTP/1.1" 307 0
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "HEAD /mlx-community/gemma-3-270m-bf16/resolve/738ba436ef62efdbd07a7e468f6db96472d7d48b/chat_template.jinja HTTP/1.1" 307 0
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "HEAD /mlx-community/gemma-3-270m-bf16/resolve/738ba436ef62efdbd07a7e468f6db96472d7d48b/tokenizer.json HTTP/1.1" 302 0
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "HEAD /mlx-community/gemma-3-270m-bf16/resolve/738ba436ef62efdbd07a7e468f6db96472d7d48b/generation_config.json HTTP/1.1" 307 0
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "HEAD /mlx-community/gemma-3-270m-bf16/resolve/738ba436ef62efdbd07a7e468f6db96472d7d48b/special_tokens_map.json HTTP/1.1" 307 0
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "HEAD /mlx-community/gemma-3-270m-bf16/resolve/738ba436ef62efdbd07a7e468f6db96472d7d48b/model.safetensors HTTP/1.1" 302 0
+08/14/2025 11:33:29 DEBUG: Attempting to acquire lock 6051483856 on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/4f3c61651248ae8f2f8f5c6745779c1c1385f8454f21708bd9e4d91041a409d2.lock
+08/14/2025 11:33:29 DEBUG: Attempting to acquire lock 6051486224 on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/4667f2089529e8e7657cfb6d1c19910ae71ff5f28aa7ab2ff2763330affad795.lock
+08/14/2025 11:33:29 DEBUG: Lock 6051483856 acquired on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/4f3c61651248ae8f2f8f5c6745779c1c1385f8454f21708bd9e4d91041a409d2.lock
+08/14/2025 11:33:29 DEBUG: Lock 6051486224 acquired on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/4667f2089529e8e7657cfb6d1c19910ae71ff5f28aa7ab2ff2763330affad795.lock
+08/14/2025 11:33:29 DEBUG: Starting new HTTPS connection (1): cdn-lfs-us-1.hf.co:443
+08/14/2025 11:33:29 DEBUG: Starting new HTTPS connection (1): cdn-lfs-us-1.hf.co:443
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "HEAD /mlx-community/gemma-3-270m-bf16/resolve/738ba436ef62efdbd07a7e468f6db96472d7d48b/tokenizer_config.json HTTP/1.1" 307 0
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/mlx-community/gemma-3-270m-bf16/738ba436ef62efdbd07a7e468f6db96472d7d48b/model.safetensors.index.json HTTP/1.1" 200 0
+08/14/2025 11:33:29 DEBUG: Attempting to acquire lock 6051619344 on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/cff5840df1fda025889a6f142134a097ab4f6c10.lock
+08/14/2025 11:33:29 DEBUG: Lock 6051619344 acquired on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/cff5840df1fda025889a6f142134a097ab4f6c10.lock
+08/14/2025 11:33:29 DEBUG: https://cdn-lfs-us-1.hf.co:443 "GET /repos/56/e9/56e9b9800716b9be58336ee2ecad5a3cb4ade06ec9d92bf862f7c3bce6a788b8/4667f2089529e8e7657cfb6d1c19910ae71ff5f28aa7ab2ff2763330affad795?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27tokenizer.json%3B+filename%3D%22tokenizer.json%22%3B&response-content-type=application%2Fjson&Expires=1755200009&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1NTIwMDAwOX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzU2L2U5LzU2ZTliOTgwMDcxNmI5YmU1ODMzNmVlMmVjYWQ1YTNjYjRhZGUwNmVjOWQ5MmJmODYyZjdjM2JjZTZhNzg4YjgvNDY2N2YyMDg5NTI5ZThlNzY1N2NmYjZkMWMxOTkxMGFlNzFmZjVmMjhhYTdhYjJmZjI3NjMzMzBhZmZhZDc5NT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=CxmpMYj8-WUGIZUwK2X7eqAtfQo3TOzcQdHDThMrmDJQEnoyKE4nFX0hWmiZcqjOncRQlIMyNl8VpS5aag1dyBcxQUfcmGcn7pqGtrtF-Yl9cgEplMAud1duzfzM76ZbO7ji29-vvBwVAnZcYygwqvQ0c6O35-0mDZH5atlzevQ1EH8IdC2RLASQOJqbi3bxqFhQagLjmPQz~3dnHlyhUXqbPP4n9wZTM2V2wjRRCT6ZOz3gbsOaxmwQ3tNuiXXSIvzbfSu3-3-vwzqCwbywkMiNgK~l7mitsq1b1OaRhQYvMajZ9nEPUEzt8sh-UMo44AStxmgj4MFbUT1dhQtAqA__&Key-Pair-Id=K24J24Z295AEI9 HTTP/1.1" 200 33384568
+08/14/2025 11:33:29 DEBUG: https://cdn-lfs-us-1.hf.co:443 "GET /repos/56/e9/56e9b9800716b9be58336ee2ecad5a3cb4ade06ec9d92bf862f7c3bce6a788b8/4f3c61651248ae8f2f8f5c6745779c1c1385f8454f21708bd9e4d91041a409d2?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1755200009&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1NTIwMDAwOX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzU2L2U5LzU2ZTliOTgwMDcxNmI5YmU1ODMzNmVlMmVjYWQ1YTNjYjRhZGUwNmVjOWQ5MmJmODYyZjdjM2JjZTZhNzg4YjgvNGYzYzYxNjUxMjQ4YWU4ZjJmOGY1YzY3NDU3NzljMWMxMzg1Zjg0NTRmMjE3MDhiZDllNGQ5MTA0MWE0MDlkMj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=PrX1-~tiewhaQBX0o-RiXfavrb5AzQr32C0McvrCWKBqLn4B0p1y7GeHyDICK1fm33zn3nKT~lqlzK4~dcbrbPQumNOCi43sCQAqgO3jFOHMU5R7~D92fFYrLcvaO52ea3eAfzxdkx1hP72iPitGVamcKDjTioKWl3kIDOdK6Y25GKDut61Nn8wLvpv6mmg0N~dniIu9gG2TosZ622xn~iE31k8MzVgCDSvX72MmNoTQXgQKP8wenC0jNFww3Y-HryyxuzEXsXKHR-XUoH17wj1Rjg1jHoBD6S4fQFNoGAs9WQMFAeH-4ZkxYNUedfPNSUAWeoDMKMoiMXM1FHu-NA__&Key-Pair-Id=K24J24Z295AEI9 HTTP/1.1" 200 871767174
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/mlx-community/gemma-3-270m-bf16/738ba436ef62efdbd07a7e468f6db96472d7d48b/special_tokens_map.json HTTP/1.1" 200 0
+08/14/2025 11:33:29 DEBUG: Attempting to acquire lock 6051593232 on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/1a6193244714d3d78be48666cb02cdbfac62ad86.lock
+08/14/2025 11:33:29 DEBUG: Lock 6051593232 acquired on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/1a6193244714d3d78be48666cb02cdbfac62ad86.lock
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/mlx-community/gemma-3-270m-bf16/738ba436ef62efdbd07a7e468f6db96472d7d48b/generation_config.json HTTP/1.1" 200 0
+08/14/2025 11:33:29 DEBUG: Attempting to acquire lock 6051528208 on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/8abad5a888ba9ecb3fe04183b02436c633b6aa76.lock
+08/14/2025 11:33:29 DEBUG: Lock 6051528208 acquired on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/8abad5a888ba9ecb3fe04183b02436c633b6aa76.lock
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/mlx-community/gemma-3-270m-bf16/738ba436ef62efdbd07a7e468f6db96472d7d48b/chat_template.jinja HTTP/1.1" 200 0
+08/14/2025 11:33:29 DEBUG: Attempting to acquire lock 6047003984 on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/1117055ab8e8c90e1b200be00cddb78943616d9e.lock
+08/14/2025 11:33:29 DEBUG: Lock 6047003984 acquired on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/1117055ab8e8c90e1b200be00cddb78943616d9e.lock
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/mlx-community/gemma-3-270m-bf16/738ba436ef62efdbd07a7e468f6db96472d7d48b/config.json HTTP/1.1" 200 0
+08/14/2025 11:33:29 DEBUG: Attempting to acquire lock 6051518224 on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/55549c7842a2295d88bdb31d684453191c7ce6c0.lock
+08/14/2025 11:33:29 DEBUG: Lock 6051518224 acquired on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/55549c7842a2295d88bdb31d684453191c7ce6c0.lock
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/mlx-community/gemma-3-270m-bf16/738ba436ef62efdbd07a7e468f6db96472d7d48b/tokenizer_config.json HTTP/1.1" 200 0
+08/14/2025 11:33:29 DEBUG: Attempting to acquire lock 6051517520 on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/0cb8ef68ea71f15e04616375bc6923167612cbce.lock
+08/14/2025 11:33:29 DEBUG: Lock 6051517520 acquired on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/0cb8ef68ea71f15e04616375bc6923167612cbce.lock
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "GET /api/resolve-cache/models/mlx-community/gemma-3-270m-bf16/738ba436ef62efdbd07a7e468f6db96472d7d48b/model.safetensors.index.json HTTP/1.1" 200 None
+08/14/2025 11:33:29 DEBUG: Attempting to release lock 6051619344 on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/cff5840df1fda025889a6f142134a097ab4f6c10.lock
+08/14/2025 11:33:29 DEBUG: Lock 6051619344 released on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/cff5840df1fda025889a6f142134a097ab4f6c10.lock
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "GET /api/resolve-cache/models/mlx-community/gemma-3-270m-bf16/738ba436ef62efdbd07a7e468f6db96472d7d48b/special_tokens_map.json HTTP/1.1" 200 662
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "GET /api/resolve-cache/models/mlx-community/gemma-3-270m-bf16/738ba436ef62efdbd07a7e468f6db96472d7d48b/generation_config.json HTTP/1.1" 200 173
+08/14/2025 11:33:29 DEBUG: Attempting to release lock 6051593232 on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/1a6193244714d3d78be48666cb02cdbfac62ad86.lock
+08/14/2025 11:33:29 DEBUG: Attempting to release lock 6051528208 on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/8abad5a888ba9ecb3fe04183b02436c633b6aa76.lock
+08/14/2025 11:33:29 DEBUG: Lock 6051528208 released on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/8abad5a888ba9ecb3fe04183b02436c633b6aa76.lock
+08/14/2025 11:33:29 DEBUG: Lock 6051593232 released on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/1a6193244714d3d78be48666cb02cdbfac62ad86.lock
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "GET /api/resolve-cache/models/mlx-community/gemma-3-270m-bf16/738ba436ef62efdbd07a7e468f6db96472d7d48b/chat_template.jinja HTTP/1.1" 200 None
+08/14/2025 11:33:29 DEBUG: Attempting to release lock 6047003984 on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/1117055ab8e8c90e1b200be00cddb78943616d9e.lock
+08/14/2025 11:33:29 DEBUG: Lock 6047003984 released on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/1117055ab8e8c90e1b200be00cddb78943616d9e.lock
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "GET /api/resolve-cache/models/mlx-community/gemma-3-270m-bf16/738ba436ef62efdbd07a7e468f6db96472d7d48b/config.json HTTP/1.1" 200 None
+08/14/2025 11:33:29 DEBUG: Attempting to release lock 6051518224 on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/55549c7842a2295d88bdb31d684453191c7ce6c0.lock
+08/14/2025 11:33:29 DEBUG: Lock 6051518224 released on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/55549c7842a2295d88bdb31d684453191c7ce6c0.lock
+08/14/2025 11:33:29 DEBUG: https://huggingface.co:443 "GET /api/resolve-cache/models/mlx-community/gemma-3-270m-bf16/738ba436ef62efdbd07a7e468f6db96472d7d48b/tokenizer_config.json HTTP/1.1" 200 None
+08/14/2025 11:33:29 DEBUG: Attempting to release lock 6051517520 on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/0cb8ef68ea71f15e04616375bc6923167612cbce.lock
+08/14/2025 11:33:29 DEBUG: Lock 6051517520 released on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/0cb8ef68ea71f15e04616375bc6923167612cbce.lock
+08/14/2025 11:33:30 DEBUG: Attempting to release lock 6051486224 on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/4667f2089529e8e7657cfb6d1c19910ae71ff5f28aa7ab2ff2763330affad795.lock
+08/14/2025 11:33:30 DEBUG: Lock 6051486224 released on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/4667f2089529e8e7657cfb6d1c19910ae71ff5f28aa7ab2ff2763330affad795.lock
+08/14/2025 11:33:45 DEBUG: Attempting to release lock 6051483856 on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/4f3c61651248ae8f2f8f5c6745779c1c1385f8454f21708bd9e4d91041a409d2.lock
+08/14/2025 11:33:45 DEBUG: Lock 6051483856 released on /Users/danhon/.cache/huggingface/hub/.locks/models--mlx-community--gemma-3-270m-bf16/4f3c61651248ae8f2f8f5c6745779c1c1385f8454f21708bd9e4d91041a409d2.lock
+08/14/2025 11:33:45 ERROR: Model type gemma3_text not supported.

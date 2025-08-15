@@ -21,7 +21,9 @@ This proof-of-concept has been tested with the following models:
     - [Tests](#tests)
     - [Output and examples](#output-and-examples)
 - [Proof of Concept evaluation](#proof-of-concept-evaluation)
+- [Latest version](#latest-version)
 - [To-do](#to-do)
+- [To-done](#to-done)
 - [Changelog](#changelog)
 
 ---
@@ -74,13 +76,11 @@ You must use MLX model weights that run on Apple Silicon. As of writing, Hugging
 Example models.txt:
 
 ```
-mlx-community/SmolVLM-Instruct-bf16
 mlx-community/llava-interleave-qwen-7b-4bit
 mlx-community/Phi-3.5-vision-instruct-bf16
 ```
 
 ---
-
 ### System prompts
 
 A system prompt can be specified as an argument at runtime. 
@@ -125,7 +125,6 @@ DUA-VLM-POC uses [Pillow](https://python-pillow.github.io) to process images and
 ## Output and examples
 
 Output is appended to results.csv in the following format:
-
 
 ### Passed test example
 
@@ -214,9 +213,17 @@ outputs the following:
   ""disaster_explanation"": ""The image depicts a scene with houses engulfed in flames, indicating a fire disaster. The flames are visible, and the structures are in a state of destruction, which is characteristic of a fire disaster.""
 }
 ```
+---
+
+## Latest Version
+
+### 0.05
+* Tests are specified in json now
+* Tests specify a prompt that can be run against multiple images, against multiple criteria
 
 
 ---
+
 
 ## To-do
 * Model/prompt testing
@@ -243,19 +250,6 @@ outputs the following:
 
 ---
 
-## Latest Version
-
-## 0.1
-* Probably getting close to done for now.
-* System prompts can now be specified as an argument
-* Some tests are outputting the correct data as structured json
-* Example failure tests in tests/disaster/fail (just specify the failures in the same test.json file)
-
-
-## 0.05
-* Tests are specified in json now
-* Tests specify a prompt that can be run against multiple images, against multiple criteria
-
 ## Changelog
 
 ### 0.04 
@@ -271,6 +265,11 @@ outputs the following:
     * Added test documentation
     * Added output examples
 
+## 0.1
+* Probably getting close to done for now.
+* System prompts can now be specified as an argument
+* Some tests are outputting the correct data as structured json
+* Example failure tests in tests/disaster/fail (just specify the failures in the same test.json file)
 
 ### 0.03
 * Only load model once
