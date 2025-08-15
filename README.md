@@ -1,7 +1,7 @@
 # DUA-VLM-POC
 DUA-VLM-PLC is a proof-of-concept testing the feasibility of Vision Language Models (VLMs) to classify and produced structured data from documents and images in support of a [Disaster Unemployment Assistance](https://www.disasterassistance.gov/get-assistance/forms-of-assistance/4466) (DUA) claim. 
 
-This proof-of-concept relies on [MLX-VLM](https://github.com/Blaizzy/mlx-vlm) for inference and fine-tunrning of VLMs on Apple Silicon devices.
+This proof-of-concept relies on [MLX-VLM](https://github.com/Blaizzy/mlx-vlm) for inference and fine-tuning of VLMs on Apple Silicon devices.
 
 This proof-of-concept has been tested with a variety of model families:
 
@@ -16,14 +16,11 @@ This proof-of-concept has been tested with a variety of model families:
 * `mlx-community/SmolVLM-Instruct-bf16`
 * `EZCon/SmolVLM2-2.2B-Instruct-mlx`
 
-
-
-
 ---
 
 ## Table of Contents
 
-
+- [Proof of Concept evaluation](#proof-of-concept-evaluation)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -31,13 +28,96 @@ This proof-of-concept has been tested with a variety of model families:
     - [System prompts](#system-prompts)
     - [Tests](#tests)
     - [Output and examples](#output-and-examples)
-- [Proof of Concept evaluation](#proof-of-concept-evaluation)
 - [Latest version](#latest-version)
 - [To-do](#to-do)
 - [To-done](#to-done)
 - [Changelog](#changelog)
 
+
+## Proof of Concept evaluation
+
+As of version 0.1: 
+
+`uv run dua-vlm-poc.py  --system tests/tests_disaster_system_prompt.json --tests tests/tests_disaster.json`
+
+using `mlx-community/llava-interleave-qwen-7b-4bit`
+
+outputs the following:
+
+<img src="tests/images/disaster/fail/traditional-georgian-historic-wooden.jpg"/>
+
+```
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any evidence of an extreme disaster such as water, fire, wind, or other damage. The wooden house appears undamaged, and there is no visible smoke, debris, or damage to the surrounding environment.""
+}
+```
+
+
+<img src="tests/images/disaster/fail/single-family-home-exterior-on-overcast.jpg" />
+
+```
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any clear evidence of a disaster such as water, fire, wind, or other damage. The house appears undamaged, and there are no visible signs of destruction or distress.""
+}
+```
+
+<img src="tests/images/disaster/fail/3-2770253275.jpg" />
+
+```
+{
+  ""disaster_present"": false,
+  ""disaster_type"": ""none"",
+  ""disaster_explanation"": ""The image provided does not show any evidence of an extreme disaster such as water, fire, smoke, or wind damage. There are no visible signs of flooding, structural damage, or other indicators of a disaster.""
+}
+
+```
+
+<img src="tests/images/disaster/flooding/basement-flooding-2073546059.jpg" />
+
+```
+{
+  ""disaster_present"": true,
+  ""disaster_type"": ""flood"",
+  ""disaster_explanation"": ""The image shows a room with water on the floor, indicating a flood. The presence of water and the state of the room suggest that an extreme disaster has occurred, specifically a flood.""
+}
+```
+
+<img src="tests/images/disaster/fire/fire-2-3308097013.jpg" />
+
+```
+{
+  ""disaster_present"": true,
+  ""disaster_type"": ""fire"",
+  ""disaster_explanation"": ""The image depicts a scene with houses engulfed in flames, indicating a fire disaster. The flames are visible, and the structures are in a state of destruction, which is characteristic of a fire disaster.""
+}
+```
+
+With similar prompting, using `mlx-community/SmolVLM-Instruct-bf16` outputs:
+
+<img src ="tests/images/disaster/flooding/basement-flooding-2073546059.jpg"/>
+
+```
+{
+    'disaster_present': 'true', 
+    'disaster_type': 'water damage', 
+    'disaster_explanation': 'water damage from a broken pipe in the basement."
+}
+```
+
+<img src="tests/images/disaster/fire/IMG_0506-2885709045.jpg" />
+
+```
+{
+    ""disaster_present"": true,
+    ""disaster_type"": ""fire""
+}
+```
 ---
+
 
 ## Requirements 
 
@@ -165,89 +245,6 @@ check|"True" if the test `expected_result` string is present in the output strin
 
 ----
 
-## Proof of Concept evaluation
-
-As of 0.1: 
-
-`uv run dua-vlm-poc.py  --system tests/tests_disaster_system_prompt.json --tests tests/tests_disaster.json`
-
-using `mlx-community/llava-interleave-qwen-7b-4bit`
-
-outputs the following:
-
-<img src="tests/images/disaster/fail/traditional-georgian-historic-wooden.jpg"/>
-
-```
-{
-  ""disaster_present"": false,
-  ""disaster_type"": ""none"",
-  ""disaster_explanation"": ""The image provided does not show any evidence of an extreme disaster such as water, fire, wind, or other damage. The wooden house appears undamaged, and there is no visible smoke, debris, or damage to the surrounding environment.""
-}
-```
-
-
-<img src="tests/images/disaster/fail/single-family-home-exterior-on-overcast.jpg" />
-
-```
-{
-  ""disaster_present"": false,
-  ""disaster_type"": ""none"",
-  ""disaster_explanation"": ""The image provided does not show any clear evidence of a disaster such as water, fire, wind, or other damage. The house appears undamaged, and there are no visible signs of destruction or distress.""
-}
-```
-
-<img src="tests/images/disaster/fail/3-2770253275.jpg" />
-
-```
-{
-  ""disaster_present"": false,
-  ""disaster_type"": ""none"",
-  ""disaster_explanation"": ""The image provided does not show any evidence of an extreme disaster such as water, fire, smoke, or wind damage. There are no visible signs of flooding, structural damage, or other indicators of a disaster.""
-}
-
-```
-
-<img src="tests/images/disaster/flooding/basement-flooding-2073546059.jpg" />
-
-```
-{
-  ""disaster_present"": true,
-  ""disaster_type"": ""flood"",
-  ""disaster_explanation"": ""The image shows a room with water on the floor, indicating a flood. The presence of water and the state of the room suggest that an extreme disaster has occurred, specifically a flood.""
-}
-```
-
-<img src="tests/images/disaster/fire/fire-2-3308097013.jpg" />
-
-```
-{
-  ""disaster_present"": true,
-  ""disaster_type"": ""fire"",
-  ""disaster_explanation"": ""The image depicts a scene with houses engulfed in flames, indicating a fire disaster. The flames are visible, and the structures are in a state of destruction, which is characteristic of a fire disaster.""
-}
-```
-
-With similar prompting, using `mlx-community/SmolVLM-Instruct-bf16` outputs:
-
-<img src ="tests/images/disaster/flooding/basement-flooding-2073546059.jpg"/>
-
-```
-{
-    'disaster_present': 'true', 
-    'disaster_type': 'water damage', 
-    'disaster_explanation': 'water damage from a broken pipe in the basement."
-}
-```
-
-<img src="tests/images/disaster/fire/IMG_0506-2885709045.jpg" />
-
-```
-{
-    ""disaster_present"": true,
-    ""disaster_type"": ""fire""
-}
-```
----
 
 ## Latest Version
 
