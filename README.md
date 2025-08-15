@@ -3,11 +3,22 @@ DUA-VLM-PLC is a proof-of-concept testing the feasibility of Vision Language Mod
 
 This proof-of-concept relies on [MLX-VLM](https://github.com/Blaizzy/mlx-vlm) for inference and fine-tunrning of VLMs on Apple Silicon devices.
 
-This proof-of-concept has been tested with the following models:
+This proof-of-concept has been tested with a variety of model families:
 
-* mlx-community/SmolVLM-Instruct-bf16
-* mlx-community/llava-interleave-qwen-7b-4bit
-* mlx-community/Phi-3.5-vision-instruct-bf16
+* `mlx-community/gemma-3n-E4B-it-bf16`
+* `mlx-community/gemma-3-27b-it-qat-4bit`
+* `mlx-community/gemma-3-12b-it-qat-4bit`
+* `mlx-community/Llama-4-Scout-17B-16E-Instruct-4bit`
+* `mlx-community/llava-interleave-qwen-7b-4bit`
+* `mlx-community/Phi-3.5-vision-instruct-bf16`
+* `mlx-community/Qwen2.5-VL-3B-Instruct-8bit`
+* `mlx-community/Qwen2.5-VL-3B-Instruct-4bit`
+* `mlx-community/SmolVLM-Instruct-bf16`
+* `EZCon/SmolVLM2-2.2B-Instruct-mlx`
+
+
+
+
 ---
 
 ## Table of Contents
