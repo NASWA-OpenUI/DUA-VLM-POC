@@ -160,6 +160,8 @@ As of 0.1:
 
 `uv run dua-vlm-poc.py  --system tests/tests_disaster_system_prompt.json --tests tests/tests_disaster.json`
 
+using `mlx-community/llava-interleave-qwen-7b-4bit`
+
 outputs the following:
 
 <img src="tests/images/disaster/fail/traditional-georgian-historic-wooden.jpg"/>
@@ -211,6 +213,27 @@ outputs the following:
   ""disaster_present"": true,
   ""disaster_type"": ""fire"",
   ""disaster_explanation"": ""The image depicts a scene with houses engulfed in flames, indicating a fire disaster. The flames are visible, and the structures are in a state of destruction, which is characteristic of a fire disaster.""
+}
+```
+
+With similar prompting, using `mlx-community/SmolVLM-Instruct-bf16` outputs:
+
+<img src ="tests/images/disaster/flooding/basement-flooding-2073546059.jpg"/>
+
+```
+{
+    'disaster_present': 'true', 
+    'disaster_type': 'water damage', 
+    'disaster_explanation': 'water damage from a broken pipe in the basement."
+}
+```
+
+<img src="tests/images/disaster/fire/IMG_0506-2885709045.jpg" />
+
+```
+{
+    ""disaster_present"": true,
+    ""disaster_type"": ""fire""
 }
 ```
 ---
