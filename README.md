@@ -248,10 +248,11 @@ check|"True" if the test `expected_result` string is present in the output strin
 
 ## Latest Version
 
-### 0.05
-* Tests are specified in json now
-* Tests specify a prompt that can be run against multiple images, against multiple criteria
-
+### 0.1
+* Probably getting close to done for now.
+* System prompts can now be specified as an argument
+* Some tests are outputting the correct data as structured json
+* Example failure tests in tests/disaster/fail (just specify the failures in the same test.json file)
 
 ---
 
@@ -283,6 +284,10 @@ check|"True" if the test `expected_result` string is present in the output strin
 
 ## Changelog
 
+### 0.05
+* Tests are specified in json now
+* Tests specify a prompt that can be run against multiple images, against multiple criteria
+
 ### 0.04 
 
 * lines in models.txt will be ignored if they start with a comment (e.g. "# dont-use-this-model/modelname")
@@ -296,11 +301,7 @@ check|"True" if the test `expected_result` string is present in the output strin
     * Added test documentation
     * Added output examples
 
-## 0.1
-* Probably getting close to done for now.
-* System prompts can now be specified as an argument
-* Some tests are outputting the correct data as structured json
-* Example failure tests in tests/disaster/fail (just specify the failures in the same test.json file)
+
 
 ### 0.03
 * Only load model once
